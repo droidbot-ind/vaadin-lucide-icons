@@ -4,6 +4,6 @@
   "private": true,
   "description": "NPM packaging to resolve Lucide SVG assets for generation",
   "dependencies": {
-    "lucide-static": "^0.470.0"
+    "lucide-static": "^1.21.0"
   }
 }

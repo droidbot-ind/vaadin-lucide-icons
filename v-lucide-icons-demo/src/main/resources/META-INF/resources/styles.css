@@ -18,45 +18,69 @@ html {
 }
 
 .controls-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--vaadin-gap-m);
-  align-items: baseline;
-  margin-bottom: var(--vaadin-gap-l);
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--vaadin-gap-m);
+	align-items: baseline;
+	margin-bottom: var(--vaadin-gap-l);
 }
 
 .icon-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--vaadin-gap-xs);
-  width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--vaadin-gap-xs);
+	width: 100%;
 }
 
 .icon-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  padding: var(--vaadin-padding-s) var(--vaadin-padding-m);
-  border: 1px solid var(--vaadin-border-color-secondary);
-  border-radius: var(--vaadin-radius-m);
-  transition: background-color 0.2s;
-  cursor: var(--vaadin-clickable-cursor);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 120px;
+	padding: var(--vaadin-padding-s) var(--vaadin-padding-m);
+	border: 1px solid var(--vaadin-border-color-secondary);
+	border-radius: var(--vaadin-radius-m);
+	box-sizing: border-box;
+	transition: background-color 0.2s;
+	cursor: var(--vaadin-clickable-cursor);
 }
 
 .icon-card:hover {
-  background-color: var(--vaadin-background-container);
+	background-color: var(--vaadin-background-container);
 }
 
 .icon-name {
-  font-size: 10px;
-  line-height: 1.2;
-  text-align: center;
-  width: 100%;
-  color: var(--vaadin-text-color-secondary);
+	font-size: 10px;
+	line-height: 1.2;
+	text-align: center;
+	width: 100%;
+	color: var(--vaadin-text-color-secondary);
 }
 
 .theme-toggle {
-  margin-left: auto;
+	margin-left: auto;
+}
+
+.color-item {
+	padding: 0;
+	gap: 0.5rem;
+	align-items: center;
+}
+
+.color-swatch {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 1px solid var(--vaadin-border-color);
+	flex-shrink: 0;
+}
+
+.color-swatch-filled {
+	background-color: var(--color-value);
+}
+
+.color-swatch-default {
+	background: linear-gradient(135deg, var(--vaadin-border-color) 50%,
+		transparent 50%);
 }

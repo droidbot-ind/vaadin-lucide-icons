@@ -15,6 +15,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.page.ColorScheme;
 import com.vaadin.flow.component.select.Select;
 import com.vaadin.flow.component.textfield.NumberField;
+import com.vaadin.flow.data.renderer.ComponentRenderer;
 import com.vaadin.flow.router.Route;
 
 import io.droidbot.vlucide.LucideIcon;
@@ -50,6 +51,28 @@ public class DemoView extends VerticalLayout {
 		colorCombo.setItems(PresetColor.values());
 		colorCombo.setValue(PresetColor.DEFAULT);
 		colorCombo.setWidth(140, Unit.PIXELS);
+		colorCombo.setItemLabelGenerator(PresetColor::getDisplayName);
+
+		colorCombo.setRenderer(new ComponentRenderer<>(color -> {
+
+		    HorizontalLayout layout = new HorizontalLayout();
+		    layout.addClassName("color-item");
+
+		    Span swatch = new Span();
+		    swatch.addClassName("color-swatch");
+
+		    if (color != PresetColor.DEFAULT) {
+		        swatch.getStyle().set("--color-value", color.getDisplayName());
+		        swatch.addClassName("color-swatch-filled");
+		    } else {
+		        swatch.addClassName("color-swatch-default");
+		    }
+
+		    Span label = new Span(color.getDisplayName());
+
+		    layout.add(swatch, label);
+		    return layout;
+		}));
 
 		var sizeField = new NumberField("Size (px)");
 		sizeField.setValue(40D);

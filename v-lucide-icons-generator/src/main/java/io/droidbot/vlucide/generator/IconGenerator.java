@@ -5,19 +5,13 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
- * Reads Lucide icon metadata and SVG files from the local node_modules
- * directory (installed via npm / frontend-maven-plugin), then generates:
+ * Scans Lucide SVG icon files from the local node_modules directory (installed
+ * via npm / frontend-maven-plugin), then generates:
  * <ul>
  * <li>{@code LucideIcon.java} — an enum of all icons</li>
  * <li>SVG files under {@code META-INF/resources/lucide/}</li>
@@ -51,8 +45,8 @@ public class IconGenerator {
 
 	public static void main(String[] args) throws Exception {
 		Path projectRoot = findProjectRoot();
-		Path resourcesDir = projectRoot.resolve("lucide-icons/src/main/resources");
-		Path javaDir = projectRoot.resolve("lucide-icons/src/main/java");
+		Path resourcesDir = projectRoot.resolve("v-lucide-icons/src/main/resources");
+		Path javaDir = projectRoot.resolve("v-lucide-icons/src/main/java");
 
 		IconGenerator generator = new IconGenerator(resourcesDir, javaDir);
 		generator.run();
@@ -68,7 +62,7 @@ public class IconGenerator {
 			if (Files.exists(current.resolve("pom.xml"))) {
 				try {
 					String content = Files.readString(current.resolve("pom.xml"));
-					if (content.contains("vaadin-lucide-icons-parent")) {
+					if (content.contains("<artifactId>vaadin-lucide-icons</artifactId>")) {
 						return current;
 					}
 				} catch (IOException ignored) {
@@ -86,30 +80,40 @@ public class IconGenerator {
 	 */
 	public void run() throws Exception {
 		System.out.println("=== Lucide Icon Generator ===");
-		System.out.println("Reading local icon metadata from node_modules...");
-		Map<String, List<String>> tagsMap = fetchTags();
-		List<String> iconNames = new ArrayList<>(tagsMap.keySet());
-		iconNames.sort(Comparator.naturalOrder());
+
+		Path iconsSrcDir = findProjectRoot().resolve("v-lucide-icons-generator/node_modules/lucide-static/icons");
+		if (!Files.exists(iconsSrcDir)) {
+			throw new IOException("Could not find icons directory. Make sure npm install was run first (expected at: "
+					+ iconsSrcDir + ")");
+		}
+
+		System.out.println("Scanning icons directory: " + iconsSrcDir);
+		List<String> iconNames;
+		try (Stream<Path> paths = Files.list(iconsSrcDir)) {
+			iconNames = paths.filter(p -> p.getFileName().toString().endsWith(".svg"))
+					.map(p -> p.getFileName().toString().replace(".svg", "")).sorted().collect(Collectors.toList());
+		}
 		System.out.println("Found " + iconNames.size() + " icons.");
 
 		Path svgTargetDir = runtimeResourcesDir.resolve("META-INF/resources/lucide");
+		if (Files.exists(svgTargetDir)) {
+			try (Stream<Path> existing = Files.list(svgTargetDir)) {
+				existing.forEach(p -> {
+					try {
+						Files.deleteIfExists(p);
+					} catch (IOException ignored) {
+					}
+				});
+			}
+		}
 		Files.createDirectories(svgTargetDir);
 
 		System.out.println("Processing and copying SVG files...");
-		Path iconsSrcDir = findProjectRoot().resolve("lucide-icons-generator/node_modules/lucide-static/icons");
-		if (!Files.exists(iconsSrcDir)) {
-			throw new IOException("Could not find icons directory. Make sure npm install was run first (expected at: " + iconsSrcDir + ")");
-		}
-
 		int processed = 0;
 		for (String name : iconNames) {
 			Path srcPath = iconsSrcDir.resolve(name + ".svg");
 			Path targetPath = svgTargetDir.resolve(name + ".svg");
 			try {
-				if (!Files.exists(srcPath)) {
-					System.err.println("  WARN: source icon '" + name + "' not found at: " + srcPath);
-					continue;
-				}
 				String raw = Files.readString(srcPath, StandardCharsets.UTF_8);
 				String normalized = normalizeSvg(raw);
 				Files.writeString(targetPath, normalized, StandardCharsets.UTF_8);
@@ -121,30 +125,9 @@ public class IconGenerator {
 		System.out.println("SVGs: " + processed + " processed and written to target resources.");
 
 		System.out.println("Generating LucideIcon.java...");
-		generateEnum(iconNames, tagsMap);
+		generateEnum(iconNames);
 
 		System.out.println("=== Done ===");
-	}
-
-	/**
-	 * Reads {@code tags.json} from the local node_modules directory.
-	 */
-	Map<String, List<String>> fetchTags() throws Exception {
-		Path tagsJsonFile = findProjectRoot().resolve("lucide-icons-generator/node_modules/lucide-static/tags.json");
-		if (!Files.exists(tagsJsonFile)) {
-			throw new IOException("Could not find tags.json. Make sure npm install was run first (expected at: " + tagsJsonFile + ")");
-		}
-		String json = Files.readString(tagsJsonFile, StandardCharsets.UTF_8);
-		JsonObject root = JsonParser.parseString(json).getAsJsonObject();
-		Map<String, List<String>> result = new TreeMap<>();
-		for (Map.Entry<String, JsonElement> entry : root.entrySet()) {
-			List<String> tags = new ArrayList<>();
-			for (JsonElement tag : entry.getValue().getAsJsonArray()) {
-				tags.add(tag.getAsString());
-			}
-			result.put(entry.getKey(), tags);
-		}
-		return result;
 	}
 
 	/**
@@ -164,15 +147,16 @@ public class IconGenerator {
 		String result = svg;
 		// Remove XML declaration (case-insensitive, optional whitespace/newlines)
 		result = result.replaceAll("(?i)<\\?xml[^>]*\\?>", "").trim();
-		
-		// Remove width/height attributes from the root <svg> element.
-		// Uses regex that handles single/double/no quotes and decimal/integer sizes + optional units.
-		result = result.replaceAll("(?i)\\s+width\\s*=\\s*['\"]?\\d+(?:\\.\\d+)?(?:px|em|%)?['\"]?", "");
-		result = result.replaceAll("(?i)\\s+height\\s*=\\s*['\"]?\\d+(?:\\.\\d+)?(?:px|em|%)?['\"]?", "");
-		
+
+		// Remove width/height only from the root <svg> element.
+		// The capture group (<svg\\b[^>]*?>) keeps the match inside the opening tag,
+		// so child elements like <rect width=...> are never touched.
+		result = result.replaceAll("(?i)(<svg\\b[^>]*?)\\s+width\\s*=\\s*['\"]?\\d+(?:\\.\\d+)?(?:px|em|%)?['\"]?", "$1 ");
+		result = result.replaceAll("(?i)(<svg\\b[^>]*?)\\s+height\\s*=\\s*['\"]?\\d+(?:\\.\\d+)?(?:px|em|%)?['\"]?", "$1 ");
+
 		// Remove HTML/XML comments
 		result = result.replaceAll("(?i)<!--[\\s\\S]*?-->", "");
-		
+
 		// Normalize line endings
 		result = result.replace("\r\n", "\n").replace("\r", "\n");
 		return result.trim();
@@ -181,7 +165,7 @@ public class IconGenerator {
 	/**
 	 * Generates the {@code LucideIcon.java} enum file.
 	 */
-	void generateEnum(List<String> iconNames, Map<String, List<String>> tagsMap) throws Exception {
+	void generateEnum(List<String> iconNames) throws Exception {
 		Path packageDir = runtimeJavaDir.resolve("io/droidbot/vlucide");
 		Files.createDirectories(packageDir);
 		Path enumFile = packageDir.resolve("LucideIcon.java");
@@ -204,9 +188,7 @@ public class IconGenerator {
 		for (int i = 0; i < iconNames.size(); i++) {
 			String name = iconNames.get(i);
 			String constantName = toEnumConstant(name);
-			List<String> tags = tagsMap.getOrDefault(name, List.of());
 
-			sb.append("    /** ").append(String.join(", ", tags)).append(" */\n");
 			sb.append("    ").append(constantName).append("(\"").append(name).append("\")");
 			if (i < iconNames.size() - 1) {
 				sb.append(",");

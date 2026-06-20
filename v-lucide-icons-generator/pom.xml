@@ -16,11 +16,6 @@
     <description>Downloads Lucide icon metadata and generates the LucideIcon enum, SVG resources</description>
 
     <dependencies>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.11.0</version>
-        </dependency>
     </dependencies>
 
     <build>

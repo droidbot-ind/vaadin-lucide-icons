@@ -15,4639 +15,3976 @@ package io.droidbot.vlucide;
  */
 public enum LucideIcon {
 
-    /** letter, font size, text, formatting, smaller */
     A_ARROW_DOWN("a-arrow-down"),
 
-    /** letter, font size, text, formatting, larger, bigger */
     A_ARROW_UP("a-arrow-up"),
 
-    /** letter, font size, text, formatting */
     A_LARGE_SMALL("a-large-small"),
 
-    /** disability, disabled, dda, wheelchair */
     ACCESSIBILITY("accessibility"),
 
-    /** pulse, action, motion, movement, exercise, fitness, healthcare, heart rate monitor, vital signs, vitals, emergency room, er, intensive care, hospital, defibrillator, earthquake, siesmic, magnitude, richter scale, aftershock, tremor, shockwave, audio, waveform, synthesizer, synthesiser, music */
     ACTIVITY("activity"),
 
-    /** air conditioner, ac, central air, cooling, climate-control */
+    ACTIVITY_SQUARE("activity-square"),
+
+    AD("ad"),
+
     AIR_VENT("air-vent"),
 
-    /** stream, cast, mirroring, screen, monitor, macos, osx */
     AIRPLAY("airplay"),
 
-    /** morning */
+    ALARM_CHECK("alarm-check"),
+
     ALARM_CLOCK("alarm-clock"),
 
-    /** done, todo, tick, complete, task */
     ALARM_CLOCK_CHECK("alarm-clock-check"),
 
-    /** remove */
     ALARM_CLOCK_MINUS("alarm-clock-minus"),
 
-    /** morning, turn-off */
     ALARM_CLOCK_OFF("alarm-clock-off"),
 
-    /** add */
     ALARM_CLOCK_PLUS("alarm-clock-plus"),
 
-    /** fire, alert, warning, detector, carbon monoxide, safety, equipment, amenities */
+    ALARM_MINUS("alarm-minus"),
+
+    ALARM_PLUS("alarm-plus"),
+
     ALARM_SMOKE("alarm-smoke"),
 
-    /** photo, book */
     ALBUM("album"),
 
-    /** text, alignment, center */
+    ALERT_CIRCLE("alert-circle"),
+
+    ALERT_OCTAGON("alert-octagon"),
+
+    ALERT_TRIANGLE("alert-triangle"),
+
     ALIGN_CENTER("align-center"),
 
-    /** items, flex, justify */
     ALIGN_CENTER_HORIZONTAL("align-center-horizontal"),
 
-    /** items, flex, justify */
     ALIGN_CENTER_VERTICAL("align-center-vertical"),
 
-    /** items, bottom, flex, justify */
     ALIGN_END_HORIZONTAL("align-end-horizontal"),
 
-    /** items, right, flex, justify */
     ALIGN_END_VERTICAL("align-end-vertical"),
 
-    /** items, flex, justify, space, evenly, around */
     ALIGN_HORIZONTAL_DISTRIBUTE_CENTER("align-horizontal-distribute-center"),
 
-    /** right, items, flex, justify */
     ALIGN_HORIZONTAL_DISTRIBUTE_END("align-horizontal-distribute-end"),
 
-    /** left, items, flex, justify */
     ALIGN_HORIZONTAL_DISTRIBUTE_START("align-horizontal-distribute-start"),
 
-    /** center, items, flex, justify */
     ALIGN_HORIZONTAL_JUSTIFY_CENTER("align-horizontal-justify-center"),
 
-    /** right, items, flex, justify */
     ALIGN_HORIZONTAL_JUSTIFY_END("align-horizontal-justify-end"),
 
-    /** left, items, flex, justify */
     ALIGN_HORIZONTAL_JUSTIFY_START("align-horizontal-justify-start"),
 
-    /** center, items, flex, justify, distribute, between */
     ALIGN_HORIZONTAL_SPACE_AROUND("align-horizontal-space-around"),
 
-    /** around, items, bottom, flex, justify */
     ALIGN_HORIZONTAL_SPACE_BETWEEN("align-horizontal-space-between"),
 
-    /** text, alignment, justified, menu, list */
     ALIGN_JUSTIFY("align-justify"),
 
-    /** text, alignment, left, list */
     ALIGN_LEFT("align-left"),
 
-    /** text, alignment, right */
     ALIGN_RIGHT("align-right"),
 
-    /** top, items, flex, justify */
     ALIGN_START_HORIZONTAL("align-start-horizontal"),
 
-    /** left, items, flex, justify */
     ALIGN_START_VERTICAL("align-start-vertical"),
 
-    /** items, flex, justify, space, evenly, around */
     ALIGN_VERTICAL_DISTRIBUTE_CENTER("align-vertical-distribute-center"),
 
-    /** bottom, items, flex, justify */
     ALIGN_VERTICAL_DISTRIBUTE_END("align-vertical-distribute-end"),
 
-    /** top, items, flex, justify */
     ALIGN_VERTICAL_DISTRIBUTE_START("align-vertical-distribute-start"),
 
-    /** center, items, flex, justify, distribute, between */
     ALIGN_VERTICAL_JUSTIFY_CENTER("align-vertical-justify-center"),
 
-    /** bottom, items, flex, justify, distribute, between */
     ALIGN_VERTICAL_JUSTIFY_END("align-vertical-justify-end"),
 
-    /** top, items, flex, justify, distribute, between */
     ALIGN_VERTICAL_JUSTIFY_START("align-vertical-justify-start"),
 
-    /** center, items, flex, justify, distribute, between */
     ALIGN_VERTICAL_SPACE_AROUND("align-vertical-space-around"),
 
-    /** center, items, flex, justify, distribute, between */
     ALIGN_VERTICAL_SPACE_BETWEEN("align-vertical-space-between"),
 
-    /** ambulance, emergency, medical, vehicle, siren, healthcare, transportation, rescue, urgent, first aid */
     AMBULANCE("ambulance"),
 
-    /** and, typography, operator, join, concatenate, code, & */
     AMPERSAND("ampersand"),
 
-    /** and, operator, then, code, && */
     AMPERSANDS("ampersands"),
 
-    /** pottery, artifact, artefact, vase, ceramics, clay, archaeology, museum, wine, oil */
     AMPHORA("amphora"),
 
-    /** ship */
     ANCHOR("anchor"),
 
-    /** emoji, anger, face, emotion */
     ANGRY("angry"),
 
-    /** emoji, nuisance, face, emotion */
     ANNOYED("annoyed"),
 
-    /** signal, connection, connectivity, tv, television, broadcast, live, frequency, tune, scan, channels, aerial, receiver, transmission, transducer, terrestrial, satellite, cable */
     ANTENNA("antenna"),
 
-    /** metal, iron, alloy, materials, heavy, weight, blacksmith, forge, acme */
     ANVIL("anvil"),
 
-    /** camera, photo, pictures, shutter, exposure */
     APERTURE("aperture"),
 
-    /** application, menu bar, pane, executable */
     APP_WINDOW("app-window"),
 
-    /** application, menu bar, pane, preferences, macos, osx, executable */
     APP_WINDOW_MAC("app-window-mac"),
 
-    /** fruit, food */
     APPLE("apple"),
 
-    /** index, backup, box, storage, records */
     ARCHIVE("archive"),
 
-    /** unarchive, index, backup, box, storage, records */
     ARCHIVE_RESTORE("archive-restore"),
 
-    /** index, backup, box, storage, records, junk */
     ARCHIVE_X("archive-x"),
 
-    /** sofa, furniture, leisure, lounge, loveseat, couch */
+    AREA_CHART("area-chart"),
+
     ARMCHAIR("armchair"),
 
-    /** backwards, reverse, direction, south */
     ARROW_BIG_DOWN("arrow-big-down"),
 
-    /** backwards, reverse, slow, direction, south, download */
     ARROW_BIG_DOWN_DASH("arrow-big-down-dash"),
 
-    /** previous, back, direction, west, indicate turn */
     ARROW_BIG_LEFT("arrow-big-left"),
 
-    /** previous, back, direction, west, turn, corner */
     ARROW_BIG_LEFT_DASH("arrow-big-left-dash"),
 
-    /** next, forward, direction, east, indicate turn */
     ARROW_BIG_RIGHT("arrow-big-right"),
 
-    /** next, forward, direction, east, turn, corner */
     ARROW_BIG_RIGHT_DASH("arrow-big-right-dash"),
 
-    /** shift, keyboard, button, mac, capitalize, capitalise, forward, direction, north */
     ARROW_BIG_UP("arrow-big-up"),
 
-    /** caps lock, capitals, keyboard, button, mac, forward, direction, north, faster, speed, boost */
     ARROW_BIG_UP_DASH("arrow-big-up-dash"),
 
-    /** backwards, reverse, direction, south */
     ARROW_DOWN("arrow-down"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, numerical */
     ARROW_DOWN_0_1("arrow-down-0-1"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, numerical */
+    ARROW_DOWN_01("arrow-down-01"),
+
     ARROW_DOWN_1_0("arrow-down-1-0"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, alphabetical */
+    ARROW_DOWN_10("arrow-down-10"),
+
     ARROW_DOWN_A_Z("arrow-down-a-z"),
 
-    /** backwards, reverse, direction, south, download, expand, fold, vertical */
+    ARROW_DOWN_AZ("arrow-down-az"),
+
+    ARROW_DOWN_CIRCLE("arrow-down-circle"),
+
     ARROW_DOWN_FROM_LINE("arrow-down-from-line"),
 
-    /** direction, south-west, diagonal */
     ARROW_DOWN_LEFT("arrow-down-left"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling */
+    ARROW_DOWN_LEFT_FROM_CIRCLE("arrow-down-left-from-circle"),
+
+    ARROW_DOWN_LEFT_FROM_SQUARE("arrow-down-left-from-square"),
+
+    ARROW_DOWN_LEFT_SQUARE("arrow-down-left-square"),
+
     ARROW_DOWN_NARROW_WIDE("arrow-down-narrow-wide"),
 
-    /** direction, south-east, diagonal */
     ARROW_DOWN_RIGHT("arrow-down-right"),
 
-    /** direction, south, waypoint, location, step, into */
+    ARROW_DOWN_RIGHT_FROM_CIRCLE("arrow-down-right-from-circle"),
+
+    ARROW_DOWN_RIGHT_FROM_SQUARE("arrow-down-right-from-square"),
+
+    ARROW_DOWN_RIGHT_SQUARE("arrow-down-right-square"),
+
+    ARROW_DOWN_SQUARE("arrow-down-square"),
+
     ARROW_DOWN_TO_DOT("arrow-down-to-dot"),
 
-    /** behind, direction, south, download, save, git, version control, pull, collapse, fold, vertical */
     ARROW_DOWN_TO_LINE("arrow-down-to-line"),
 
-    /** bidirectional, two-way, 2-way, swap, switch, network, traffic, flow, mobile data, internet, sort, reorder, move */
     ARROW_DOWN_UP("arrow-down-up"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling */
     ARROW_DOWN_WIDE_NARROW("arrow-down-wide-narrow"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, alphabetical, reverse */
     ARROW_DOWN_Z_A("arrow-down-z-a"),
 
-    /** previous, back, direction, west, <- */
+    ARROW_DOWN_ZA("arrow-down-za"),
+
     ARROW_LEFT("arrow-left"),
 
-    /** previous, back, direction, west, expand, fold, horizontal, <-| */
+    ARROW_LEFT_CIRCLE("arrow-left-circle"),
+
     ARROW_LEFT_FROM_LINE("arrow-left-from-line"),
 
-    /** bidirectional, two-way, 2-way, swap, switch, transaction, reorder, move, <-, -> */
     ARROW_LEFT_RIGHT("arrow-left-right"),
 
-    /** previous, back, direction, west, collapse, fold, horizontal, |<- */
+    ARROW_LEFT_SQUARE("arrow-left-square"),
+
     ARROW_LEFT_TO_LINE("arrow-left-to-line"),
 
-    /** forward, next, direction, east, -> */
     ARROW_RIGHT("arrow-right"),
 
-    /** next, forward, direction, east, export, expand, fold, horizontal, |-> */
+    ARROW_RIGHT_CIRCLE("arrow-right-circle"),
+
     ARROW_RIGHT_FROM_LINE("arrow-right-from-line"),
 
-    /** bidirectional, two-way, 2-way, swap, switch, transaction, reorder, move, <-, -> */
     ARROW_RIGHT_LEFT("arrow-right-left"),
 
-    /** next, forward, direction, east, tab, keyboard, mac, indent, collapse, fold, horizontal, ->| */
+    ARROW_RIGHT_SQUARE("arrow-right-square"),
+
     ARROW_RIGHT_TO_LINE("arrow-right-to-line"),
 
-    /** forward, direction, north */
     ARROW_UP("arrow-up"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, numerical */
     ARROW_UP_0_1("arrow-up-0-1"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, numerical */
+    ARROW_UP_01("arrow-up-01"),
+
     ARROW_UP_1_0("arrow-up-1-0"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, alphabetical */
+    ARROW_UP_10("arrow-up-10"),
+
     ARROW_UP_A_Z("arrow-up-a-z"),
 
-    /** bidirectional, two-way, 2-way, swap, switch, network, mobile data, internet, sort, reorder, move */
+    ARROW_UP_AZ("arrow-up-az"),
+
+    ARROW_UP_CIRCLE("arrow-up-circle"),
+
     ARROW_UP_DOWN("arrow-up-down"),
 
-    /** direction, north, step, out */
     ARROW_UP_FROM_DOT("arrow-up-from-dot"),
 
-    /** forward, direction, north, upload, git, version control, push, expand, fold, vertical */
     ARROW_UP_FROM_LINE("arrow-up-from-line"),
 
-    /** direction, north-west, diagonal */
     ARROW_UP_LEFT("arrow-up-left"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling */
+    ARROW_UP_LEFT_FROM_CIRCLE("arrow-up-left-from-circle"),
+
+    ARROW_UP_LEFT_FROM_SQUARE("arrow-up-left-from-square"),
+
+    ARROW_UP_LEFT_SQUARE("arrow-up-left-square"),
+
     ARROW_UP_NARROW_WIDE("arrow-up-narrow-wide"),
 
-    /** direction, north-east, diagonal */
     ARROW_UP_RIGHT("arrow-up-right"),
 
-    /** forward, direction, north, upload, collapse, fold, vertical */
+    ARROW_UP_RIGHT_FROM_CIRCLE("arrow-up-right-from-circle"),
+
+    ARROW_UP_RIGHT_FROM_SQUARE("arrow-up-right-from-square"),
+
+    ARROW_UP_RIGHT_SQUARE("arrow-up-right-square"),
+
+    ARROW_UP_SQUARE("arrow-up-square"),
+
     ARROW_UP_TO_LINE("arrow-up-to-line"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling */
     ARROW_UP_WIDE_NARROW("arrow-up-wide-narrow"),
 
-    /** filter, sort, ascending, descending, increasing, decreasing, rising, falling, alphabetical, reverse */
     ARROW_UP_Z_A("arrow-up-z-a"),
 
-    /** direction, orientation, this way up, vertical, package, box, fragile, postage, shipping */
+    ARROW_UP_ZA("arrow-up-za"),
+
     ARROWS_UP_FROM_LINE("arrows-up-from-line"),
 
-    /** reference, times, multiply, multiplication, operator, code, glob pattern, wildcard, * */
     ASTERISK("asterisk"),
 
-    /** mention, at, email, message, @ */
+    ASTERISK_SQUARE("asterisk-square"),
+
+    ASTROID("astroid"),
+
     AT_SIGN("at-sign"),
 
-    /** atomic, nuclear, physics, particle, element, molecule, electricity, energy, chemistry */
     ATOM("atom"),
 
-    /** graphic equaliser, sound, noise, listen, hearing, hertz, frequency, wavelength, vibrate, sine, synthesizer, synthesiser, levels, track, music, playback, radio, broadcast, airwaves, voice, vocals, singer, song */
     AUDIO_LINES("audio-lines"),
 
-    /** sound, noise, listen, hearing, hertz, frequency, wavelength, vibrate, sine, synthesizer, synthesiser, levels, track, music, playback, radio, broadcast, airwaves, voice, vocals, singer, song */
     AUDIO_WAVEFORM("audio-waveform"),
 
-    /** achievement, badge, rosette, prize, winner */
     AWARD("award"),
 
-    /** hatchet, weapon, chop, sharp, equipment, fireman, firefighter, brigade, lumberjack, woodcutter, logger, forestry */
     AXE("axe"),
 
-    /** gizmo, coordinates */
+    AXIS_3_D("axis-3-d"),
+
     AXIS_3D("axis-3d"),
 
-    /** child, childproof, children */
     BABY("baby"),
 
-    /** bag, hiking, travel, camping, school, childhood */
     BACKPACK("backpack"),
 
-    /** check, verified, unverified */
     BADGE("badge"),
 
-    /** check, verified, unverified, security, safety, issue */
     BADGE_ALERT("badge-alert"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, cents, dollar, usd, $, ¢ */
     BADGE_CENT("badge-cent"),
 
-    /** verified, check */
     BADGE_CHECK("badge-check"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, usd, $ */
     BADGE_DOLLAR_SIGN("badge-dollar-sign"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, € */
     BADGE_EURO("badge-euro"),
 
-    /** verified, unverified, help */
     BADGE_HELP("badge-help"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, inr, ₹ */
     BADGE_INDIAN_RUPEE("badge-indian-rupee"),
 
-    /** verified, unverified, help */
     BADGE_INFO("badge-info"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, jpy, ¥ */
     BADGE_JAPANESE_YEN("badge-japanese-yen"),
 
-    /** verified, unverified, delete, remove, erase */
     BADGE_MINUS("badge-minus"),
 
-    /** verified, unverified, sale, discount, offer, marketing, sticker, price tag */
     BADGE_PERCENT("badge-percent"),
 
-    /** verified, unverified, add, create, new */
     BADGE_PLUS("badge-plus"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, british, gbp, £ */
     BADGE_POUND_STERLING("badge-pound-sterling"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, rub, ₽ */
+    BADGE_QUESTION_MARK("badge-question-mark"),
+
     BADGE_RUSSIAN_RUBLE("badge-russian-ruble"),
 
-    /** discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, chf, ₣ */
     BADGE_SWISS_FRANC("badge-swiss-franc"),
 
-    /** verified, unverified, lost, delete, remove */
+    BADGE_TURKISH_LIRA("badge-turkish-lira"),
+
     BADGE_X("badge-x"),
 
-    /** baggage, luggage, travel, cart, trolley, suitcase */
     BAGGAGE_CLAIM("baggage-claim"),
 
-    /** cancel, no, stop, forbidden, prohibited, error, incorrect, mistake, wrong, failure, circle, slash, null, void */
+    BALLOON("balloon"),
+
     BAN("ban"),
 
-    /** fruit, food */
     BANANA("banana"),
 
-    /** plaster, band-aid, first aid, medical, health, wound, injury, care, treatment, healing, protection, emergency, aid, safety */
     BANDAGE("bandage"),
 
-    /** currency, money, payment */
     BANKNOTE("banknote"),
 
-    /** scan, checkout, till, cart, transaction, purchase, buy, product, packaging, retail, consumer */
+    BANKNOTE_ARROW_DOWN("banknote-arrow-down"),
+
+    BANKNOTE_ARROW_UP("banknote-arrow-up"),
+
+    BANKNOTE_CHECK("banknote-check"),
+
+    BANKNOTE_X("banknote-x"),
+
+    BAR_CHART("bar-chart"),
+
+    BAR_CHART_2("bar-chart-2"),
+
+    BAR_CHART_3("bar-chart-3"),
+
+    BAR_CHART_4("bar-chart-4"),
+
+    BAR_CHART_BIG("bar-chart-big"),
+
+    BAR_CHART_HORIZONTAL("bar-chart-horizontal"),
+
+    BAR_CHART_HORIZONTAL_BIG("bar-chart-horizontal-big"),
+
     BARCODE("barcode"),
 
-    /** text, format, color */
+    BARREL("barrel"),
+
     BASELINE("baseline"),
 
-    /** amenities, services, bathroom, shower */
     BATH("bath"),
 
-    /** power, electricity, energy, accumulator, charge */
     BATTERY("battery"),
 
-    /** power, electricity, energy, accumulator, charge */
     BATTERY_CHARGING("battery-charging"),
 
-    /** power, electricity, energy, accumulator, charge */
     BATTERY_FULL("battery-full"),
 
-    /** power, electricity, energy, accumulator, charge */
     BATTERY_LOW("battery-low"),
 
-    /** power, electricity, energy, accumulator, charge */
     BATTERY_MEDIUM("battery-medium"),
 
-    /** power, electricity, energy, accumulator, charge, exclamation mark */
+    BATTERY_PLUS("battery-plus"),
+
     BATTERY_WARNING("battery-warning"),
 
-    /** cup, lab, chemistry, experiment, test */
     BEAKER("beaker"),
 
-    /** legume, soy, food, seed */
     BEAN("bean"),
 
-    /** soy free, legume, soy, food, seed, allergy, intolerance, diet */
     BEAN_OFF("bean-off"),
 
-    /** sleep, hotel, furniture */
     BED("bed"),
 
-    /** sleep, hotel, furniture */
     BED_DOUBLE("bed-double"),
 
-    /** sleep, hotel, furniture */
     BED_SINGLE("bed-single"),
 
-    /** food, dish, restaurant, course, meal, meat, bbq, steak */
     BEEF("beef"),
 
-    /** alcohol, bar, beverage, brewery, drink */
+    BEEF_OFF("beef-off"),
+
     BEER("beer"),
 
-    /** alcohol, bar, beverage, brewery, drink */
     BEER_OFF("beer-off"),
 
-    /** alarm, notification, sound, reminder */
     BELL("bell"),
 
-    /** alarm, notification, sound, reminder, unread */
+    BELL_CHECK("bell-check"),
+
     BELL_DOT("bell-dot"),
 
-    /** fire alarm, flames, smoke, firefighter, fireman, department, brigade, station, emergency, alert, safety, school bell, period break, recess, doorbell, entrance, entry, ring, reception */
     BELL_ELECTRIC("bell-electric"),
 
-    /** alarm, notification, silent, reminder, delete, remove, erase */
     BELL_MINUS("bell-minus"),
 
-    /** alarm, notification, silent, reminder */
     BELL_OFF("bell-off"),
 
-    /** notification, silent, reminder, add, create, new */
     BELL_PLUS("bell-plus"),
 
-    /** alarm, notification, sound, reminder */
     BELL_RING("bell-ring"),
 
-    /** insert, add, left, slot, squeeze, space, vertical, grid, table, rows, cells, excel, spreadsheet, accountancy, data, enter, entry, entries, blocks, rectangles, chevron */
+    BETWEEN_HORIZONAL_END("between-horizonal-end"),
+
+    BETWEEN_HORIZONAL_START("between-horizonal-start"),
+
     BETWEEN_HORIZONTAL_END("between-horizontal-end"),
 
-    /** insert, add, right, slot, squeeze, space, vertical, grid, table, rows, cells, excel, spreadsheet, accountancy, data, enter, entry, entries, blocks, rectangles, chevron */
     BETWEEN_HORIZONTAL_START("between-horizontal-start"),
 
-    /** insert, add, top, slot, squeeze, space, vertical, grid, table, columns, cells, data, enter, entry, entries, blocks, rectangles, chevron */
     BETWEEN_VERTICAL_END("between-vertical-end"),
 
-    /** insert, add, bottom, slot, squeeze, space, vertical, grid, table, columns, cells, data, enter, entry, entries, blocks, rectangles, chevron */
     BETWEEN_VERTICAL_START("between-vertical-start"),
 
-    /** arm, muscle, strong, working out, athletic, toned, muscular, forelimb, curled */
     BICEPS_FLEXED("biceps-flexed"),
 
-    /** bicycle, transport, trip */
     BIKE("bike"),
 
-    /** code, digits, computer, zero, one, boolean */
     BINARY("binary"),
 
-    /** field glasses, lorgnette, pince-nez, observation, sightseeing, nature, wildlife, birdwatching, scouting, surveillance, search, discovery, monitoring, lookout, viewpoint, travel, tourism, research */
     BINOCULARS("binoculars"),
 
-    /** fallout, waste, biology, chemistry, chemical, element */
     BIOHAZARD("biohazard"),
 
-    /** peace, freedom, wing, avian, tweet */
     BIRD("bird"),
 
-    /** currency, money, payment */
+    BIRDHOUSE("birdhouse"),
+
     BITCOIN("bitcoin"),
 
-    /** mode, overlay, multiply, screen, opacity, transparency, alpha, filters, lenses, mixed, shades, tints, hues, saturation, brightness, overlap, colors, colours */
     BLEND("blend"),
 
-    /** shades, screen, curtain, shutter, roller blind, window, lighting, household, home */
+    BLENDER("blender"),
+
     BLINDS("blinds"),
 
-    /** addon, plugin, integration, extension, package, build, stack, toys, kids, children, learning */
     BLOCKS("blocks"),
 
-    /** wireless */
     BLUETOOTH("bluetooth"),
 
-    /** paired */
     BLUETOOTH_CONNECTED("bluetooth-connected"),
 
-    /** lost */
     BLUETOOTH_OFF("bluetooth-off"),
 
-    /** pairing */
     BLUETOOTH_SEARCHING("bluetooth-searching"),
 
-    /** text, strong, format */
     BOLD("bold"),
 
-    /** nut, screw, settings, preferences, configuration, controls, edit, diy, fixed, build, contruction, parts */
     BOLT("bolt"),
 
-    /** fatal, error, crash, blockbuster, mine, explosion, explode, explosive */
     BOMB("bomb"),
 
-    /** health, skeleton, skull, death, pets, dog */
     BONE("bone"),
 
-    /** reading, paperback, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, education, high school, university, college, academy, student, study, learning, homework, research, documentation */
+    BONE_FRACTURE("bone-fracture"),
+
     BOOK("book"),
 
-    /** dictionary, define, definition, thesaurus, encyclopedia, encyclopaedia, reading, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, education, high school, university, college, academy, student, study, learning, homework, research, language, translate, alphabetical, a-z, ordered */
     BOOK_A("book-a"),
 
-    /** audiobook, reading, listening, sound, story, fiction, novel, information, knowledge, education, student, study, learning, research */
+    BOOK_ALERT("book-alert"),
+
     BOOK_AUDIO("book-audio"),
 
-    /** read, booklet, magazine, leaflet, pamphlet, library, written, authored, published, informed, knowledgeable, educated, schooled, homework, examined, tested, marked, passed, graduated, studied, learned, lesson, researched, documented, revealed, blank, plain language, true, truth, verified, corrected, task, todo, done, completed, finished, ticked */
     BOOK_CHECK("book-check"),
 
-    /** code, coding, version control, git, repository, clone, fork, duplicate, multiple, books, library, copies, copied, plagiarism, plagiarised, plagiarized, reading list, information, informed, knowledge, knowledgeable, knowledgable, education, high school, university, college, academy, student, study, learning, research, smart, intelligent, intellectual */
     BOOK_COPY("book-copy"),
 
-    /** code, coding, version control, git, repository, template, draft, script, screenplay, writing, writer, author, unwritten, unpublished, untold */
     BOOK_DASHED("book-dashed"),
 
-    /** code, coding, version control, git, repository, pull */
     BOOK_DOWN("book-down"),
 
-    /** audiobook, reading, listening, sound, story, fiction, novel, information, knowledge, education, student, study, learning, research */
     BOOK_HEADPHONES("book-headphones"),
 
-    /** diary, romance, novel, journal, entry, entries, personal, private, secret, crush, like, love, emotion, feminine, girls, teens, teenager, therapy, theraputic, therapist, planner, organizer, organiser, notes, notepad, stationery, sketchbook, writing, written, reading, favorite, favourite, high school */
     BOOK_HEART("book-heart"),
 
-    /** images, pictures, photos, album, collection, event, magazine, catalog, catalogue, brochure, browse, gallery */
     BOOK_IMAGE("book-image"),
 
-    /** code, coding, version control, git, repository, private, public, secret, unlocked, hidden, revealed, knowledge, learning */
     BOOK_KEY("book-key"),
 
-    /** code, coding, version control, git, repository, private, secret, hidden, knowledge */
     BOOK_LOCK("book-lock"),
 
-    /** dictionary, reading, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, education, high school, university, college, academy, student, study, learning, homework, research, documentation, saved, later, future, reference, index, code, coding, version control, git, repository */
     BOOK_MARKED("book-marked"),
 
-    /** code, coding, version control, git, repository, remove, delete, censor, cancel, forbid, prohibit, ban, uneducated, re-educate, unlearn, downgrade */
     BOOK_MINUS("book-minus"),
 
-    /** reading, pages, booklet, magazine, leaflet, pamphlet, library, writing, written, writer, author, story, script, screenplay, fiction, novel, information, knowledge, education, high school, university, college, academy, student, study, learning, homework, research, documentation, revealed, blank, plain */
     BOOK_OPEN("book-open"),
 
-    /** read, pages, booklet, magazine, leaflet, pamphlet, library, written, authored, published, informed, knowledgeable, educated, schooled, homework, examined, tested, marked, passed, graduated, studied, learned, lesson, researched, documented, revealed, blank, plain language, true, truth, verified, corrected, task, todo, done, completed, finished, ticked */
     BOOK_OPEN_CHECK("book-open-check"),
 
-    /** reading, pages, booklet, magazine, leaflet, pamphlet, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, education, high school, university, college, academy, student, study, learning, homework, research, documentation, revealed */
     BOOK_OPEN_TEXT("book-open-text"),
 
-    /** code, coding, version control, git, repository, remove, delete, read, write, author, publish, inform, graduate, re-educate, study, learn, research, knowledge, improve, upgrade, level up */
     BOOK_PLUS("book-plus"),
 
-    /** reading, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, education, high school, university, college, academy, student, study, learning, homework, research, documentation */
+    BOOK_SEARCH("book-search"),
+
+    BOOK_TEMPLATE("book-template"),
+
     BOOK_TEXT("book-text"),
 
-    /** thesaurus, synonym, reading, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, education, high school, university, college, academy, student, study, learning, homework, research, language, translate, typography, fonts, collection */
     BOOK_TYPE("book-type"),
 
-    /** code, coding, version control, git, repository, push */
     BOOK_UP("book-up"),
 
-    /** code, coding, version control, git, repository, push, force */
     BOOK_UP_2("book-up-2"),
 
-    /** person, people, family, friends, acquaintances, contacts, details, addresses, phone numbers, directory, listing, networking */
     BOOK_USER("book-user"),
 
-    /** code, coding, version control, git, repository, remove, delete, reading, misinformation, disinformation, misinformed, charlatan, sophistry, false, lies, untruth, propaganda, censored, cancelled, forbidden, prohibited, banned, uneducated, re-education, unlearn */
     BOOK_X("book-x"),
 
-    /** read, clip, marker, tag */
     BOOKMARK("bookmark"),
 
-    /** read, finished, complete, clip, marker, tag, task, todo */
     BOOKMARK_CHECK("bookmark-check"),
 
-    /** delete, remove */
     BOOKMARK_MINUS("bookmark-minus"),
 
-    /** add */
+    BOOKMARK_OFF("bookmark-off"),
+
     BOOKMARK_PLUS("bookmark-plus"),
 
-    /** read, clip, marker, tag, cancel, close, delete, remove, clear */
     BOOKMARK_X("bookmark-x"),
 
-    /** radio, speakers, audio, music, sound, broadcast, live, frequency */
     BOOM_BOX("boom-box"),
 
-    /** robot, ai, chat, assistant */
     BOT("bot"),
 
-    /** robot, ai, chat, assistant */
     BOT_MESSAGE_SQUARE("bot-message-square"),
 
-    /** robot, ai, chat, assistant */
     BOT_OFF("bot-off"),
 
-    /** cube, package, container, storage, geometry, 3d, isometric */
+    BOTTLE_WINE("bottle-wine"),
+
+    BOW_ARROW("bow-arrow"),
+
     BOX("box"),
 
-    /** cubes, packages, parts, group, units, collection, cluster, geometry */
+    BOX_SELECT("box-select"),
+
     BOXES("boxes"),
 
-    /** json, code, token, curly brackets, data, {, } */
     BRACES("braces"),
 
-    /** code, token, array, list, square, [, ] */
     BRACKETS("brackets"),
 
-    /** medical, mind, intellect, cerebral, consciousness, genius, artificial intelligence, ai */
     BRAIN("brain"),
 
-    /** mind, intellect, artificial intelligence, ai, deep learning, machine learning, computing */
     BRAIN_CIRCUIT("brain-circuit"),
 
-    /** mind, intellect, artificial intelligence, ai, deep learning, machine learning, computing */
     BRAIN_COG("brain-cog"),
 
-    /** bricks, mortar, cement, materials, construction, builder, labourer, quantity surveyor, blocks, stone */
     BRICK_WALL("brick-wall"),
 
-    /** work, bag, baggage, folder */
+    BRICK_WALL_FIRE("brick-wall-fire"),
+
+    BRICK_WALL_SHIELD("brick-wall-shield"),
+
     BRIEFCASE("briefcase"),
 
-    /** work, bag, baggage, folder, portfolio */
     BRIEFCASE_BUSINESS("briefcase-business"),
 
-    /** baggage, luggage, travel, suitcase, conveyor, carousel */
     BRIEFCASE_CONVEYOR_BELT("briefcase-conveyor-belt"),
 
-    /** doctor, medicine, first aid */
     BRIEFCASE_MEDICAL("briefcase-medical"),
 
-    /** bring, send, move, over, forward, front, overlap, layer, order */
     BRING_TO_FRONT("bring-to-front"),
 
-    /** draw, paint, color, artist */
+    BROCCOLI("broccoli"),
+
     BRUSH("brush"),
 
-    /** issue, report, debug, code, insect */
+    BRUSH_CLEANING("brush-cleaning"),
+
+    BUBBLES("bubbles"),
+
     BUG("bug"),
 
-    /** debug, code, insect, kill, exterminate, pest control */
     BUG_OFF("bug-off"),
 
-    /** debug, code, insect */
     BUG_PLAY("bug-play"),
 
-    /** organisation, organization */
     BUILDING("building"),
 
-    /** business, company, enterprise, skyscraper, organisation, organization, city */
     BUILDING_2("building-2"),
 
-    /** bus, vehicle, transport, trip */
     BUS("bus"),
 
-    /** coach, vehicle, trip, road */
     BUS_FRONT("bus-front"),
 
-    /** cord, wire, connector, connection, link, signal, console, computer, equipment, electricity, energy, electronics, recharging, charger, power, supply, disconnected, unplugged, plugs, interface, input, output, audio video, av, rca, scart, tv, television, optical */
     CABLE("cable"),
 
-    /** ski lift, winter holiday, alpine, resort, mountains */
     CABLE_CAR("cable-car"),
 
-    /** birthday, birthdate, celebration, party, surprise, gateaux, dessert, fondant, icing sugar, sweet, baking */
     CAKE("cake"),
 
-    /** birthday, birthdate, celebration, party, surprise, gateaux, dessert, candles, wish, fondant, icing sugar, sweet, baking */
     CAKE_SLICE("cake-slice"),
 
-    /** count, calculating machine */
     CALCULATOR("calculator"),
 
-    /** date, month, year, event, birthday, birthdate */
     CALENDAR("calendar"),
 
-    /** date, month, year, event, single, singular, once, 1, first */
     CALENDAR_1("calendar-1"),
 
-    /** date, month, year, event, sort, order, ascending, descending, increasing, decreasing, rising, falling */
     CALENDAR_ARROW_DOWN("calendar-arrow-down"),
 
-    /** date, month, year, event, sort, order, ascending, descending, increasing, decreasing, rising, falling */
     CALENDAR_ARROW_UP("calendar-arrow-up"),
 
-    /** date, day, month, year, event, confirm, subscribe, schedule, done, todo, tick, complete, task */
     CALENDAR_CHECK("calendar-check"),
 
-    /** date, day, month, year, event, confirm, subscribe, schedule, done, todo, tick, complete, task */
     CALENDAR_CHECK_2("calendar-check-2"),
 
-    /** date, day, month, year, event, clock, hour */
     CALENDAR_CLOCK("calendar-clock"),
 
-    /** date, day, month, year, events, settings, gear, cog */
     CALENDAR_COG("calendar-cog"),
 
-    /** date, month, year, event */
     CALENDAR_DAYS("calendar-days"),
 
-    /** date, month, year, event, birthday, birthdate, ics */
     CALENDAR_FOLD("calendar-fold"),
 
-    /** date, month, year, event, heart, favourite, subscribe, valentines day */
     CALENDAR_HEART("calendar-heart"),
 
-    /** date, day, month, year, event, delete, remove */
     CALENDAR_MINUS("calendar-minus"),
 
-    /** date, day, month, year, event, delete, remove */
     CALENDAR_MINUS_2("calendar-minus-2"),
 
-    /** date, day, month, year, event, delete, remove */
     CALENDAR_OFF("calendar-off"),
 
-    /** date, day, month, year, event, add, subscribe, create, new */
     CALENDAR_PLUS("calendar-plus"),
 
-    /** date, day, month, year, event, add, subscribe, create, new */
     CALENDAR_PLUS_2("calendar-plus-2"),
 
-    /** date, day, month, year, event, range, period */
     CALENDAR_RANGE("calendar-range"),
 
-    /** date, day, month, year, events, search */
     CALENDAR_SEARCH("calendar-search"),
 
-    /** repeat, refresh, reconnect, transfer, backup, date, month, year, event, subscribe, recurring, schedule, reminder, automatic, auto */
     CALENDAR_SYNC("calendar-sync"),
 
-    /** date, day, month, year, event, remove, busy */
     CALENDAR_X("calendar-x"),
 
-    /** date, day, month, year, event, remove */
     CALENDAR_X_2("calendar-x-2"),
 
-    /** photo, webcam, video */
+    CALENDARS("calendars"),
+
     CAMERA("camera"),
 
-    /** photo, webcam, video */
     CAMERA_OFF("camera-off"),
 
-    /** sugar, food, sweet */
+    CANDLESTICK_CHART("candlestick-chart"),
+
     CANDY("candy"),
 
-    /** sugar, food, sweet, christmas, xmas */
     CANDY_CANE("candy-cane"),
 
-    /** sugar free, food, sweet, allergy, intolerance, diet */
     CANDY_OFF("candy-off"),
 
-    /** cannabis, weed, leaf */
     CANNABIS("cannabis"),
 
-    /** closed captions, subtitles, subhead, transcription, transcribe, dialogue, accessibility */
+    CANNABIS_OFF("cannabis-off"),
+
     CAPTIONS("captions"),
 
-    /** closed captions, subtitles, subhead, transcription, transcribe, dialogue, accessibility */
     CAPTIONS_OFF("captions-off"),
 
-    /** vehicle, drive, trip, journey */
     CAR("car"),
 
-    /** vehicle, drive, trip, journey */
     CAR_FRONT("car-front"),
 
-    /** cab, vehicle, drive, trip, journey */
     CAR_TAXI_FRONT("car-taxi-front"),
 
-    /** trailer, tow, camping, campsite, mobile home, holiday, nomadic, wilderness, outdoors */
     CARAVAN("caravan"),
 
-    /** vegetable, food, eat */
+    CARD_SIM("card-sim"),
+
     CARROT("carrot"),
 
-    /** text, letters, characters, font, typography */
     CASE_LOWER("case-lower"),
 
-    /** text, letters, characters, font, typography */
     CASE_SENSITIVE("case-sensitive"),
 
-    /** text, letters, characters, font, typography */
     CASE_UPPER("case-upper"),
 
-    /** audio, music, recording, play */
     CASSETTE_TAPE("cassette-tape"),
 
-    /** chromecast, airplay, screen */
     CAST("cast"),
 
-    /** fortress, stronghold, palace, chateau, building */
     CASTLE("castle"),
 
-    /** animal, pet, kitten, feline */
     CAT("cat"),
 
-    /** camera, surveillance, recording, film, videotape, crime, watching */
     CCTV("cctv"),
 
-    /** statistics, analytics, diagram, graph, area */
+    CCTV_OFF("cctv-off"),
+
     CHART_AREA("chart-area"),
 
-    /** statistics, analytics, diagram, graph */
     CHART_BAR("chart-bar"),
 
-    /** statistics, analytics, diagram, graph */
     CHART_BAR_BIG("chart-bar-big"),
 
-    /** statistics, analytics, diagram, graph, trending down */
     CHART_BAR_DECREASING("chart-bar-decreasing"),
 
-    /** statistics, analytics, diagram, graph, trending up */
     CHART_BAR_INCREASING("chart-bar-increasing"),
 
-    /** statistics, analytics, diagram, graph, multivariate, categorical, comparison */
     CHART_BAR_STACKED("chart-bar-stacked"),
 
-    /** trading, trader, financial, markets, portfolio, assets, prices, value, valuation, commodities, currencies, currency, stocks, exchange, hedge fund, statistics, analytics, diagram, graph */
     CHART_CANDLESTICK("chart-candlestick"),
 
-    /** statistics, analytics, diagram, graph */
     CHART_COLUMN("chart-column"),
 
-    /** statistics, analytics, diagram, graph */
     CHART_COLUMN_BIG("chart-column-big"),
 
-    /** statistics, analytics, diagram, graph, trending down */
     CHART_COLUMN_DECREASING("chart-column-decreasing"),
 
-    /** statistics, analytics, diagram, graph, trending up */
     CHART_COLUMN_INCREASING("chart-column-increasing"),
 
-    /** statistics, analytics, diagram, graph, multivariate, categorical, comparison */
     CHART_COLUMN_STACKED("chart-column-stacked"),
 
-    /** diagram, graph, timeline, planning */
     CHART_GANTT("chart-gantt"),
 
-    /** statistics, analytics, diagram, graph */
     CHART_LINE("chart-line"),
 
-    /** statistics, analytics, diagram, graph, topology, cluster, web, nodes, connections, edges */
     CHART_NETWORK("chart-network"),
 
-    /** statistics, analytics, diagram, graph */
     CHART_NO_AXES_COLUMN("chart-no-axes-column"),
 
-    /** statistics, analytics, diagram, graph, trending down */
     CHART_NO_AXES_COLUMN_DECREASING("chart-no-axes-column-decreasing"),
 
-    /** statistics, analytics, diagram, graph, trending up */
     CHART_NO_AXES_COLUMN_INCREASING("chart-no-axes-column-increasing"),
 
-    /** statistics, analytics, diagram, graph, trending up */
     CHART_NO_AXES_COMBINED("chart-no-axes-combined"),
 
-    /** projects, manage, overview, roadmap, plan, intentions, timeline, deadline, date, event, range, period, productivity, work, agile, code, coding */
     CHART_NO_AXES_GANTT("chart-no-axes-gantt"),
 
-    /** statistics, analytics, diagram, presentation */
     CHART_PIE("chart-pie"),
 
-    /** statistics, analytics, diagram, graph */
     CHART_SCATTER("chart-scatter"),
 
-    /** statistics, analytics, diagram, graph, curve, continuous, smooth, polynomial, quadratic, function, interpolation */
     CHART_SPLINE("chart-spline"),
 
-    /** done, todo, tick, complete, task */
     CHECK("check"),
 
-    /** done, received, double, todo, tick, complete, task */
     CHECK_CHECK("check-check"),
 
-    /** cooking, food, kitchen, restaurant */
+    CHECK_CIRCLE("check-circle"),
+
+    CHECK_CIRCLE_2("check-circle-2"),
+
+    CHECK_LINE("check-line"),
+
+    CHECK_SQUARE("check-square"),
+
+    CHECK_SQUARE_2("check-square-2"),
+
     CHEF_HAT("chef-hat"),
 
-    /** fruit, food */
     CHERRY("cherry"),
 
-    /** backwards, reverse, slow, dropdown */
+    CHESS_BISHOP("chess-bishop"),
+
+    CHESS_KING("chess-king"),
+
+    CHESS_KNIGHT("chess-knight"),
+
+    CHESS_PAWN("chess-pawn"),
+
+    CHESS_QUEEN("chess-queen"),
+
+    CHESS_ROOK("chess-rook"),
+
     CHEVRON_DOWN("chevron-down"),
 
-    /** previous, music */
+    CHEVRON_DOWN_CIRCLE("chevron-down-circle"),
+
+    CHEVRON_DOWN_SQUARE("chevron-down-square"),
+
     CHEVRON_FIRST("chevron-first"),
 
-    /** skip, next, music */
     CHEVRON_LAST("chevron-last"),
 
-    /** back, previous, less than, fewer, menu, < */
     CHEVRON_LEFT("chevron-left"),
 
-    /** forward, next, more than, greater, menu, code, coding, command line, terminal, prompt, shell, > */
+    CHEVRON_LEFT_CIRCLE("chevron-left-circle"),
+
+    CHEVRON_LEFT_SQUARE("chevron-left-square"),
+
     CHEVRON_RIGHT("chevron-right"),
 
-    /** caret, keyboard, mac, control, ctrl, superscript, exponential, power, ahead, fast, ^, dropdown */
+    CHEVRON_RIGHT_CIRCLE("chevron-right-circle"),
+
+    CHEVRON_RIGHT_SQUARE("chevron-right-square"),
+
     CHEVRON_UP("chevron-up"),
 
-    /** backwards, reverse, slower */
+    CHEVRON_UP_CIRCLE("chevron-up-circle"),
+
+    CHEVRON_UP_SQUARE("chevron-up-square"),
+
     CHEVRONS_DOWN("chevrons-down"),
 
-    /** collapse, fold, vertical */
     CHEVRONS_DOWN_UP("chevrons-down-up"),
 
-    /** turn, corner */
     CHEVRONS_LEFT("chevrons-left"),
 
-    /** expand, horizontal, unfold */
     CHEVRONS_LEFT_RIGHT("chevrons-left-right"),
 
-    /** internet, network, connection, cable, lan, port, router, switch, hub, modem, web, online, networking, communication, socket, plug, slot, controller, connector, interface, console, signal, data, input, output */
     CHEVRONS_LEFT_RIGHT_ELLIPSIS("chevrons-left-right-ellipsis"),
 
-    /** turn, corner */
     CHEVRONS_RIGHT("chevrons-right"),
 
-    /** collapse, fold, horizontal */
     CHEVRONS_RIGHT_LEFT("chevrons-right-left"),
 
-    /** forward, ahead, faster, speed, boost */
     CHEVRONS_UP("chevrons-up"),
 
-    /** expand, unfold, vertical */
     CHEVRONS_UP_DOWN("chevrons-up-down"),
 
-    /** browser, logo */
-    CHROME("chrome"),
-
-    /** temple, building */
     CHURCH("church"),
 
-    /** smoking */
     CIGARETTE("cigarette"),
 
-    /** smoking, no-smoking */
     CIGARETTE_OFF("cigarette-off"),
 
-    /** off, zero, record, shape */
     CIRCLE("circle"),
 
-    /** warning, alert, danger, exclamation mark */
     CIRCLE_ALERT("circle-alert"),
 
-    /** backwards, reverse, direction, south, sign, button */
     CIRCLE_ARROW_DOWN("circle-arrow-down"),
 
-    /** previous, back, direction, west, sign, turn, button, <- */
     CIRCLE_ARROW_LEFT("circle-arrow-left"),
 
-    /** outwards, direction, south-west, diagonal */
     CIRCLE_ARROW_OUT_DOWN_LEFT("circle-arrow-out-down-left"),
 
-    /** outwards, direction, south-east, diagonal */
     CIRCLE_ARROW_OUT_DOWN_RIGHT("circle-arrow-out-down-right"),
 
-    /** outwards, direction, north-west, diagonal, keyboard, button, escape */
     CIRCLE_ARROW_OUT_UP_LEFT("circle-arrow-out-up-left"),
 
-    /** outwards, direction, north-east, diagonal */
     CIRCLE_ARROW_OUT_UP_RIGHT("circle-arrow-out-up-right"),
 
-    /** next, forward, direction, east, sign, turn, button, -> */
     CIRCLE_ARROW_RIGHT("circle-arrow-right"),
 
-    /** forward, direction, north, sign, button */
     CIRCLE_ARROW_UP("circle-arrow-up"),
 
-    /** done, todo, tick, complete, task */
     CIRCLE_CHECK("circle-check"),
 
-    /** done, todo, tick, complete, task */
     CIRCLE_CHECK_BIG("circle-check-big"),
 
-    /** back, menu */
     CIRCLE_CHEVRON_DOWN("circle-chevron-down"),
 
-    /** back, previous, less than, fewer, menu, < */
     CIRCLE_CHEVRON_LEFT("circle-chevron-left"),
 
-    /** back, more than, greater, menu, > */
     CIRCLE_CHEVRON_RIGHT("circle-chevron-right"),
 
-    /** caret, ahead, menu, ^ */
     CIRCLE_CHEVRON_UP("circle-chevron-up"),
 
-    /** pending, dot, progress, issue, draft, code, coding, version control */
     CIRCLE_DASHED("circle-dashed"),
 
-    /** calculate, math, ÷, / */
     CIRCLE_DIVIDE("circle-divide"),
 
-    /** monetization, marketing, currency, money, payment */
     CIRCLE_DOLLAR_SIGN("circle-dollar-sign"),
 
-    /** pending, dot, progress, issue, code, coding, version control, choices, multiple choice, choose */
     CIRCLE_DOT("circle-dot"),
 
-    /** pending, dot, progress, issue, draft, code, coding, version control */
     CIRCLE_DOT_DASHED("circle-dot-dashed"),
 
-    /** ellipsis, et cetera, etc, loader, loading, progress, pending, throbber, menu, options, operator, code, spread, rest, more, further, extra, overflow, dots, …, ... */
     CIRCLE_ELLIPSIS("circle-ellipsis"),
 
-    /** calculate, shape, = */
     CIRCLE_EQUAL("circle-equal"),
 
-    /** north, up, upgrade, improve, circle, button */
     CIRCLE_FADING_ARROW_UP("circle-fading-arrow-up"),
 
-    /** stories, social media, instagram, facebook, meta, snapchat, sharing, content */
     CIRCLE_FADING_PLUS("circle-fading-plus"),
 
-    /** dashboard, dial, meter, speed, pressure, measure, level */
     CIRCLE_GAUGE("circle-gauge"),
 
-    /** question mark */
     CIRCLE_HELP("circle-help"),
 
-    /** subtract, remove, decrease, reduce, calculate, line, operator, code, coding, minimum, downgrade, - */
     CIRCLE_MINUS("circle-minus"),
 
-    /** diameter, zero, Ø, nothing, null, void, cancel, ban, no, stop, forbidden, prohibited, error, incorrect, mistake, wrong, failure */
     CIRCLE_OFF("circle-off"),
 
-    /** parking lot, car park */
     CIRCLE_PARKING("circle-parking"),
 
-    /** parking lot, car park, no parking */
     CIRCLE_PARKING_OFF("circle-parking-off"),
 
-    /** music, audio, stop */
     CIRCLE_PAUSE("circle-pause"),
 
-    /** verified, unverified, sale, discount, offer, marketing, sticker, price tag */
     CIRCLE_PERCENT("circle-percent"),
 
-    /** music, start, run */
+    CIRCLE_PILE("circle-pile"),
+
     CIRCLE_PLAY("circle-play"),
 
-    /** add, new, increase, increment, positive, calculate, crosshair, aim, target, scope, sight, reticule, maximum, upgrade, extra, operator, join, concatenate, code, coding, + */
     CIRCLE_PLUS("circle-plus"),
 
-    /** on, off, device, switch, toggle, binary, boolean, reboot, restart, button, keyboard, troubleshoot */
+    CIRCLE_POUND_STERLING("circle-pound-sterling"),
+
     CIRCLE_POWER("circle-power"),
 
-    /** diameter, zero, Ø, nothing, null, void, cancel, ban, no, stop, forbidden, prohibited, error, incorrect, mistake, wrong, failure, divide, division, or, / */
+    CIRCLE_QUESTION_MARK("circle-question-mark"),
+
     CIRCLE_SLASH("circle-slash"),
 
-    /** diameter, zero, Ø, nothing, null, void, ban, math, divide, division, half, split, / */
     CIRCLE_SLASH_2("circle-slash-2"),
 
-    /** media, music */
+    CIRCLE_SLASHED("circle-slashed"),
+
+    CIRCLE_SMALL("circle-small"),
+
+    CIRCLE_STAR("circle-star"),
+
     CIRCLE_STOP("circle-stop"),
 
-    /** person, account, contact */
     CIRCLE_USER("circle-user"),
 
-    /** person, account, contact */
     CIRCLE_USER_ROUND("circle-user-round"),
 
-    /** cancel, close, delete, remove, times, clear, error, incorrect, wrong, mistake, failure, linter, multiply, multiplication */
     CIRCLE_X("circle-x"),
 
-    /** computing, electricity, electronics */
     CIRCUIT_BOARD("circuit-board"),
 
-    /** lemon, orange, grapefruit, fruit */
     CITRUS("citrus"),
 
-    /** movie, film, video, camera, cinema, cut, action, television, tv, show, entertainment */
     CLAPPERBOARD("clapperboard"),
 
-    /** copy, paste */
     CLIPBOARD("clipboard"),
 
-    /** copied, pasted, done, todo, tick, complete, task */
     CLIPBOARD_CHECK("clipboard-check"),
 
-    /** copy, paste */
+    CLIPBOARD_CLOCK("clipboard-clock"),
+
     CLIPBOARD_COPY("clipboard-copy"),
 
-    /** copy, paste, tasks */
+    CLIPBOARD_EDIT("clipboard-edit"),
+
     CLIPBOARD_LIST("clipboard-list"),
 
-    /** copy, delete, remove, erase, document, medical, report, doctor */
     CLIPBOARD_MINUS("clipboard-minus"),
 
-    /** copy, paste */
     CLIPBOARD_PASTE("clipboard-paste"),
 
-    /** paste, signature */
     CLIPBOARD_PEN("clipboard-pen"),
 
-    /** paste */
     CLIPBOARD_PEN_LINE("clipboard-pen-line"),
 
-    /** copy, paste, add, create, new, document, medical, report, doctor */
     CLIPBOARD_PLUS("clipboard-plus"),
 
-    /** paste, format, text */
+    CLIPBOARD_SIGNATURE("clipboard-signature"),
+
     CLIPBOARD_TYPE("clipboard-type"),
 
-    /** copy, paste, discard, remove */
     CLIPBOARD_X("clipboard-x"),
 
-    /** time, watch, alarm */
     CLOCK("clock"),
 
-    /** time, watch, alarm */
     CLOCK_1("clock-1"),
 
-    /** time, watch, alarm */
     CLOCK_10("clock-10"),
 
-    /** time, watch, alarm */
     CLOCK_11("clock-11"),
 
-    /** time, watch, alarm, noon, midnight */
     CLOCK_12("clock-12"),
 
-    /** time, watch, alarm */
     CLOCK_2("clock-2"),
 
-    /** time, watch, alarm */
     CLOCK_3("clock-3"),
 
-    /** time, watch, alarm */
     CLOCK_4("clock-4"),
 
-    /** time, watch, alarm */
     CLOCK_5("clock-5"),
 
-    /** time, watch, alarm */
     CLOCK_6("clock-6"),
 
-    /** time, watch, alarm */
     CLOCK_7("clock-7"),
 
-    /** time, watch, alarm */
     CLOCK_8("clock-8"),
 
-    /** time, watch, alarm */
     CLOCK_9("clock-9"),
 
-    /** time, watch, alarm, warning, wrong */
     CLOCK_ALERT("clock-alert"),
 
-    /** time, watch, alarm, sort, order, ascending, descending, increasing, decreasing, rising, falling */
     CLOCK_ARROW_DOWN("clock-arrow-down"),
 
-    /** time, watch, alarm, sort, order, ascending, descending, increasing, decreasing, rising, falling */
+    CLOCK_ARROW_LEFT("clock-arrow-left"),
+
+    CLOCK_ARROW_RIGHT("clock-arrow-right"),
+
     CLOCK_ARROW_UP("clock-arrow-up"),
 
-    /** weather */
+    CLOCK_CHECK("clock-check"),
+
+    CLOCK_FADING("clock-fading"),
+
+    CLOCK_PLUS("clock-plus"),
+
+    CLOSED_CAPTION("closed-caption"),
+
     CLOUD("cloud"),
 
-    /** weather, danger, warning, alert, error, sync, network, exclamation */
     CLOUD_ALERT("cloud-alert"),
 
-    /** computing, ai, cluster, network */
+    CLOUD_BACKUP("cloud-backup"),
+
+    CLOUD_CHECK("cloud-check"),
+
     CLOUD_COG("cloud-cog"),
 
-    /** import */
     CLOUD_DOWNLOAD("cloud-download"),
 
-    /** weather, shower */
     CLOUD_DRIZZLE("cloud-drizzle"),
 
-    /** weather, mist */
     CLOUD_FOG("cloud-fog"),
 
-    /** weather, rainfall */
     CLOUD_HAIL("cloud-hail"),
 
-    /** weather, bolt */
     CLOUD_LIGHTNING("cloud-lightning"),
 
-    /** weather, night */
     CLOUD_MOON("cloud-moon"),
 
-    /** weather, partly, night, rainfall */
     CLOUD_MOON_RAIN("cloud-moon-rain"),
 
-    /** disconnect */
     CLOUD_OFF("cloud-off"),
 
-    /** weather, rainfall */
     CLOUD_RAIN("cloud-rain"),
 
-    /** weather, rainfall */
     CLOUD_RAIN_WIND("cloud-rain-wind"),
 
-    /** weather, blizzard */
     CLOUD_SNOW("cloud-snow"),
 
-    /** weather, partly */
     CLOUD_SUN("cloud-sun"),
 
-    /** weather, partly, rainfall */
     CLOUD_SUN_RAIN("cloud-sun-rain"),
 
-    /** file */
+    CLOUD_SYNC("cloud-sync"),
+
     CLOUD_UPLOAD("cloud-upload"),
 
-    /** weather, clouds */
     CLOUDY("cloudy"),
 
-    /** leaf, luck, plant */
     CLOVER("clover"),
 
-    /** shape, suit, playing, cards */
     CLUB("club"),
 
-    /** source, programming, html, xml */
     CODE("code"),
 
-    /** source, programming, html, xml */
+    CODE_2("code-2"),
+
+    CODE_SQUARE("code-square"),
+
     CODE_XML("code-xml"),
 
-    /** logo */
-    CODEPEN("codepen"),
-
-    /** logo */
-    CODESANDBOX("codesandbox"),
-
-    /** drink, cup, mug, tea, cafe, hot, beverage */
     COFFEE("coffee"),
 
-    /** computing, settings, cog, edit, gear, preferences */
     COG("cog"),
 
-    /** money, cash, finance, gamble */
     COINS("coins"),
 
-    /** lines, list, queue, preview, panel, parallel, series, split, vertical, horizontal, half, center, middle, even, sidebar, drawer, gutter, fold, reflow, typography, pagination, pages */
+    COLUMNS("columns"),
+
     COLUMNS_2("columns-2"),
 
-    /** lines, list, queue, preview, parallel, series, split, vertical, horizontal, thirds, triple, center, middle, alignment, even, sidebars, drawers, gutters, fold, reflow, typography, pagination, pages */
     COLUMNS_3("columns-3"),
 
-    /** lines, list, queue, preview, parallel, series, split, vertical, horizontal, thirds, triple, center, middle, alignment, even, sidebars, drawers, gutters, fold, reflow, typography, pagination, pages, prison, jail, bars, sentence, police, cops, cell, crime, criminal, justice, law, enforcement, grill */
+    COLUMNS_3_COG("columns-3-cog"),
+
     COLUMNS_4("columns-4"),
 
-    /** cubes, packages, parts, units, collection, cluster, combine, gather, merge */
+    COLUMNS_SETTINGS("columns-settings"),
+
     COMBINE("combine"),
 
-    /** keyboard, key, mac, cmd, button */
     COMMAND("command"),
 
-    /** direction, north, east, south, west, safari, browser */
     COMPASS("compass"),
 
-    /** design, element, group, module, part, symbol */
     COMPONENT("component"),
 
-    /** pc, chassis, codespaces, github */
     COMPUTER("computer"),
 
-    /** reception, bell, porter */
     CONCIERGE_BELL("concierge-bell"),
 
-    /** conical, triangle, triangular, geometry, filter, funnel, hopper, spotlight, searchlight */
     CONE("cone"),
 
-    /** roadwork, maintenance, blockade, barricade */
     CONSTRUCTION("construction"),
 
-    /** user, person, family, friend, acquaintance, listing, networking */
     CONTACT("contact"),
 
-    /** user, person, family, friend, acquaintance, listing, networking */
+    CONTACT_2("contact-2"),
+
     CONTACT_ROUND("contact-round"),
 
-    /** storage, shipping, freight, supply chain, docker, environment, devops, code, coding */
     CONTAINER("container"),
 
-    /** display, accessibility */
     CONTRAST("contrast"),
 
-    /** biscuit, privacy, legal, food */
     COOKIE("cookie"),
 
-    /** pod, cooking, recipe, food, kitchen, chef, restaurant, dinner, lunch, breakfast, meal, eat */
     COOKING_POT("cooking-pot"),
 
-    /** clone, duplicate, multiple */
     COPY("copy"),
 
-    /** clone, duplicate, done, multiple */
     COPY_CHECK("copy-check"),
 
-    /** clone, duplicate, remove, delete, collapse, subtract, multiple, - */
     COPY_MINUS("copy-minus"),
 
-    /** clone, duplicate, add, multiple, expand, + */
     COPY_PLUS("copy-plus"),
 
-    /** clone, duplicate, cancel, ban, no, stop, forbidden, prohibited, error, multiple, divide, division, split, or, / */
     COPY_SLASH("copy-slash"),
 
-    /** cancel, close, delete, remove, clear, multiple, multiply, multiplication, times */
     COPY_X("copy-x"),
 
-    /** licence */
     COPYLEFT("copyleft"),
 
-    /** licence, license */
     COPYRIGHT("copyright"),
 
-    /** arrow, return */
     CORNER_DOWN_LEFT("corner-down-left"),
 
-    /** arrow, indent, tab */
     CORNER_DOWN_RIGHT("corner-down-right"),
 
-    /** arrow */
     CORNER_LEFT_DOWN("corner-left-down"),
 
-    /** arrow */
     CORNER_LEFT_UP("corner-left-up"),
 
-    /** arrow */
     CORNER_RIGHT_DOWN("corner-right-down"),
 
-    /** arrow */
     CORNER_RIGHT_UP("corner-right-up"),
 
-    /** arrow */
     CORNER_UP_LEFT("corner-up-left"),
 
-    /** arrow */
     CORNER_UP_RIGHT("corner-up-right"),
 
-    /** processor, cores, technology, computer, chip, circuit, memory, ram, specs, gigahertz, ghz */
     CPU("cpu"),
 
-    /** licence, license */
     CREATIVE_COMMONS("creative-commons"),
 
-    /** bank, purchase, payment, cc */
     CREDIT_CARD("credit-card"),
 
-    /** bakery, cooking, food, pastry */
     CROISSANT("croissant"),
 
-    /** photo, image */
     CROP("crop"),
 
-    /** healthcare, first aid */
     CROSS("cross"),
 
-    /** aim, target */
     CROSSHAIR("crosshair"),
 
-    /** diadem, tiara, circlet, corona, king, ruler, winner, favourite */
     CROWN("crown"),
 
-    /** brick, block, container, storage, geometry, rectangular, hexahedron */
     CUBOID("cuboid"),
 
-    /** beverage, cup, drink, soda, straw, water */
     CUP_SODA("cup-soda"),
 
-    /** finance, money */
+    CURLY_BRACES("curly-braces"),
+
     CURRENCY("currency"),
 
-    /** shape, elliptical, geometry, container, storage, tin, pot */
     CYLINDER("cylinder"),
 
-    /** electricity, energy, water */
     DAM("dam"),
 
-    /** storage, memory, container, tin, pot, bytes, servers */
     DATABASE("database"),
 
-    /** storage, memory, bytes, servers, backup, timemachine, rotate, arrow, left */
     DATABASE_BACKUP("database-backup"),
 
-    /** cache busting, storage, memory, bytes, servers, power, crash */
+    DATABASE_SEARCH("database-search"),
+
     DATABASE_ZAP("database-zap"),
 
-    /** backspace, remove */
+    DECIMALS_ARROW_LEFT("decimals-arrow-left"),
+
+    DECIMALS_ARROW_RIGHT("decimals-arrow-right"),
+
     DELETE("delete"),
 
-    /** pudding, christmas, xmas, custard, iced bun, icing, fondant, cake, ice cream, gelato, sundae, scoop, dollop, sugar, food, sweet */
     DESSERT("dessert"),
 
-    /** shape, circle, geometry, trigonometry, width, height, size, calculate, measure */
     DIAMETER("diameter"),
 
-    /** square, rectangle, oblique, rhombus, shape, suit, playing, cards */
     DIAMOND("diamond"),
 
-    /** keyframe, subtract, remove, decrease, reduce, calculator, button, keyboard, line, divider, separator, horizontal rule, hr, html, markup, markdown, ---, toolbar, operator, code, coding, minimum, downgrade */
     DIAMOND_MINUS("diamond-minus"),
 
-    /** verified, unverified, sale, discount, offer, marketing, sticker, price tag */
     DIAMOND_PERCENT("diamond-percent"),
 
-    /** keyframe, add, new, increase, increment, positive, calculate, toolbar, crosshair, aim, target, scope, sight, reticule, maximum, upgrade, extra, + */
     DIAMOND_PLUS("diamond-plus"),
 
-    /** dice, random, tabletop, 1, board, game */
     DICE_1("dice-1"),
 
-    /** dice, random, tabletop, 2, board, game */
     DICE_2("dice-2"),
 
-    /** dice, random, tabletop, 3, board, game */
     DICE_3("dice-3"),
 
-    /** dice, random, tabletop, 4, board, game */
     DICE_4("dice-4"),
 
-    /** dice, random, tabletop, 5, board, game */
     DICE_5("dice-5"),
 
-    /** dice, random, tabletop, 6, board, game */
     DICE_6("dice-6"),
 
-    /** dice, random, tabletop, board, game */
     DICES("dices"),
 
-    /** patch, difference, compare, plus, minus, plus-minus, math */
     DIFF("diff"),
 
-    /** album, music, songs, format, cd, dvd, vinyl, sleeve, cover, platinum, compilation, ep, recording, playback, spin, rotate, rpm, dj */
     DISC("disc"),
 
-    /** album, music, vinyl, record, cd, dvd, format, dj, spin, rotate, rpm */
     DISC_2("disc-2"),
 
-    /** album, music, vinyl, record, cd, dvd, format, dj, spin, rotate, rpm */
     DISC_3("disc-3"),
 
-    /** album, music, songs, format, cd, dvd, vinyl, sleeve, cover, platinum, compilation, ep, recording, playback, spin, rotate, rpm, dj */
     DISC_ALBUM("disc-album"),
 
-    /** calculate, math, division, operator, code, ÷, / */
     DIVIDE("divide"),
 
-    /** gene, gmo, helix, heredity, chromosome, nucleic acid */
+    DIVIDE_CIRCLE("divide-circle"),
+
+    DIVIDE_SQUARE("divide-square"),
+
     DNA("dna"),
 
-    /** gene, gmo free, helix, heredity, chromosome, nucleic acid */
     DNA_OFF("dna-off"),
 
-    /** desktop, applications, launch, home, menu bar, bottom, line, macos, osx */
     DOCK("dock"),
 
-    /** animal, pet, puppy, hound, canine */
     DOG("dog"),
 
-    /** currency, money, payment */
     DOLLAR_SIGN("dollar-sign"),
 
-    /** doughnut, sprinkles, topping, fast food, junk food, snack, treat, sweet, sugar, dessert, hollow, ring */
     DONUT("donut"),
 
-    /** entrance, entry, exit, ingress, egress, gate, gateway, emergency exit */
     DOOR_CLOSED("door-closed"),
 
-    /** entrance, entry, exit, ingress, egress, gate, gateway, emergency exit */
+    DOOR_CLOSED_LOCKED("door-closed-locked"),
+
     DOOR_OPEN("door-open"),
 
-    /** interpunct, interpoint, middot, step, punctuation, period, full stop, end, finish, final, characters, font, typography, type, center, . */
     DOT("dot"),
 
-    /** import, export, save */
+    DOT_SQUARE("dot-square"),
+
     DOWNLOAD("download"),
 
-    /** geometry, trigonometry, radius, diameter, circumference, calculate, measure, arc, curve, draw, sketch */
+    DOWNLOAD_CLOUD("download-cloud"),
+
     DRAFTING_COMPASS("drafting-compass"),
 
-    /** drama, masks, theater, theatre, entertainment, show */
     DRAMA("drama"),
 
-    /** design, social */
-    DRIBBBLE("dribbble"),
-
-    /** power, bit, head, hole, diy, toolbox, build, construction */
     DRILL("drill"),
 
-    /** water, weather, liquid, fluid, wet, moisture, damp, bead, globule */
+    DRONE("drone"),
+
     DROPLET("droplet"),
 
-    /** water, weather, liquid, fluid, wet, moisture, damp, bead, globule */
     DROPLET_OFF("droplet-off"),
 
-    /** water, weather, liquid, fluid, wet, moisture, damp, bead, globule */
     DROPLETS("droplets"),
 
-    /** drummer, kit, sticks, instrument, beat, bang, bass, backing track, band, play, performance, concert, march, music, audio, sound, noise, loud */
     DRUM("drum"),
 
-    /** food, chicken, meat */
     DRUMSTICK("drumstick"),
 
-    /** barbell, weight, workout, gym */
     DUMBBELL("dumbbell"),
 
-    /** hearing, noise, audio, accessibility */
     EAR("ear"),
 
-    /** hearing, hard of hearing, hearing loss, deafness, noise, silence, audio, accessibility */
     EAR_OFF("ear-off"),
 
-    /** world, browser, language, translate, globe */
     EARTH("earth"),
 
-    /** vpn, private, privacy, network, world, browser, security, encryption, protection, connection */
     EARTH_LOCK("earth-lock"),
 
-    /** lunar, solar, crescent moon, sun, earth, day, night, planet, space, mode, dark, light, toggle, switch, color, css, styles, display, accessibility, contrast, brightness, blend, shade */
     ECLIPSE("eclipse"),
 
-    /** bird, chicken, nest, hatch, shell, incubate, soft boiled, hard, breakfast, brunch, morning, easter */
+    EDIT("edit"),
+
+    EDIT_2("edit-2"),
+
+    EDIT_3("edit-3"),
+
     EGG("egg"),
 
-    /** food, breakfast */
     EGG_FRIED("egg-fried"),
 
-    /** egg free, vegan, hatched, bad egg */
     EGG_OFF("egg-off"),
 
-    /** et cetera, etc, loader, loading, progress, pending, throbber, menu, options, operator, code, coding, spread, rest, more, further, extra, overflow, dots, …, ... */
+    ELLIPSE("ellipse"),
+
     ELLIPSIS("ellipsis"),
 
-    /** menu, options, spread, more, further, extra, overflow, dots, …, ... */
     ELLIPSIS_VERTICAL("ellipsis-vertical"),
 
-    /** calculate, math, operator, assignment, code, = */
     EQUAL("equal"),
 
-    /** about, calculate, math, operater */
     EQUAL_APPROXIMATELY("equal-approximately"),
 
-    /** calculate, off, math, operator, code, ≠ */
     EQUAL_NOT("equal-not"),
 
-    /** pencil, drawing, undo, delete, clear */
+    EQUAL_SQUARE("equal-square"),
+
     ERASER("eraser"),
 
-    /** internet, network, connection, cable, lan, port, router, switch, hub, modem, web, online, networking, communication, socket, plug, slot, controller, connector, interface, console, signal, data, input, output */
     ETHERNET_PORT("ethernet-port"),
 
-    /** currency, money, payment */
     EURO("euro"),
 
-    /** scale, fullscreen */
+    EV_CHARGER("ev-charger"),
+
     EXPAND("expand"),
 
-    /** outbound, open, share */
     EXTERNAL_LINK("external-link"),
 
-    /** view, watch, see, show, expose, reveal, display, visible, visibility, vision, preview, read */
     EYE("eye"),
 
-    /** view, watch, see, hide, conceal, mask, hidden, visibility, vision */
     EYE_CLOSED("eye-closed"),
 
-    /** view, watch, see, hide, conceal, mask, hidden, visibility, vision */
+    EYE_DASHED("eye-dashed"),
+
     EYE_OFF("eye-off"),
 
-    /** logo, social */
-    FACEBOOK("facebook"),
-
-    /** building, business, energy, industry, manufacture, sector */
     FACTORY("factory"),
 
-    /** air, cooler, ventilation, ventilator, blower */
     FAN("fan"),
 
-    /** music */
     FAST_FORWARD("fast-forward"),
 
-    /** logo */
     FEATHER("feather"),
 
-    /** picket, panels, woodwork, diy, materials, suburban, garden, property, territory */
     FENCE("fence"),
 
-    /** big wheel, daisy wheel, observation, attraction, entertainment, amusement park, theme park, funfair */
     FERRIS_WHEEL("ferris-wheel"),
 
-    /** logo, design, tool */
-    FIGMA("figma"),
-
-    /** document */
     FILE("file"),
 
-    /** zip, package, archive */
     FILE_ARCHIVE("file-archive"),
 
-    /** music, audio, sound, headphones */
     FILE_AUDIO("file-audio"),
 
-    /** music, audio, sound, headphones */
     FILE_AUDIO_2("file-audio-2"),
 
-    /** model, 3d, axis, coordinates */
+    FILE_AXIS_3_D("file-axis-3-d"),
+
     FILE_AXIS_3D("file-axis-3d"),
 
-    /** award, achievement, badge, rosette, prize, winner */
     FILE_BADGE("file-badge"),
 
-    /** award, achievement, badge, rosette, prize, winner */
     FILE_BADGE_2("file-badge-2"),
 
-    /** box, package, model */
+    FILE_BAR_CHART("file-bar-chart"),
+
+    FILE_BAR_CHART_2("file-bar-chart-2"),
+
     FILE_BOX("file-box"),
 
-    /** statistics, analytics, diagram, graph, presentation */
+    FILE_BRACES("file-braces"),
+
+    FILE_BRACES_CORNER("file-braces-corner"),
+
     FILE_CHART_COLUMN("file-chart-column"),
 
-    /** statistics, analytics, diagram, graph, presentation, trending up */
     FILE_CHART_COLUMN_INCREASING("file-chart-column-increasing"),
 
-    /** statistics, analytics, diagram, graph, presentation */
     FILE_CHART_LINE("file-chart-line"),
 
-    /** statistics, analytics, diagram, graph, presentation */
     FILE_CHART_PIE("file-chart-pie"),
 
-    /** done, document, todo, tick, complete, task */
     FILE_CHECK("file-check"),
 
-    /** done, document, todo, tick, complete, task */
     FILE_CHECK_2("file-check-2"),
 
-    /** history, log, clock */
+    FILE_CHECK_CORNER("file-check-corner"),
+
     FILE_CLOCK("file-clock"),
 
-    /** script, document, gist, html, xml, property list, plist */
     FILE_CODE("file-code"),
 
-    /** script, document, html, xml, property list, plist */
     FILE_CODE_2("file-code-2"),
 
-    /** executable, settings, cog, edit, gear */
+    FILE_CODE_CORNER("file-code-corner"),
+
     FILE_COG("file-cog"),
 
-    /** diff, patch */
+    FILE_COG_2("file-cog-2"),
+
     FILE_DIFF("file-diff"),
 
-    /** number, document */
     FILE_DIGIT("file-digit"),
 
-    /** download, import, export */
     FILE_DOWN("file-down"),
 
-    /** heart, favourite, bookmark, quick link */
+    FILE_EDIT("file-edit"),
+
+    FILE_EXCLAMATION_POINT("file-exclamation-point"),
+
+    FILE_HEADPHONE("file-headphone"),
+
     FILE_HEART("file-heart"),
 
-    /** image, graphics, photo, picture */
     FILE_IMAGE("file-image"),
 
-    /** document */
     FILE_INPUT("file-input"),
 
-    /** code, json, curly braces, curly brackets */
     FILE_JSON("file-json"),
 
-    /** code, json, curly braces, curly brackets */
     FILE_JSON_2("file-json-2"),
 
-    /** key, private, public, security */
     FILE_KEY("file-key"),
 
-    /** key, private, public, security */
     FILE_KEY_2("file-key-2"),
 
-    /** lock, password, security */
+    FILE_LINE_CHART("file-line-chart"),
+
     FILE_LOCK("file-lock"),
 
-    /** lock, password, security */
     FILE_LOCK_2("file-lock-2"),
 
-    /** delete, remove, erase, document */
     FILE_MINUS("file-minus"),
 
-    /** document */
     FILE_MINUS_2("file-minus-2"),
 
-    /** audio, sound, noise, track, digital, recording, playback, piano, keyboard, keys, notes, chord, midi, octave */
+    FILE_MINUS_CORNER("file-minus-corner"),
+
     FILE_MUSIC("file-music"),
 
-    /** document */
     FILE_OUTPUT("file-output"),
 
-    /** signature */
     FILE_PEN("file-pen"),
 
-    /** edit */
     FILE_PEN_LINE("file-pen-line"),
 
-    /** add, create, new, document */
+    FILE_PIE_CHART("file-pie-chart"),
+
+    FILE_PLAY("file-play"),
+
     FILE_PLUS("file-plus"),
 
-    /** add, create, new, document */
     FILE_PLUS_2("file-plus-2"),
 
-    /** readme, help, question */
+    FILE_PLUS_CORNER("file-plus-corner"),
+
     FILE_QUESTION("file-question"),
 
-    /** scan, code, qr-code */
+    FILE_QUESTION_MARK("file-question-mark"),
+
     FILE_SCAN("file-scan"),
 
-    /** lost, document, find, browser */
     FILE_SEARCH("file-search"),
 
-    /** lost, document, find, browser */
     FILE_SEARCH_2("file-search-2"),
 
-    /** cogged, gear, mechanical, machinery, configuration, controls, preferences, settings, system, admin, edit, executable */
+    FILE_SEARCH_CORNER("file-search-corner"),
+
+    FILE_SIGNAL("file-signal"),
+
+    FILE_SIGNATURE("file-signature"),
+
     FILE_SLIDERS("file-sliders"),
 
-    /** spreadsheet, sheet, table */
     FILE_SPREADSHEET("file-spreadsheet"),
 
-    /** versions, multiple, copy, documents, revisions, version control, history */
     FILE_STACK("file-stack"),
 
-    /** symlink, symbolic, link */
     FILE_SYMLINK("file-symlink"),
 
-    /** terminal, bash, script, executable */
     FILE_TERMINAL("file-terminal"),
 
-    /** data, txt, pdf, document */
     FILE_TEXT("file-text"),
 
-    /** font, text, typography, type */
     FILE_TYPE("file-type"),
 
-    /** font, text, typography, type */
     FILE_TYPE_2("file-type-2"),
 
-    /** upload, import, export */
+    FILE_TYPE_CORNER("file-type-corner"),
+
     FILE_UP("file-up"),
 
-    /** person, personal information, people, listing, networking, document, contact, cover letter, resume, cv, curriculum vitae, application form */
     FILE_USER("file-user"),
 
-    /** movie, video, film */
     FILE_VIDEO("file-video"),
 
-    /** movie, video, film */
     FILE_VIDEO_2("file-video-2"),
 
-    /** audio, music, volume */
+    FILE_VIDEO_CAMERA("file-video-camera"),
+
     FILE_VOLUME("file-volume"),
 
-    /** audio, music, volume */
     FILE_VOLUME_2("file-volume-2"),
 
-    /** hidden, warning, alert, danger, protected, exclamation mark */
     FILE_WARNING("file-warning"),
 
-    /** lost, delete, remove, document */
     FILE_X("file-x"),
 
-    /** lost, delete, remove, document */
     FILE_X_2("file-x-2"),
 
-    /** multiple, copy, documents */
+    FILE_X_CORNER("file-x-corner"),
+
     FILES("files"),
 
-    /** movie, video, reel, camera, cinema, entertainment */
     FILM("film"),
 
-    /** funnel, hopper */
     FILTER("filter"),
 
-    /** funnel, hopper */
     FILTER_X("filter-x"),
 
-    /** 2fa, authentication, biometric, identity, security */
     FINGERPRINT("fingerprint"),
 
-    /** flames, smoke, foam, water, spray, hose, firefighter, fireman, department, brigade, station, emergency, suppress, compressed, tank, cylinder, safety, equipment, amenities */
+    FINGERPRINT_PATTERN("fingerprint-pattern"),
+
     FIRE_EXTINGUISHER("fire-extinguisher"),
 
-    /** dish, restaurant, course, meal, seafood, pet, sea, marine */
     FISH("fish"),
 
-    /** food, dish, restaurant, course, meal, seafood, animal, pet, sea, marine, allergy, intolerance, diet */
     FISH_OFF("fish-off"),
 
-    /** dish, restaurant, course, meal, seafood, pet, sea, marine */
     FISH_SYMBOL("fish-symbol"),
 
-    /** report */
+    FISHING_HOOK("fishing-hook"),
+
+    FISHING_ROD("fishing-rod"),
+
     FLAG("flag"),
 
-    /** unflag */
     FLAG_OFF("flag-off"),
 
-    /** report, timeline */
     FLAG_TRIANGLE_LEFT("flag-triangle-left"),
 
-    /** report, timeline */
     FLAG_TRIANGLE_RIGHT("flag-triangle-right"),
 
-    /** fire, lit, burning, spark, embers, smoke, firefighter, fireman, department, brigade, station, emergency */
     FLAME("flame"),
 
-    /** campfire, camping, wilderness, outdoors, lit, warmth, wood, twigs, sticks */
     FLAME_KINDLING("flame-kindling"),
 
-    /** torch */
     FLASHLIGHT("flashlight"),
 
-    /** torch */
     FLASHLIGHT_OFF("flashlight-off"),
 
-    /** beaker, erlenmeyer, lab, chemistry, experiment, test */
     FLASK_CONICAL("flask-conical"),
 
-    /** beaker, erlenmeyer, non toxic, lab, chemistry, experiment, test */
     FLASK_CONICAL_OFF("flask-conical-off"),
 
-    /** beaker, lab, chemistry, experiment, test */
     FLASK_ROUND("flask-round"),
 
-    /** reflect, mirror, alignment, dashed */
     FLIP_HORIZONTAL("flip-horizontal"),
 
-    /** reflect, mirror, alignment, dashed */
     FLIP_HORIZONTAL_2("flip-horizontal-2"),
 
-    /** reflect, mirror, alignment, dashed */
     FLIP_VERTICAL("flip-vertical"),
 
-    /** reflect, mirror, alignment, dashed */
     FLIP_VERTICAL_2("flip-vertical-2"),
 
-    /** sustainability, nature, plant, spring */
     FLOWER("flower"),
 
-    /** sustainability, nature, plant */
     FLOWER_2("flower-2"),
 
-    /** camera, lens, photo, dashed */
     FOCUS("focus"),
 
-    /** arrow, collapse, fold, vertical, dashed */
     FOLD_HORIZONTAL("fold-horizontal"),
 
-    /** arrow, collapse, fold, vertical, dashed */
     FOLD_VERTICAL("fold-vertical"),
 
-    /** directory */
     FOLDER("folder"),
 
-    /** archive, zip, package */
     FOLDER_ARCHIVE("folder-archive"),
 
-    /** done, directory, todo, tick, complete, task */
+    FOLDER_BOOKMARK("folder-bookmark"),
+
     FOLDER_CHECK("folder-check"),
 
-    /** history, directory, clock */
     FOLDER_CLOCK("folder-clock"),
 
-    /** directory, closed */
     FOLDER_CLOSED("folder-closed"),
 
-    /** directory, coding, develop, software */
     FOLDER_CODE("folder-code"),
 
-    /** directory, settings, control, preferences, cog, edit, gear */
     FOLDER_COG("folder-cog"),
 
-    /** directory, root, project, pinned, active, current, cogged, gear, mechanical, machinery, configuration, controls, preferences, settings, system, admin, edit */
+    FOLDER_COG_2("folder-cog-2"),
+
     FOLDER_DOT("folder-dot"),
 
-    /** directory, download, import, export */
     FOLDER_DOWN("folder-down"),
 
-    /** directory, root, project, git, repo */
+    FOLDER_EDIT("folder-edit"),
+
     FOLDER_GIT("folder-git"),
 
-    /** directory, root, project, git, repo */
     FOLDER_GIT_2("folder-git-2"),
 
-    /** directory, heart, favourite, bookmark, quick link */
     FOLDER_HEART("folder-heart"),
 
-    /** directory, import, export */
     FOLDER_INPUT("folder-input"),
 
-    /** projects, manage, overview, board, tickets, issues, roadmap, plan, intentions, productivity, work, agile, code, coding, directory, project, root */
     FOLDER_KANBAN("folder-kanban"),
 
-    /** directory, key, private, security, protected */
     FOLDER_KEY("folder-key"),
 
-    /** directory, lock, private, security, protected */
     FOLDER_LOCK("folder-lock"),
 
-    /** directory, remove, delete */
     FOLDER_MINUS("folder-minus"),
 
-    /** directory */
     FOLDER_OPEN("folder-open"),
 
-    /** directory, root, project, active, current, pinned */
     FOLDER_OPEN_DOT("folder-open-dot"),
 
-    /** directory, import, export */
     FOLDER_OUTPUT("folder-output"),
 
-    /** directory, rename */
     FOLDER_PEN("folder-pen"),
 
-    /** directory, add, create, new */
     FOLDER_PLUS("folder-plus"),
 
-    /** directory, root, project, git, repo */
     FOLDER_ROOT("folder-root"),
 
-    /** directory, search, find, lost, browser */
     FOLDER_SEARCH("folder-search"),
 
-    /** directory, search, find, lost, browser */
     FOLDER_SEARCH_2("folder-search-2"),
 
-    /** directory, symlink, symbolic, link */
     FOLDER_SYMLINK("folder-symlink"),
 
-    /** directory, synchronize, synchronise, refresh, reconnect, transfer, backup */
     FOLDER_SYNC("folder-sync"),
 
-    /** directory, tree, browser */
     FOLDER_TREE("folder-tree"),
 
-    /** directory, upload, import, export */
     FOLDER_UP("folder-up"),
 
-    /** directory, remove, delete */
     FOLDER_X("folder-x"),
 
-    /** multiple, copy, directories */
     FOLDERS("folders"),
 
-    /** steps, walking, foot, feet, trail, shoe */
     FOOTPRINTS("footprints"),
 
-    /** vehicle, transport, logistics */
+    FORK_KNIFE("fork-knife"),
+
+    FORK_KNIFE_CROSSED("fork-knife-crossed"),
+
     FORKLIFT("forklift"),
 
-    /** send, share, email */
+    FORM("form"),
+
+    FORM_INPUT("form-input"),
+
     FORWARD("forward"),
 
-    /** logo, design, tool */
     FRAME("frame"),
 
-    /** logo, design, tool */
-    FRAMER("framer"),
-
-    /** emoji, face, bad, sad, emotion */
     FROWN("frown"),
 
-    /** filling-station, gas, petrol, tank */
     FUEL("fuel"),
 
-    /** expand, zoom, preview, focus, camera, lens, image */
     FULLSCREEN("fullscreen"),
 
-    /** carousel, pictures, images, scroll, swipe, album, portfolio */
+    FUNCTION_SQUARE("function-square"),
+
+    FUNNEL("funnel"),
+
+    FUNNEL_PLUS("funnel-plus"),
+
+    FUNNEL_X("funnel-x"),
+
     GALLERY_HORIZONTAL("gallery-horizontal"),
 
-    /** carousel, pictures, images, scroll, swipe, album, portfolio, history, versions, backup, time machine */
     GALLERY_HORIZONTAL_END("gallery-horizontal-end"),
 
-    /** carousel, pictures, images, album, portfolio, preview */
     GALLERY_THUMBNAILS("gallery-thumbnails"),
 
-    /** carousel, pictures, images, scroll, swipe, album, portfolio */
     GALLERY_VERTICAL("gallery-vertical"),
 
-    /** carousel, pictures, images, scroll, swipe, album, portfolio, history, versions, backup, time machine */
     GALLERY_VERTICAL_END("gallery-vertical-end"),
 
-    /** console */
     GAMEPAD("gamepad"),
 
-    /** console */
     GAMEPAD_2("gamepad-2"),
 
-    /** dashboard, dial, meter, speed, pressure, measure, level */
+    GAMEPAD_DIRECTIONAL("gamepad-directional"),
+
+    GANTT_CHART("gantt-chart"),
+
+    GANTT_CHART_SQUARE("gantt-chart-square"),
+
     GAUGE("gauge"),
 
-    /** hammer, mallet */
+    GAUGE_CIRCLE("gauge-circle"),
+
     GAVEL("gavel"),
 
-    /** diamond, crystal, ruby, jewellery, price, special, present, gift, ring, wedding, proposal, marriage, rubygems */
     GEM("gem"),
 
-    /** pac-man, spooky */
+    GEORGIAN_LARI("georgian-lari"),
+
     GHOST("ghost"),
 
-    /** present, box, birthday, party */
     GIFT("gift"),
 
-    /** code, version control */
     GIT_BRANCH("git-branch"),
 
-    /** add, create, + */
+    GIT_BRANCH_MINUS("git-branch-minus"),
+
     GIT_BRANCH_PLUS("git-branch-plus"),
 
-    /** code, version control, waypoint, stop, station */
+    GIT_COMMIT("git-commit"),
+
     GIT_COMMIT_HORIZONTAL("git-commit-horizontal"),
 
-    /** code, version control, waypoint, stop, station */
     GIT_COMMIT_VERTICAL("git-commit-vertical"),
 
-    /** code, version control, diff */
     GIT_COMPARE("git-compare"),
 
-    /** code, version control, diff */
     GIT_COMPARE_ARROWS("git-compare-arrows"),
 
-    /** code, version control */
     GIT_FORK("git-fork"),
 
-    /** code, version control, commit graph, commits, gitlens */
     GIT_GRAPH("git-graph"),
 
-    /** code, version control */
     GIT_MERGE("git-merge"),
 
-    /** code, version control, open */
+    GIT_MERGE_CONFLICT("git-merge-conflict"),
+
     GIT_PULL_REQUEST("git-pull-request"),
 
-    /** code, version control, open */
     GIT_PULL_REQUEST_ARROW("git-pull-request-arrow"),
 
-    /** code, version control, rejected, closed, cancelled, x */
     GIT_PULL_REQUEST_CLOSED("git-pull-request-closed"),
 
-    /** code, version control, open, plus, add, + */
     GIT_PULL_REQUEST_CREATE("git-pull-request-create"),
 
-    /** code, version control, open, plus, add, + */
     GIT_PULL_REQUEST_CREATE_ARROW("git-pull-request-create-arrow"),
 
-    /** code, version control, open, draft, dashed */
     GIT_PULL_REQUEST_DRAFT("git-pull-request-draft"),
 
-    /** logo, version control */
-    GITHUB("github"),
-
-    /** logo, version control */
-    GITLAB("gitlab"),
-
-    /** beverage, drink, glass, water */
     GLASS_WATER("glass-water"),
 
-    /** glasses, spectacles */
     GLASSES("glasses"),
 
-    /** world, browser, language, translate */
     GLOBE("globe"),
 
-    /** vpn, private, privacy, network, world, browser, security, encryption, protection, connection */
+    GLOBE_2("globe-2"),
+
+    GLOBE_CHECK("globe-check"),
+
     GLOBE_LOCK("globe-lock"),
 
-    /** flag, bullseye */
+    GLOBE_OFF("globe-off"),
+
+    GLOBE_X("globe-x"),
+
     GOAL("goal"),
 
-    /** hand */
+    GPU("gpu"),
+
     GRAB("grab"),
 
-    /** school, university, learn, study, mortarboard, education, ceremony, academic, hat, diploma, bachlor's, master's, doctorate */
     GRADUATION_CAP("graduation-cap"),
 
-    /** fruit, wine, food */
     GRAPE("grape"),
 
-    /** table, rows, columns, blocks, plot, land, geometry, measure, size, width, height, distance, surface area, square meter, acre, window, skylight */
+    GRID("grid"),
+
+    GRID_2_X_2("grid-2-x-2"),
+
+    GRID_2_X_2_CHECK("grid-2-x-2-check"),
+
+    GRID_2_X_2_PLUS("grid-2-x-2-plus"),
+
+    GRID_2_X_2_X("grid-2-x-2-x"),
+
     GRID_2X2("grid-2x2"),
 
-    /** table, rows, columns, blocks, plot, land, geometry, measure, data, size, width, height, distance, surface area, square meter, acre */
     GRID_2X2_CHECK("grid-2x2-check"),
 
-    /** table, rows, columns, blocks, plot, land, geometry, measure, data, size, width, height, distance, surface area, square meter, acre */
     GRID_2X2_PLUS("grid-2x2-plus"),
 
-    /** table, rows, columns, data, blocks, plot, land, geometry, measure, size, width, height, distance, surface area, square meter, acre */
     GRID_2X2_X("grid-2x2-x"),
 
-    /** table, rows, columns */
+    GRID_3_X_3("grid-3-x-3"),
+
+    GRID_3X2("grid-3x2"),
+
     GRID_3X3("grid-3x3"),
 
-    /** grab, dots, handle, move, drag */
     GRIP("grip"),
 
-    /** grab, dots, handle, move, drag */
     GRIP_HORIZONTAL("grip-horizontal"),
 
-    /** grab, dots, handle, move, drag */
     GRIP_VERTICAL("grip-vertical"),
 
-    /** cubes, packages, parts, units, collection, cluster, gather, dashed */
     GROUP("group"),
 
-    /** acoustic, instrument, strings, riff, rock, band, country, concert, performance, play, lead, loud, music, audio, sound, noise */
     GUITAR("guitar"),
 
-    /** food, pork, pig, meat, bone, hock, knuckle, gammon, cured */
     HAM("ham"),
 
-    /** mallet, nails, diy, toolbox, build, construction */
+    HAMBURGER("hamburger"),
+
     HAMMER("hammer"),
 
-    /** wave, move, mouse, grab */
     HAND("hand"),
 
-    /** savings, banking, money, finance, offers, mortgage, payment, received, wage, payroll, allowance, pocket money, handout, pennies */
     HAND_COINS("hand-coins"),
 
-    /** love, like, emotion */
+    HAND_FIST("hand-fist"),
+
+    HAND_GRAB("hand-grab"),
+
     HAND_HEART("hand-heart"),
 
-    /** agreement, help, proposal, charity, begging, terms */
     HAND_HELPING("hand-helping"),
 
-    /** rock */
     HAND_METAL("hand-metal"),
 
-    /** waiter, waitress, restaurant, table service, served, dinner, dining, meal, course, luxury */
     HAND_PLATTER("hand-platter"),
 
-    /** agreement, partnership, deal, business, assistance, cooperation, friendship, union, terms */
+    HANDBAG("handbag"),
+
     HANDSHAKE("handshake"),
 
-    /** computer, server, memory, data, ssd, disk, hard disk */
     HARD_DRIVE("hard-drive"),
 
-    /** computer, server, memory, data, ssd, disk, hard disk, save */
     HARD_DRIVE_DOWNLOAD("hard-drive-download"),
 
-    /** computer, server, memory, data, ssd, disk, hard disk, save */
     HARD_DRIVE_UPLOAD("hard-drive-upload"),
 
-    /** helmet, construction, safety, savety */
     HARD_HAT("hard-hat"),
 
-    /** hashtag, number, pound */
     HASH("hash"),
 
-    /** mist, fog */
+    HAT_GLASSES("hat-glasses"),
+
     HAZE("haze"),
 
-    /** socket, plug, slot, controller, connector, interface, console, signal, audio, video, visual, av, data, input, output */
+    HD("hd"),
+
     HDMI_PORT("hdmi-port"),
 
-    /** h1, html, markup, markdown */
     HEADING("heading"),
 
-    /** h1, html, markup, markdown */
     HEADING_1("heading-1"),
 
-    /** h2, html, markup, markdown */
     HEADING_2("heading-2"),
 
-    /** h3, html, markup, markdown */
     HEADING_3("heading-3"),
 
-    /** h4, html, markup, markdown */
     HEADING_4("heading-4"),
 
-    /** h5, html, markup, markdown */
     HEADING_5("heading-5"),
 
-    /** h6, html, markup, markdown */
     HEADING_6("heading-6"),
 
-    /** music, audio, sound, mute, off */
     HEADPHONE_OFF("headphone-off"),
 
-    /** music, audio, sound */
     HEADPHONES("headphones"),
 
-    /** music, audio, sound, gaming, headphones, headset, call, center, phone, telephone, voip, video */
     HEADSET("headset"),
 
-    /** like, love, emotion, suit, playing, cards */
     HEART("heart"),
 
-    /** heartbreak, sadness, emotion */
     HEART_CRACK("heart-crack"),
 
-    /** agreement, charity, help, deal, terms, emotion, together, handshake */
     HEART_HANDSHAKE("heart-handshake"),
 
-    /** unlike, dislike, hate, emotion */
+    HEART_MINUS("heart-minus"),
+
     HEART_OFF("heart-off"),
 
-    /** heartbeat, pulse, health, medical, blood pressure, cardiac, systole, diastole */
+    HEART_PLUS("heart-plus"),
+
     HEART_PULSE("heart-pulse"),
 
-    /** heating, warmth, comfort, fire, stove, electric, electronics, amenities */
+    HEART_X("heart-x"),
+
     HEATER("heater"),
 
-    /** shape, node.js, logo */
+    HELICOPTER("helicopter"),
+
+    HELP_CIRCLE("help-circle"),
+
+    HELPING_HAND("helping-hand"),
+
     HEXAGON("hexagon"),
 
-    /** mark, text */
     HIGHLIGHTER("highlighter"),
 
-    /** time, redo, undo, rewind, timeline, version, time machine, backup, rotate, ccw */
     HISTORY("history"),
 
-    /** beer, brewery, drink */
+    HOME("home"),
+
     HOP("hop"),
 
-    /** beer, brewery, drink, hop free, allergy, intolerance, diet */
     HOP_OFF("hop-off"),
 
-    /** infirmary, sanatorium, healthcare, doctor, hospice, clinic, emergency room, ward, building, medical, vet */
     HOSPITAL("hospital"),
 
-    /** building, hostel, motel, inn */
     HOTEL("hotel"),
 
-    /** timer, time, sandglass */
     HOURGLASS("hourglass"),
 
-    /** home, living, building, residence, architecture */
     HOUSE("house"),
 
-    /** home, living, building, residence, architecture, autarky, energy */
+    HOUSE_HEART("house-heart"),
+
     HOUSE_PLUG("house-plug"),
 
-    /** home, living, medical, new, addition, building, residence, architecture */
     HOUSE_PLUS("house-plus"),
 
-    /** home, living, building, wifi, connectivity */
     HOUSE_WIFI("house-wifi"),
 
-    /** gelato, food, dessert, dish, restaurant, course, meal */
+    ICE_CREAM("ice-cream"),
+
+    ICE_CREAM_2("ice-cream-2"),
+
     ICE_CREAM_BOWL("ice-cream-bowl"),
 
-    /** gelato, food */
     ICE_CREAM_CONE("ice-cream-cone"),
 
-    /** card, badge, identity, authentication, secure */
     ID_CARD("id-card"),
 
-    /** picture, photo */
+    ID_CARD_LANYARD("id-card-lanyard"),
+
     IMAGE("image"),
 
-    /** picture, photo, download, save, export */
     IMAGE_DOWN("image-down"),
 
-    /** remove, delete */
     IMAGE_MINUS("image-minus"),
 
-    /** picture, photo */
     IMAGE_OFF("image-off"),
 
-    /** picture, gif, photo */
     IMAGE_PLAY("image-play"),
 
-    /** add, create, picture */
     IMAGE_PLUS("image-plus"),
 
-    /** picture, photo, upload, import */
     IMAGE_UP("image-up"),
 
-    /** resize, picture, sharpen, increase */
     IMAGE_UPSCALE("image-upscale"),
 
-    /** picture, photo, multiple, copy, gallery, album, collection, slideshow, showcase */
     IMAGES("images"),
 
-    /** save */
     IMPORT("import"),
 
-    /** email */
     INBOX("inbox"),
 
-    /** text, tab */
+    INDENT("indent"),
+
     INDENT_DECREASE("indent-decrease"),
 
-    /** text, tab */
     INDENT_INCREASE("indent-increase"),
 
-    /** currency, money, payment */
     INDIAN_RUPEE("indian-rupee"),
 
-    /** unlimited, forever, loop, math */
     INFINITY("infinity"),
 
-    /** help */
     INFO("info"),
 
-    /** access, cover, tile, metal, materials, screws */
+    INSPECT("inspect"),
+
     INSPECTION_PANEL("inspection-panel"),
 
-    /** logo, camera, social */
-    INSTAGRAM("instagram"),
-
-    /** oblique, text, format */
     ITALIC("italic"),
 
-    /** arrow, right */
     ITERATION_CCW("iteration-ccw"),
 
-    /** arrow, left */
     ITERATION_CW("iteration-cw"),
 
-    /** currency, money, payment */
     JAPANESE_YEN("japanese-yen"),
 
-    /** game, console, control stick */
     JOYSTICK("joystick"),
 
-    /** projects, manage, overview, board, tickets, issues, roadmap, plan, intentions, productivity, work, agile, code, coding */
     KANBAN("kanban"),
 
-    /** password, login, authentication, secure, unlock, keychain, key ring, fob */
+    KANBAN_SQUARE("kanban-square"),
+
+    KANBAN_SQUARE_DASHED("kanban-square-dashed"),
+
+    KAYAK("kayak"),
+
     KEY("key"),
 
-    /** password, login, authentication, secure, unlock */
     KEY_ROUND("key-round"),
 
-    /** password, login, authentication, secure, unlock, car key */
     KEY_SQUARE("key-square"),
 
-    /** layout, spell, settings, mouse */
     KEYBOARD("keyboard"),
 
-    /** music, audio, sound, noise, notes, keys, chord, octave, midi, controller, instrument, electric, signal, digital, studio, production, producer, pianist, piano, play, performance, concert */
     KEYBOARD_MUSIC("keyboard-music"),
 
-    /** unkeys, layout, spell, settings, mouse */
     KEYBOARD_OFF("keyboard-off"),
 
-    /** lighting, household, home, furniture */
     LAMP("lamp"),
 
-    /** lighting, household, home, furniture */
     LAMP_CEILING("lamp-ceiling"),
 
-    /** lighting, household, office, desk, home, furniture */
     LAMP_DESK("lamp-desk"),
 
-    /** lighting, household, floor, home, furniture */
     LAMP_FLOOR("lamp-floor"),
 
-    /** lighting, household, wall, home, furniture */
     LAMP_WALL_DOWN("lamp-wall-down"),
 
-    /** lighting, household, wall, home, furniture */
     LAMP_WALL_UP("lamp-wall-up"),
 
-    /** area, surface, square metres, allotment, parcel, property, plane, acres, measure, distance, isometric, flag, golf course, hole */
     LAND_PLOT("land-plot"),
 
-    /** bank, building, capitol, finance, money, government, institution */
     LANDMARK("landmark"),
 
-    /** translate */
     LANGUAGES("languages"),
 
-    /** computer, screen, remote */
     LAPTOP("laptop"),
 
-    /** computer, screen, remote */
+    LAPTOP_2("laptop-2"),
+
     LAPTOP_MINIMAL("laptop-minimal"),
 
-    /** computer, screen, remote, success, done, todo, tick, complete, task */
     LAPTOP_MINIMAL_CHECK("laptop-minimal-check"),
 
-    /** select, cursor */
     LASSO("lasso"),
 
-    /** select, cursor */
     LASSO_SELECT("lasso-select"),
 
-    /** emoji, face, happy, good, emotion */
     LAUGH("laugh"),
 
-    /** stack, pile, pages, sheets, paperwork, copies, copy */
     LAYERS("layers"),
 
-    /** stack, pile, pages, sheets, paperwork, copies, copy, duplicate, double, shortcuts */
     LAYERS_2("layers-2"),
 
-    /** masonry, brick */
+    LAYERS_3("layers-3"),
+
+    LAYERS_MINUS("layers-minus"),
+
+    LAYERS_PLUS("layers-plus"),
+
+    LAYOUT("layout"),
+
     LAYOUT_DASHBOARD("layout-dashboard"),
 
-    /** app, home, start */
     LAYOUT_GRID("layout-grid"),
 
-    /** todo, tasks, items, pending, image, photo */
     LAYOUT_LIST("layout-list"),
 
-    /** app, home, start, grid */
     LAYOUT_PANEL_LEFT("layout-panel-left"),
 
-    /** window, webpage, block, section, grid, template, structure */
     LAYOUT_PANEL_TOP("layout-panel-top"),
 
-    /** window, webpage, block, section */
     LAYOUT_TEMPLATE("layout-template"),
 
-    /** sustainability, nature, energy, plant, autumn */
     LEAF("leaf"),
 
-    /** salad, lettuce, vegetable, chard, cabbage, bok choy */
     LEAFY_GREEN("leafy-green"),
 
-    /** pulpit, podium, stand */
     LECTERN("lectern"),
 
-    /** drop cap, text, format, typography, letter, font size */
+    LENS_CONCAVE("lens-concave"),
+
+    LENS_CONVEX("lens-convex"),
+
     LETTER_TEXT("letter-text"),
 
-    /** books, reading, written, authors, stories, fiction, novels, information, knowledge, education, high school, university, college, academy, learning, study, research, collection, vinyl, records, albums, music, package */
     LIBRARY("library"),
 
-    /** books, reading, written, authors, stories, fiction, novels, information, knowledge, education, high school, university, college, academy, learning, study, research, collection, vinyl, records, albums, music, package */
     LIBRARY_BIG("library-big"),
 
-    /** preserver, life belt, lifesaver, help, rescue, ship, ring, raft, inflatable, wheel, donut */
+    LIBRARY_SQUARE("library-square"),
+
     LIFE_BUOY("life-buoy"),
 
-    /** text, font, typography, alternates, alternatives */
     LIGATURE("ligature"),
 
-    /** idea, bright, lights */
     LIGHTBULB("lightbulb"),
 
-    /** lights */
     LIGHTBULB_OFF("lightbulb-off"),
 
-    /** chain, url */
+    LINE_CHART("line-chart"),
+
+    LINE_DOT_RIGHT_HORIZONTAL("line-dot-right-horizontal"),
+
+    LINE_SQUIGGLE("line-squiggle"),
+
+    LINE_STYLE("line-style"),
+
     LINK("link"),
 
-    /** chain, url */
     LINK_2("link-2"),
 
-    /** unchain, chain */
     LINK_2_OFF("link-2-off"),
 
-    /** logo, social media, social */
-    LINKEDIN("linkedin"),
-
-    /** options */
     LIST("list"),
 
-    /** done, check, tick, complete, list, to-do, bom */
     LIST_CHECK("list-check"),
 
-    /** todo, done, check, tick, complete, tasks, items, pending */
     LIST_CHECKS("list-checks"),
 
-    /** items, collapse, expand, details, disclosure, show, hide, toggle, accordion, more, less, fold, unfold */
+    LIST_CHEVRONS_DOWN_UP("list-chevrons-down-up"),
+
+    LIST_CHEVRONS_UP_DOWN("list-chevrons-up-down"),
+
     LIST_COLLAPSE("list-collapse"),
 
-    /** queue, bottom, end, playlist */
     LIST_END("list-end"),
 
-    /** options */
     LIST_FILTER("list-filter"),
 
-    /** filter, plus, options, add */
     LIST_FILTER_PLUS("list-filter-plus"),
 
-    /** playlist, remove, song, subtract, delete, unqueue */
+    LIST_INDENT_DECREASE("list-indent-decrease"),
+
+    LIST_INDENT_INCREASE("list-indent-increase"),
+
     LIST_MINUS("list-minus"),
 
-    /** playlist, queue, music, audio, playback */
     LIST_MUSIC("list-music"),
 
-    /** number, order, queue */
     LIST_ORDERED("list-ordered"),
 
-    /** playlist, add, song, track, new */
     LIST_PLUS("list-plus"),
 
-    /** reset, refresh, reload, playlist, replay */
     LIST_RESTART("list-restart"),
 
-    /** queue, top, start, next, playlist */
+    LIST_SORT_ASCENDING("list-sort-ascending"),
+
+    LIST_SORT_DESCENDING("list-sort-descending"),
+
     LIST_START("list-start"),
 
-    /** todo, done, check, tick, complete, tasks, items, pending */
     LIST_TODO("list-todo"),
 
-    /** tree, browser */
     LIST_TREE("list-tree"),
 
-    /** playlist, video, playback */
     LIST_VIDEO("list-video"),
 
-    /** playlist, subtract, remove, delete, unqueue */
     LIST_X("list-x"),
 
-    /** loading, wait, busy, progress, spinner, spinning, throbber */
     LOADER("loader"),
 
-    /** loading, wait, busy, progress, spinner, spinning, throbber, circle */
+    LOADER_2("loader-2"),
+
     LOADER_CIRCLE("loader-circle"),
 
-    /** loading, wait, busy, progress, throbber, spinner, spinning, beach ball, frozen, freeze */
     LOADER_PINWHEEL("loader-pinwheel"),
 
-    /** map, gps, location, cross */
     LOCATE("locate"),
 
-    /** map, gps, location, cross */
     LOCATE_FIXED("locate-fixed"),
 
-    /** map, gps, location, cross */
     LOCATE_OFF("locate-off"),
 
-    /** security, password, secure, admin */
+    LOCATION_EDIT("location-edit"),
+
     LOCK("lock"),
 
-    /** security, password, secure, admin */
     LOCK_KEYHOLE("lock-keyhole"),
 
-    /** security */
     LOCK_KEYHOLE_OPEN("lock-keyhole-open"),
 
-    /** security */
     LOCK_OPEN("lock-open"),
 
-    /** sign in, arrow, enter, auth */
     LOG_IN("log-in"),
 
-    /** sign out, arrow, exit, auth */
     LOG_OUT("log-out"),
 
-    /** options, list, menu, order, queue, tasks, logs */
     LOGS("logs"),
 
-    /** lolly, candy, sugar, food, sweet, dessert, spiral */
     LOLLIPOP("lollipop"),
 
-    /** baggage, luggage, travel, suitcase */
     LUGGAGE("luggage"),
 
-    /** horseshoe, lock, science, snap */
+    M_SQUARE("m-square"),
+
     MAGNET("magnet"),
 
-    /** email, message, letter, unread */
     MAIL("mail"),
 
-    /** email, message, letter, subscribe, delivered, success, read, done, todo, tick, complete, task */
     MAIL_CHECK("mail-check"),
 
-    /** email, message, letter, remove, delete */
     MAIL_MINUS("mail-minus"),
 
-    /** email, message, letter, read */
     MAIL_OPEN("mail-open"),
 
-    /** email, message, letter, add, create, new, compose */
     MAIL_PLUS("mail-plus"),
 
-    /** email, message, letter, delivery, undelivered */
     MAIL_QUESTION("mail-question"),
 
-    /** email, message, letter, search */
+    MAIL_QUESTION_MARK("mail-question-mark"),
+
     MAIL_SEARCH("mail-search"),
 
-    /** email, message, letter, delivery error, exclamation mark */
     MAIL_WARNING("mail-warning"),
 
-    /** email, message, letter, remove, delete */
     MAIL_X("mail-x"),
 
-    /** emails, messages, letters, mailing list, newsletter */
     MAILBOX("mailbox"),
 
-    /** emails, messages, letters, multiple, mailing list, newsletter, copy */
     MAILS("mails"),
 
-    /** location, navigation, travel */
     MAP("map"),
 
-    /** location, waypoint, marker, drop */
+    MAP_MINUS("map-minus"),
+
     MAP_PIN("map-pin"),
 
-    /** location, waypoint, marker, drop, done, tick, complete, task, added */
     MAP_PIN_CHECK("map-pin-check"),
 
-    /** location, waypoint, marker, drop, done, tick, complete, task, added */
     MAP_PIN_CHECK_INSIDE("map-pin-check-inside"),
 
-    /** location, waypoint, marker, drop, home, living, building, residence, architecture, address, poi, real estate, property, navigation, destination, geolocation, place, landmark */
     MAP_PIN_HOUSE("map-pin-house"),
 
-    /** location, waypoint, marker, drop, delete, remove, erase */
     MAP_PIN_MINUS("map-pin-minus"),
 
-    /** location, waypoint, marker, drop, delete, remove, erase */
     MAP_PIN_MINUS_INSIDE("map-pin-minus-inside"),
 
-    /** location, waypoint, marker, remove */
     MAP_PIN_OFF("map-pin-off"),
 
-    /** location, waypoint, marker, drop, add, create, new */
+    MAP_PIN_PEN("map-pin-pen"),
+
     MAP_PIN_PLUS("map-pin-plus"),
 
-    /** location, waypoint, marker, drop, add, create, new */
     MAP_PIN_PLUS_INSIDE("map-pin-plus-inside"),
 
-    /** location, waypoint, marker, drop, delete, remove, erase */
+    MAP_PIN_SEARCH("map-pin-search"),
+
     MAP_PIN_X("map-pin-x"),
 
-    /** location, waypoint, marker, drop, delete, remove, erase */
     MAP_PIN_X_INSIDE("map-pin-x-inside"),
 
-    /** location, waypoint, marker, drop */
     MAP_PINNED("map-pinned"),
 
-    /** cocktail, alcohol, beverage, bar, drink, glass */
+    MAP_PLUS("map-plus"),
+
+    MARS("mars"),
+
+    MARS_STROKE("mars-stroke"),
+
     MARTINI("martini"),
 
-    /** fullscreen, expand, dashed */
     MAXIMIZE("maximize"),
 
-    /** fullscreen, arrows, expand */
     MAXIMIZE_2("maximize-2"),
 
-    /** prize, sports, winner, trophy, award, achievement */
     MEDAL("medal"),
 
-    /** advertisement, attention, alert, notification */
     MEGAPHONE("megaphone"),
 
-    /** advertisement, attention, alert, notification, disable, silent */
     MEGAPHONE_OFF("megaphone-off"),
 
-    /** emoji, face, neutral, emotion */
     MEH("meh"),
 
-    /** ram, random access, technology, computer, chip, circuit, specs, capacity, gigabytes, gb */
     MEMORY_STICK("memory-stick"),
 
-    /** bars, navigation, hamburger, options */
     MENU("menu"),
 
-    /** combine, join, unite */
+    MENU_SQUARE("menu-square"),
+
     MERGE("merge"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble */
     MESSAGE_CIRCLE("message-circle"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, code review, coding */
+    MESSAGE_CIRCLE_CHECK("message-circle-check"),
+
     MESSAGE_CIRCLE_CODE("message-circle-code"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, draft */
     MESSAGE_CIRCLE_DASHED("message-circle-dashed"),
 
-    /** comment, chat, conversation, dialog, feedback, positive, like, love, interest, valentine, dating, date, speech bubble */
     MESSAGE_CIRCLE_HEART("message-circle-heart"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, typing, writing, responding, ellipsis, etc, et cetera, ..., … */
     MESSAGE_CIRCLE_MORE("message-circle-more"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate */
     MESSAGE_CIRCLE_OFF("message-circle-off"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, add */
     MESSAGE_CIRCLE_PLUS("message-circle-plus"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, help */
     MESSAGE_CIRCLE_QUESTION("message-circle-question"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, reply, response */
+    MESSAGE_CIRCLE_QUESTION_MARK("message-circle-question-mark"),
+
     MESSAGE_CIRCLE_REPLY("message-circle-reply"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, report, abuse, offense, alert, danger, caution, protected, exclamation mark */
     MESSAGE_CIRCLE_WARNING("message-circle-warning"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate */
     MESSAGE_CIRCLE_X("message-circle-x"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble */
     MESSAGE_SQUARE("message-square"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, code review, coding */
+    MESSAGE_SQUARE_CHECK("message-square-check"),
+
     MESSAGE_SQUARE_CODE("message-square-code"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, draft */
     MESSAGE_SQUARE_DASHED("message-square-dashed"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, add, patch, difference, plus, minus, plus-minus, math, code review, coding, version control, git */
     MESSAGE_SQUARE_DIFF("message-square-diff"),
 
-    /** unread, unresolved, comment, chat, conversation, dialog, feedback, speech bubble */
     MESSAGE_SQUARE_DOT("message-square-dot"),
 
-    /** comment, chat, conversation, dialog, feedback, positive, like, love, interest, valentine, dating, date, speech bubble */
     MESSAGE_SQUARE_HEART("message-square-heart"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, secure, encrypted */
     MESSAGE_SQUARE_LOCK("message-square-lock"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, typing, writing, responding, ellipsis, etc, et cetera, ..., … */
     MESSAGE_SQUARE_MORE("message-square-more"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate */
     MESSAGE_SQUARE_OFF("message-square-off"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, add */
     MESSAGE_SQUARE_PLUS("message-square-plus"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, blockquote, quotation, indent, reply, response */
     MESSAGE_SQUARE_QUOTE("message-square-quote"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, reply, response */
     MESSAGE_SQUARE_REPLY("message-square-reply"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, network, forward */
     MESSAGE_SQUARE_SHARE("message-square-share"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble */
     MESSAGE_SQUARE_TEXT("message-square-text"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, report, abuse, offense, alert, danger, caution, protected, exclamation mark */
     MESSAGE_SQUARE_WARNING("message-square-warning"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate */
     MESSAGE_SQUARE_X("message-square-x"),
 
-    /** comment, chat, conversation, dialog, feedback, speech bubbles, copy, multiple */
     MESSAGES_SQUARE("messages-square"),
 
-    /** record, sound, listen, radio, podcast, microphone */
+    METRONOME("metronome"),
+
     MIC("mic"),
 
-    /** record, sound, mute, microphone */
+    MIC_2("mic-2"),
+
     MIC_OFF("mic-off"),
 
-    /** lyrics, voice, listen, sound, music, radio, podcast, karaoke, singing, microphone */
     MIC_VOCAL("mic-vocal"),
 
-    /** processor, cores, technology, computer, chip, integrated circuit, memory, ram, specs, gpu, gigahertz, ghz */
     MICROCHIP("microchip"),
 
-    /** medical, education, science, imaging, research */
     MICROSCOPE("microscope"),
 
-    /** oven, cooker, toaster oven, bake */
     MICROWAVE("microwave"),
 
-    /** signpost, direction, right, east, forward, version control, waypoint */
     MILESTONE("milestone"),
 
-    /** lactose, bottle, beverage, drink, water, diet */
     MILK("milk"),
 
-    /** lactose free, bottle, beverage, drink, water, allergy, intolerance, diet */
     MILK_OFF("milk-off"),
 
-    /** exit fullscreen, close, shrink */
     MINIMIZE("minimize"),
 
-    /** exit fullscreen, arrows, close, shrink */
     MINIMIZE_2("minimize-2"),
 
-    /** subtract, remove, decrease, decrement, reduce, negative, calculate, line, divider, separator, horizontal rule, hr, html, markup, markdown, ---, toolbar, operator, code, coding, minimum, downgrade */
     MINUS("minus"),
 
-    /** tv, screen, display, virtual machine, vm */
+    MINUS_CIRCLE("minus-circle"),
+
+    MINUS_SQUARE("minus-square"),
+
+    MIRROR_RECTANGULAR("mirror-rectangular"),
+
+    MIRROR_ROUND("mirror-round"),
+
     MONITOR("monitor"),
 
-    /** tv, screen, display, desktop, running, active, virtual machine, vm */
     MONITOR_CHECK("monitor-check"),
 
-    /** tv, screen, display, virtual machine, vm, executable, settings, cog, edit, gear, configuration, preferences, system, control panel, network, computing */
+    MONITOR_CLOUD("monitor-cloud"),
+
     MONITOR_COG("monitor-cog"),
 
-    /** tv, screen, display, desktop, running, active, virtual machine, vm */
     MONITOR_DOT("monitor-dot"),
 
-    /** tv, screen, display, desktop, download */
     MONITOR_DOWN("monitor-down"),
 
-    /** share */
     MONITOR_OFF("monitor-off"),
 
-    /** tv, screen, display, desktop, video, movie, film, suspend, hibernate, boot, virtual machine, vm */
     MONITOR_PAUSE("monitor-pause"),
 
-    /** tv, screen, display, desktop, video, movie, film, running, start, boot, virtual machine, vm */
     MONITOR_PLAY("monitor-play"),
 
-    /** smartphone, phone, cellphone, device, mobile, desktop, monitor, responsive, screens */
     MONITOR_SMARTPHONE("monitor-smartphone"),
 
-    /** devices, connect, cast */
     MONITOR_SPEAKER("monitor-speaker"),
 
-    /** tv, screen, display, desktop, video, movie, film, stop, shutdown, virtual machine, vm */
     MONITOR_STOP("monitor-stop"),
 
-    /** tv, screen, display, upload, connect, remote, screen share */
     MONITOR_UP("monitor-up"),
 
-    /** tv, screen, display, desktop, virtual machine, vm, close, stop, suspend, remove, delete */
     MONITOR_X("monitor-x"),
 
-    /** dark, night */
     MOON("moon"),
 
-    /** dark, night, star */
     MOON_STAR("moon-star"),
 
-    /** climb, hike, rock */
+    MORE_HORIZONTAL("more-horizontal"),
+
+    MORE_VERTICAL("more-vertical"),
+
+    MOTORBIKE("motorbike"),
+
     MOUNTAIN("mountain"),
 
-    /** alpine, climb, snow */
     MOUNTAIN_SNOW("mountain-snow"),
 
-    /** device, scroll, click */
     MOUSE("mouse"),
 
-    /** device, scroll, click, disabled */
+    MOUSE_LEFT("mouse-left"),
+
     MOUSE_OFF("mouse-off"),
 
-    /** click, select */
     MOUSE_POINTER("mouse-pointer"),
 
-    /** click, select */
     MOUSE_POINTER_2("mouse-pointer-2"),
 
-    /** wait, busy, loading, blocked, frozen, freeze */
+    MOUSE_POINTER_2_OFF("mouse-pointer-2-off"),
+
     MOUSE_POINTER_BAN("mouse-pointer-ban"),
 
-    /** click, select */
     MOUSE_POINTER_CLICK("mouse-pointer-click"),
 
-    /** arrows */
+    MOUSE_POINTER_SQUARE_DASHED("mouse-pointer-square-dashed"),
+
+    MOUSE_RIGHT("mouse-right"),
+
     MOVE("move"),
 
-    /** arrows, axis, gizmo, coordinates, transform, translate */
+    MOVE_3_D("move-3-d"),
+
     MOVE_3D("move-3d"),
 
-    /** double, arrow */
     MOVE_DIAGONAL("move-diagonal"),
 
-    /** double, arrow */
     MOVE_DIAGONAL_2("move-diagonal-2"),
 
-    /** arrow, direction, downwards, south */
     MOVE_DOWN("move-down"),
 
-    /** arrow, direction */
     MOVE_DOWN_LEFT("move-down-left"),
 
-    /** arrow, direction */
     MOVE_DOWN_RIGHT("move-down-right"),
 
-    /** double, arrow */
     MOVE_HORIZONTAL("move-horizontal"),
 
-    /** arrow, direction, back, west */
     MOVE_LEFT("move-left"),
 
-    /** arrow, direction, trend flat, east */
     MOVE_RIGHT("move-right"),
 
-    /** arrow, direction, upwards, north */
     MOVE_UP("move-up"),
 
-    /** arrow, direction */
     MOVE_UP_LEFT("move-up-left"),
 
-    /** arrow, direction */
     MOVE_UP_RIGHT("move-up-right"),
 
-    /** double, arrow */
     MOVE_VERTICAL("move-vertical"),
 
-    /** note, quaver, eighth note */
     MUSIC("music"),
 
-    /** quaver, eighth note, note */
     MUSIC_2("music-2"),
 
-    /** crotchet, minim, quarter note, half note, note */
     MUSIC_3("music-3"),
 
-    /** semiquaver, sixteenth note, note */
     MUSIC_4("music-4"),
 
-    /** location, travel */
     NAVIGATION("navigation"),
 
-    /** location, travel */
     NAVIGATION_2("navigation-2"),
 
-    /** location, travel */
     NAVIGATION_2_OFF("navigation-2-off"),
 
-    /** location, travel */
     NAVIGATION_OFF("navigation-off"),
 
-    /** tree */
     NETWORK("network"),
 
-    /** news, feed, home, magazine, article, headline */
     NEWSPAPER("newspaper"),
 
-    /** contactless, payment, near-field communication */
     NFC("nfc"),
 
-    /** notepad, notes, stationery, sketchbook, moleskine, closure, strap, band, elastic, organizer, organiser, planner, diary, journal, writing, written, writer, reading, high school, university, college, academy, student, study, homework, research */
+    NON_BINARY("non-binary"),
+
     NOTEBOOK("notebook"),
 
-    /** pencil, notepad, notes, noted, stationery, sketchbook, organizer, organiser, planner, diary, journal, writing, write, written, reading, high school, university, college, academy, student, study, research, homework, eraser, rubber */
     NOTEBOOK_PEN("notebook-pen"),
 
-    /** notepad, notes, people, family, friends, acquaintances, contacts, details, addresses, phone numbers, directory, listing, networking, alphabetical, a-z, organizer, organiser, planner, diary, stationery */
     NOTEBOOK_TABS("notebook-tabs"),
 
-    /** notepad, notes, pages, paper, stationery, sketchbook, organizer, organiser, planner, diary, journal, writing, write, written, reading, high school, university, college, academy, student, study, research, homework, lines, opened */
     NOTEBOOK_TEXT("notebook-text"),
 
-    /** notebook, notes, pages, paper, stationery, sketchbook, organizer, organiser, planner, diary, journal, writing, write, written, reading, high school, university, college, academy, student, study, homework, research, lines, opened */
     NOTEPAD_TEXT("notepad-text"),
 
-    /** notebook, notes, pages, paper, stationery, diary, journal, writing, write, written, draft, template, lines */
     NOTEPAD_TEXT_DASHED("notepad-text-dashed"),
 
-    /** hazelnut, acorn, food, diet */
     NUT("nut"),
 
-    /** hazelnut, acorn, food, allergy, intolerance, diet */
     NUT_OFF("nut-off"),
 
-    /** stop, shape */
     OCTAGON("octagon"),
 
-    /** warning, alert, danger, exclamation mark */
     OCTAGON_ALERT("octagon-alert"),
 
-    /** stop, forbidden, subtract, remove, decrease, reduce, -, traffic, halt, restricted */
     OCTAGON_MINUS("octagon-minus"),
 
-    /** music, audio, stop */
     OCTAGON_PAUSE("octagon-pause"),
 
-    /** delete, stop, alert, warning, times, clear, math */
     OCTAGON_X("octagon-x"),
 
-    /** greek, symbol, mathematics, education, physics, engineering, ohms, electrical resistance, angular frequency, dynamical systems, astronomy, constellations, philosophy */
     OMEGA("omega"),
 
-    /** keyboard, key, mac, alt, button */
     OPTION("option"),
 
-    /** planet, space, physics, satellites, moons */
     ORBIT("orbit"),
 
-    /** paper, bird */
     ORIGAMI("origami"),
 
-    /** box, container, storage, sealed, delivery, undelivered, unopened, packed, archive, zip, module */
+    OUTDENT("outdent"),
+
     PACKAGE("package"),
 
-    /** box, container, storage, sealed, packed, unopened, undelivered, archive, zip */
     PACKAGE_2("package-2"),
 
-    /** confirm, verified, done, todo, tick, complete, task, delivered */
     PACKAGE_CHECK("package-check"),
 
-    /** delete, remove */
     PACKAGE_MINUS("package-minus"),
 
-    /** box, container, storage, unpack, unarchive, unzip, opened, delivered */
     PACKAGE_OPEN("package-open"),
 
-    /** new, add, create */
     PACKAGE_PLUS("package-plus"),
 
-    /** find, product process */
     PACKAGE_SEARCH("package-search"),
 
-    /** delete, remove */
     PACKAGE_X("package-x"),
 
-    /** fill, paint, bucket, color, colour */
     PAINT_BUCKET("paint-bucket"),
 
-    /** brush, color, colour, decoration, diy */
     PAINT_ROLLER("paint-roller"),
 
-    /** brush, paintbrush, design, color, colour, decoration, diy */
     PAINTBRUSH("paintbrush"),
 
-    /** brush, paintbrush, design, color, colour, decoration, diy */
+    PAINTBRUSH_2("paintbrush-2"),
+
     PAINTBRUSH_VERTICAL("paintbrush-vertical"),
 
-    /** colors, colours, theme, scheme, paint, watercolor, watercolour, artist */
     PALETTE("palette"),
 
-    /** drawer, dock */
+    PALMTREE("palmtree"),
+
+    PANDA("panda"),
+
     PANEL_BOTTOM("panel-bottom"),
 
-    /** drawer, dock, hide, chevron, down */
     PANEL_BOTTOM_CLOSE("panel-bottom-close"),
 
-    /** drawer, dock, show, reveal */
     PANEL_BOTTOM_DASHED("panel-bottom-dashed"),
 
-    /** drawer, dock, show, reveal, chevron, up */
+    PANEL_BOTTOM_INACTIVE("panel-bottom-inactive"),
+
     PANEL_BOTTOM_OPEN("panel-bottom-open"),
 
-    /** primary, drawer */
     PANEL_LEFT("panel-left"),
 
-    /** primary, drawer, hide, chevron, < */
     PANEL_LEFT_CLOSE("panel-left-close"),
 
-    /** sidebar, primary, drawer, show, reveal */
     PANEL_LEFT_DASHED("panel-left-dashed"),
 
-    /** primary, drawer, show, reveal, chevron, right, > */
+    PANEL_LEFT_INACTIVE("panel-left-inactive"),
+
     PANEL_LEFT_OPEN("panel-left-open"),
 
-    /** sidebar, secondary, drawer */
+    PANEL_LEFT_RIGHT_DASHED("panel-left-right-dashed"),
+
     PANEL_RIGHT("panel-right"),
 
-    /** sidebar, secondary, drawer, hide, chevron, > */
     PANEL_RIGHT_CLOSE("panel-right-close"),
 
-    /** sidebar, secondary, drawer, show, reveal */
     PANEL_RIGHT_DASHED("panel-right-dashed"),
 
-    /** sidebar, secondary, drawer, show, reveal, chevron, left, < */
+    PANEL_RIGHT_INACTIVE("panel-right-inactive"),
+
     PANEL_RIGHT_OPEN("panel-right-open"),
 
-    /** drawer, browser, webpage */
     PANEL_TOP("panel-top"),
 
-    /** menu bar, drawer, hide, chevron, up */
+    PANEL_TOP_BOTTOM_DASHED("panel-top-bottom-dashed"),
+
     PANEL_TOP_CLOSE("panel-top-close"),
 
-    /** menu bar, drawer, show, reveal */
     PANEL_TOP_DASHED("panel-top-dashed"),
 
-    /** menu bar, drawer, show, reveal, chevron, down */
+    PANEL_TOP_INACTIVE("panel-top-inactive"),
+
     PANEL_TOP_OPEN("panel-top-open"),
 
-    /** drawers, sidebar, primary */
     PANELS_LEFT_BOTTOM("panels-left-bottom"),
 
-    /** drawers, sidebar, secondary */
+    PANELS_LEFT_RIGHT("panels-left-right"),
+
     PANELS_RIGHT_BOTTOM("panels-right-bottom"),
 
-    /** menu bar, sidebar, primary, drawers, window, webpage, projects, overview */
+    PANELS_TOP_BOTTOM("panels-top-bottom"),
+
     PANELS_TOP_LEFT("panels-top-left"),
 
-    /** attachment, file */
     PAPERCLIP("paperclip"),
 
-    /** code, token, parenthesis, parens, brackets, parameters, arguments, args, input, call, math, formula, function, (, ) */
+    PARASOL("parasol"),
+
     PARENTHESES("parentheses"),
 
-    /** driving, car park, pay, sidewalk, pavement */
+    PARKING_CIRCLE("parking-circle"),
+
+    PARKING_CIRCLE_OFF("parking-circle-off"),
+
     PARKING_METER("parking-meter"),
 
-    /** emoji, congratulations, celebration, party, tada, 🎉, 🎊, excitement, exciting, excites, confetti */
+    PARKING_SQUARE("parking-square"),
+
+    PARKING_SQUARE_OFF("parking-square-off"),
+
     PARTY_POPPER("party-popper"),
 
-    /** music, stop */
     PAUSE("pause"),
 
-    /** pets, vets, veterinarian, domesticated, cat, dog, bear */
+    PAUSE_CIRCLE("pause-circle"),
+
+    PAUSE_OCTAGON("pause-octagon"),
+
     PAW_PRINT("paw-print"),
 
-    /** computer, chassis */
     PC_CASE("pc-case"),
 
-    /** pencil, change, create, draw, writer, writing, biro, ink, marker, felt tip, stationery, artist */
     PEN("pen"),
 
-    /** pencil, change, create, draw, writer, writing, biro, ink, marker, felt tip, stationery, artist */
+    PEN_BOX("pen-box"),
+
     PEN_LINE("pen-line"),
 
-    /** disabled, inactive, non-editable, locked, read-only, unmodifiable, frozen, restricted, pencil, change, create, draw, writer, writing, biro, ink, marker, felt tip, stationery, artist */
     PEN_OFF("pen-off"),
 
-    /** vector, drawing, path */
+    PEN_SQUARE("pen-square"),
+
     PEN_TOOL("pen-tool"),
 
-    /** rubber, edit, create, draw, sketch, draft, writer, writing, stationery, artist */
     PENCIL("pencil"),
 
-    /** pencil, change, create, draw, sketch, draft, writer, writing, biro, ink, marker, felt tip, stationery, artist */
     PENCIL_LINE("pencil-line"),
 
-    /** disabled, inactive, non-editable, locked, read-only, unmodifiable, frozen, restricted, rubber, edit, create, draw, sketch, draft, writer, writing, stationery, artist */
     PENCIL_OFF("pencil-off"),
 
-    /** edit, create, draw, sketch, draft, writer, writing, stationery, artist, measurements, centimeters, cm, millimeters, mm, metre, foot, feet, inches, units, size, length, width, height, dimensions, depth, breadth, extent */
     PENCIL_RULER("pencil-ruler"),
 
-    /** shape */
+    PENCIL_SPARKLES("pencil-sparkles"),
+
     PENTAGON("pentagon"),
 
-    /** percentage, modulo, modulus, remainder, %, sale, discount, offer, marketing */
     PERCENT("percent"),
 
-    /** people, human, accessibility, stick figure */
+    PERCENT_CIRCLE("percent-circle"),
+
+    PERCENT_DIAMOND("percent-diamond"),
+
+    PERCENT_SQUARE("percent-square"),
+
     PERSON_STANDING("person-standing"),
 
-    /** currency, peso, money, php */
     PHILIPPINE_PESO("philippine-peso"),
 
-    /** call */
     PHONE("phone"),
 
-    /** ring */
     PHONE_CALL("phone-call"),
 
-    /** call */
     PHONE_FORWARDED("phone-forwarded"),
 
-    /** call */
     PHONE_INCOMING("phone-incoming"),
 
-    /** call */
     PHONE_MISSED("phone-missed"),
 
-    /** call, mute */
     PHONE_OFF("phone-off"),
 
-    /** call */
     PHONE_OUTGOING("phone-outgoing"),
 
-    /** constant, code, coding, programming, symbol, trigonometry, geometry, formula */
     PI("pi"),
 
-    /** music, audio, sound, noise, notes, chord, keys, octave, acoustic, instrument, play, pianist, performance, concert */
+    PI_SQUARE("pi-square"),
+
     PIANO("piano"),
 
-    /** mining, mine, land worker, extraction, labor, construction, progress, advancement, crafting, building, creation */
     PICKAXE("pickaxe"),
 
-    /** display, play, video, pop out, always on top, window, inset, multitask */
     PICTURE_IN_PICTURE("picture-in-picture"),
 
-    /** display, play, video, pop out, always on top, window, inset, multitask */
     PICTURE_IN_PICTURE_2("picture-in-picture-2"),
 
-    /** money, savings */
+    PIE_CHART("pie-chart"),
+
     PIGGY_BANK("piggy-bank"),
 
-    /** paragraph, mark, paraph, blind, typography, type, text, prose, symbol */
     PILCROW("pilcrow"),
 
-    /** direction, paragraph, mark, paraph, blind, typography, type, text, prose, symbol */
     PILCROW_LEFT("pilcrow-left"),
 
-    /** direction, paragraph, mark, paraph, blind, typography, type, text, prose, symbol */
     PILCROW_RIGHT("pilcrow-right"),
 
-    /** medicine, medication, drug, prescription, tablet, pharmacy */
+    PILCROW_SQUARE("pilcrow-square"),
+
     PILL("pill"),
 
-    /** medicine, medication, prescription, drug, supplement, vitamin, capsule, jar, container, healthcare, pharmaceutical, tablet */
     PILL_BOTTLE("pill-bottle"),
 
-    /** save, map, lock, fix */
     PIN("pin"),
 
-    /** unpin, map, unlock, unfix, unsave, remove */
     PIN_OFF("pin-off"),
 
-    /** eye dropper, color picker, lab, chemistry */
     PIPETTE("pipette"),
 
-    /** pie, quiche, food */
     PIZZA("pizza"),
 
-    /** plane, trip, airplane */
     PLANE("plane"),
 
-    /** arrival, plane, trip, airplane, landing */
     PLANE_LANDING("plane-landing"),
 
-    /** departure, plane, trip, airplane, takeoff */
     PLANE_TAKEOFF("plane-takeoff"),
 
-    /** music, audio, video, start, run */
     PLAY("play"),
 
-    /** electricity, energy, electronics, socket, outlet */
+    PLAY_CIRCLE("play-circle"),
+
+    PLAY_OFF("play-off"),
+
+    PLAY_SQUARE("play-square"),
+
     PLUG("plug"),
 
-    /** electricity, energy, socket, outlet */
     PLUG_2("plug-2"),
 
-    /** electricity, energy, electronics, charge, charging, battery, connect */
     PLUG_ZAP("plug-zap"),
 
-    /** add, new, increase, increment, positive, calculate, toolbar, crosshair, aim, target, scope, sight, reticule, maximum, upgrade, extra, + */
+    PLUG_ZAP_2("plug-zap-2"),
+
     PLUS("plus"),
 
-    /** logo, save */
-    POCKET("pocket"),
+    PLUS_CIRCLE("plus-circle"),
 
-    /** swiss army knife, penknife, multi-tool, multitask, blade, cutter, gadget, corkscrew */
+    PLUS_SQUARE("plus-square"),
+
     POCKET_KNIFE("pocket-knife"),
 
-    /** audio, music, mic, talk, voice, subscribe, subscription, stream */
     PODCAST("podcast"),
 
-    /** mouse */
+    PODIUM("podium"),
+
     POINTER("pointer"),
 
-    /** mouse */
     POINTER_OFF("pointer-off"),
 
-    /** cinema, movies, films, salted, sweet, sugar, candy, snack */
     POPCORN("popcorn"),
 
-    /** ice lolly, ice cream, sweet, food */
     POPSICLE("popsicle"),
 
-    /** currency, money, payment */
     POUND_STERLING("pound-sterling"),
 
-    /** on, off, device, switch, toggle, binary, boolean, reboot, restart, button, keyboard, troubleshoot */
     POWER("power"),
 
-    /** on, off, device, switch */
+    POWER_CIRCLE("power-circle"),
+
     POWER_OFF("power-off"),
 
-    /** screen, whiteboard, marker pens, markers, blackboard, chalk, easel, school, learning, lesson, office, meeting, project, planning */
+    POWER_SQUARE("power-square"),
+
     PRESENTATION("presentation"),
 
-    /** fax, office, device */
     PRINTER("printer"),
 
-    /** fax, office, device, success, printed */
     PRINTER_CHECK("printer-check"),
 
-    /** cinema, film, movie, home video, presentation, slideshow, office, meeting, project, planning */
+    PRINTER_X("printer-x"),
+
     PROJECTOR("projector"),
 
-    /** screens, sizes, rotate, rotation, adjust, aspect ratio, 16:9, widescreen, 4:3, resolution, responsive, mobile, desktop, dimensions, monitor, orientation, portrait, landscape */
     PROPORTIONS("proportions"),
 
-    /** component, module, part, piece */
     PUZZLE("puzzle"),
 
-    /** prism, triangle, triangular, hierarchy, structure, geometry, ancient, egyptian, landmark, tourism */
     PYRAMID("pyramid"),
 
-    /** barcode, scan, link, url, information, digital */
     QR_CODE("qr-code"),
 
-    /** quotation */
     QUOTE("quote"),
 
-    /** animal, rodent, pet, pest, bunny, hare, fast, speed, hop */
     RABBIT("rabbit"),
 
-    /** scan, sonar, detect, find, locate */
     RADAR("radar"),
 
-    /** radioactive, nuclear, fallout, waste, atomic, physics, particle, element, molecule */
     RADIATION("radiation"),
 
-    /** calculate, formula, math, operator, root, square, symbol */
     RADICAL("radical"),
 
-    /** signal, broadcast, connectivity, live, frequency */
     RADIO("radio"),
 
-    /** device, music, connect */
+    RADIO_OFF("radio-off"),
+
     RADIO_RECEIVER("radio-receiver"),
 
-    /** signal, broadcast, connectivity, live, frequency */
     RADIO_TOWER("radio-tower"),
 
-    /** shape, circle, geometry, trigonometry, radii, calculate, measure, size */
     RADIUS("radius"),
 
-    /** railway, train, track, line */
-    RAIL_SYMBOL("rail-symbol"),
-
-    /** colors, colours, spectrum, light, prism, arc, clear, sunshine */
     RAINBOW("rainbow"),
 
-    /** mouse, mice, gerbil, rodent, pet, pest, plague, disease */
     RAT("rat"),
 
-    /** screens, sizes, rotate, rotation, adjust, aspect ratio, proportions, 16:9, widescreen, 4:3, resolution, responsive, mobile, desktop, dimensions, monitor, orientation, portrait, landscape */
     RATIO("ratio"),
 
-    /** bill, voucher, slip, check, counterfoil, currency, dollar, usd, $ */
     RECEIPT("receipt"),
 
-    /** bill, voucher, slip, check, counterfoil, currency, cents, dollar, usd, $, ¢ */
     RECEIPT_CENT("receipt-cent"),
 
-    /** bill, voucher, slip, check, counterfoil, currency, € */
     RECEIPT_EURO("receipt-euro"),
 
-    /** bill, voucher, slip, check, counterfoil, currency, inr, ₹ */
     RECEIPT_INDIAN_RUPEE("receipt-indian-rupee"),
 
-    /** bill, voucher, slip, check, counterfoil, currency, jpy, ¥ */
     RECEIPT_JAPANESE_YEN("receipt-japanese-yen"),
 
-    /** bill, voucher, slip, check, counterfoil, british, currency, gbp, £ */
     RECEIPT_POUND_STERLING("receipt-pound-sterling"),
 
-    /** bill, voucher, slip, check, counterfoil, currency, rub, ₽ */
     RECEIPT_RUSSIAN_RUBLE("receipt-russian-ruble"),
 
-    /** bill, voucher, slip, check, counterfoil, currency, chf, ₣ */
     RECEIPT_SWISS_FRANC("receipt-swiss-franc"),
 
-    /** bill, voucher, slip, check, counterfoil, details, small print, terms, conditions, contract */
     RECEIPT_TEXT("receipt-text"),
 
-    /** login, password, authenticate, 2fa, field, fill, ellipsis, et cetera, etc, loader, loading, progress, pending, throbber, menu, options, operator, code, spread, rest, more, further, extra, overflow, dots, …, ... */
+    RECEIPT_TURKISH_LIRA("receipt-turkish-lira"),
+
+    RECTANGLE_CIRCLE("rectangle-circle"),
+
     RECTANGLE_ELLIPSIS("rectangle-ellipsis"),
 
-    /** rectangle, aspect ratio, 16:9, horizontal, shape */
+    RECTANGLE_GOGGLES("rectangle-goggles"),
+
     RECTANGLE_HORIZONTAL("rectangle-horizontal"),
 
-    /** rectangle, aspect ratio, 9:16, vertical, shape */
     RECTANGLE_VERTICAL("rectangle-vertical"),
 
-    /** sustainability, salvage, arrows */
     RECYCLE("recycle"),
 
-    /** undo, rerun, history */
     REDO("redo"),
 
-    /** undo, rerun, history */
     REDO_2("redo-2"),
 
-    /** redo, history, step, over, forward */
     REDO_DOT("redo-dot"),
 
-    /** arrows, rotate, reload, rerun, synchronise, synchronize, circular, cycle */
     REFRESH_CCW("refresh-ccw"),
 
-    /** arrows, rotate, reload, synchronise, synchronize, circular, cycle, issue, code, coding, version control */
     REFRESH_CCW_DOT("refresh-ccw-dot"),
 
-    /** rotate, reload, rerun, synchronise, synchronize, arrows, circular, cycle */
     REFRESH_CW("refresh-cw"),
 
-    /** rotate, reload, rerun, synchronise, synchronize, arrows, circular, cycle, cancel, no, stop, error, disconnect, ignore */
     REFRESH_CW_OFF("refresh-cw-off"),
 
-    /** frigerator, fridge, freezer, cooler, icebox, chiller, cold storage */
     REFRIGERATOR("refrigerator"),
 
-    /** search, text, code */
     REGEX("regex"),
 
-    /** text, font, typography, format, x, remove, delete, times, clear */
     REMOVE_FORMATTING("remove-formatting"),
 
-    /** loop, arrows */
     REPEAT("repeat"),
 
-    /** replay */
     REPEAT_1("repeat-1"),
 
-    /** arrows, retweet, repost, share, repeat, loop */
     REPEAT_2("repeat-2"),
 
-    /** search, substitute, swap, change */
+    REPEAT_OFF("repeat-off"),
+
     REPLACE("replace"),
 
-    /** search, substitute, swap, change */
     REPLACE_ALL("replace-all"),
 
-    /** email */
     REPLY("reply"),
 
-    /** email */
     REPLY_ALL("reply-all"),
 
-    /** music */
     REWIND("rewind"),
 
-    /** awareness, strip, band, tape, strap, cordon */
     RIBBON("ribbon"),
 
-    /** release, boost, launch, space, version */
+    ROAD("road"),
+
     ROCKET("rocket"),
 
-    /** chair, furniture, seat */
     ROCKING_CHAIR("rocking-chair"),
 
-    /** attraction, entertainment, amusement park, theme park, funfair */
     ROLLER_COASTER("roller-coaster"),
 
-    /** gizmo, transform, orientation, orbit, axis */
+    ROSE("rose"),
+
+    ROTATE_3_D("rotate-3-d"),
+
     ROTATE_3D("rotate-3d"),
 
-    /** arrow, left, counter-clockwise, restart, reload, rerun, refresh, backup, undo, replay, redo, retry, rewind, reverse */
     ROTATE_CCW("rotate-ccw"),
 
-    /** left, counter-clockwise, rotate, image, 90, 45, degrees, ° */
+    ROTATE_CCW_KEY("rotate-ccw-key"),
+
     ROTATE_CCW_SQUARE("rotate-ccw-square"),
 
-    /** arrow, right, clockwise, refresh, reload, rerun, redo */
     ROTATE_CW("rotate-cw"),
 
-    /** right, clockwise, rotate, image, 90, 45, degrees, ° */
     ROTATE_CW_SQUARE("rotate-cw-square"),
 
-    /** path, journey, planner, points, stops, stations */
     ROUTE("route"),
 
-    /** path, journey, planner, points, stops, stations, reset, clear, cancelled, closed, blocked */
     ROUTE_OFF("route-off"),
 
-    /** computer, server, cloud */
     ROUTER("router"),
 
-    /** lines, list, queue, preview, panel, paragraphs, parallel, series, split, vertical, horizontal, half, center, middle, even, drawer */
+    ROWS("rows"),
+
     ROWS_2("rows-2"),
 
-    /** lines, list, queue, preview, paragraphs, parallel, series, split, vertical, horizontal, half, center, middle, even, drawers */
     ROWS_3("rows-3"),
 
-    /** lines, list, queue, preview, paragraphs, parallel, series, split, vertical, horizontal, half, center, middle, even, drawers, grill */
     ROWS_4("rows-4"),
 
-    /** feed, subscribe, news, updates, notifications, content, blog, articles, broadcast, syndication, reader, channels, posts, publishing, digest, alert, following, inbox, newsletter, weblog, podcast */
     RSS("rss"),
 
-    /** measurements, centimeters, cm, millimeters, mm, metre, foot, feet, inches, units, size, length, width, height, dimensions, depth, breadth, extent, stationery */
     RULER("ruler"),
 
-    /** currency, money, payment */
+    RULER_DIMENSION_LINE("ruler-dimension-line"),
+
     RUSSIAN_RUBLE("russian-ruble"),
 
-    /** ship, boat, harbor, harbour, dock */
     SAILBOAT("sailboat"),
 
-    /** food, vegetarian, dish, restaurant, course, meal, side, vegetables, health */
     SALAD("salad"),
 
-    /** food, snack, dish, restaurant, lunch, meal */
     SANDWICH("sandwich"),
 
-    /** space station, orbit, transmitter */
     SATELLITE("satellite"),
 
-    /** antenna, receiver, dish aerial, saucer */
     SATELLITE_DISH("satellite-dish"),
 
-    /** floppy disk */
+    SAUDI_RIYAL("saudi-riyal"),
+
     SAVE("save"),
 
-    /** floppy disks, copy */
     SAVE_ALL("save-all"),
 
-    /** floppy disk, unsalvageable */
+    SAVE_CHECK("save-check"),
+
     SAVE_OFF("save-off"),
 
-    /** balance, legal, license, right, rule, law */
+    SAVE_PEN("save-pen"),
+
+    SAVE_PLUS("save-plus"),
+
     SCALE("scale"),
 
-    /** gizmo, transform, size, axis */
+    SCALE_3_D("scale-3-d"),
+
     SCALE_3D("scale-3d"),
 
-    /** scale, resize, design */
     SCALING("scaling"),
 
-    /** qr-code, barcode, checkout, augmented reality, ar, target, surveillance, camera, lens, focus, frame, select, box, boundary, bounds, area, square, dashed */
     SCAN("scan"),
 
-    /** checkout, till, cart, transaction, purchase, buy, product, packaging, retail, consumer */
     SCAN_BARCODE("scan-barcode"),
 
-    /** preview, zoom, expand, fullscreen, gallery, image, camera, watch, surveillance, retina, focus, lens, biometric, identification, authentication, access, login */
     SCAN_EYE("scan-eye"),
 
-    /** face, biometric, identification, authentication, 2fa, access, login, dashed */
     SCAN_FACE("scan-face"),
 
-    /** health, heart rate, pulse, monitoring, healthiness, screening, dashed */
     SCAN_HEART("scan-heart"),
 
-    /** checkout, till, cart, transaction, purchase, buy, product, packaging, retail, consumer, qr-code, dashed */
     SCAN_LINE("scan-line"),
 
-    /** barcode, scan, qrcode, url, information, digital, scanner */
     SCAN_QR_CODE("scan-qr-code"),
 
-    /** preview, zoom, expand, fullscreen, gallery, image, focus, lens */
     SCAN_SEARCH("scan-search"),
 
-    /** recognition, read, translate, copy, lines */
     SCAN_TEXT("scan-text"),
 
-    /** building, education, childhood, university, learning, campus, scholar, student, lecture, degree, course, academia, study, knowledge, classroom, research, diploma, graduation, professor, tutorial, homework, assignment, exam */
+    SCATTER_CHART("scatter-chart"),
+
     SCHOOL("school"),
 
-    /** cut, snip, chop, stationery, crafts */
+    SCHOOL_2("school-2"),
+
     SCISSORS("scissors"),
 
-    /** cut here, along, snip, chop, stationery, crafts, instructions, diagram */
     SCISSORS_LINE_DASHED("scissors-line-dashed"),
 
-    /** host, desktop, monitor */
+    SCISSORS_SQUARE("scissors-square"),
+
+    SCISSORS_SQUARE_DASHED_BOTTOM("scissors-square-dashed-bottom"),
+
+    SCOOTER("scooter"),
+
     SCREEN_SHARE("screen-share"),
 
-    /** desktop, disconnect, monitor */
     SCREEN_SHARE_OFF("screen-share-off"),
 
-    /** paper, log, scripture, document, notes, parchment, list, long, script, story, code, coding */
     SCROLL("scroll"),
 
-    /** paper, log, scripture, document, notes, parchment, list, long, script, story, code, coding */
     SCROLL_TEXT("scroll-text"),
 
-    /** find, scan, magnifier, magnifying glass */
     SEARCH("search"),
 
-    /** find, scan, magnifier, magnifying glass, found, correct, complete, tick */
+    SEARCH_ALERT("search-alert"),
+
     SEARCH_CHECK("search-check"),
 
-    /** find, scan, magnifier, magnifying glass, grep, chevrons, <> */
     SEARCH_CODE("search-code"),
 
-    /** find, scan, magnifier, magnifying glass, stop, clear, cancel, abort, / */
     SEARCH_SLASH("search-slash"),
 
-    /** find, scan, magnifier, magnifying glass, stop, clear, cancel, abort */
     SEARCH_X("search-x"),
 
-    /** mark, typography, punctuation, legal, type, text, prose, symbol */
     SECTION("section"),
 
-    /** email, message, mail, paper airplane, paper aeroplane, submit */
     SEND("send"),
 
-    /** email, message, mail, paper airplane, paper aeroplane, submit */
+    SEND_HORIZONAL("send-horizonal"),
+
     SEND_HORIZONTAL("send-horizontal"),
 
-    /** bring, send, move, under, back, backwards, overlap, layer, order */
     SEND_TO_BACK("send-to-back"),
 
-    /** move, split */
     SEPARATOR_HORIZONTAL("separator-horizontal"),
 
-    /** move, split */
     SEPARATOR_VERTICAL("separator-vertical"),
 
-    /** cloud, storage */
     SERVER("server"),
 
-    /** cloud, storage, computing, cog, gear */
     SERVER_COG("server-cog"),
 
-    /** cloud, storage, problem, error */
     SERVER_CRASH("server-crash"),
 
-    /** cloud, storage */
     SERVER_OFF("server-off"),
 
-    /** cog, edit, gear, preferences */
     SETTINGS("settings"),
 
-    /** cog, edit, gear, preferences */
     SETTINGS_2("settings-2"),
 
-    /** triangle, equilateral, square, circle, classification, different, collection, toy, blocks, learning */
     SHAPES("shapes"),
 
-    /** network, connections */
     SHARE("share"),
 
-    /** network, connections */
     SHARE_2("share-2"),
 
-    /** spreadsheets, table, excel */
     SHEET("sheet"),
 
-    /** beach, sand, holiday, sealife, fossil, ammonite, biology, ocean, terminal, command line, session, bash, zsh, roll, wrap, chewing gum, bubble gum, sweet, sugar, hosepipe, carpet, string, spiral, spinner, hypnotise, hypnosis */
     SHELL("shell"),
 
-    /** cybersecurity, secure, safety, protection, guardian, armored, armoured, defense, defence, defender, block, threat, prevention, antivirus, vigilance, vigilant, detection, scan, find, strength, strong, tough, invincible, invincibility, invulnerable, undamaged, audit, admin, verification, crest, bravery, knight, foot soldier, infantry, trooper, pawn, battle, war, military, army, cadet, scout */
+    SHELVING_UNIT("shelving-unit"),
+
     SHIELD("shield"),
 
-    /** unshielded, cybersecurity, insecure, unsecured, safety, unsafe, protection, unprotected, guardian, unguarded, unarmored, unarmoured, defenseless, defenceless, undefended, defender, blocked, stopped, intercepted, interception, saved, thwarted, threat, prevention, unprevented, antivirus, vigilance, vigilant, detection, detected, scanned, found, exploit, vulnerability, vulnerable, weakness, infection, infected, comprimised, data leak, audited, admin, verification, unverified, uncertified, warning, emergency, attention, urgent, alarm, crest, bravery, strength, tough, attacked, damaged, injured, hit, expired, disabled, inactive, error, exclamation mark, ! */
     SHIELD_ALERT("shield-alert"),
 
-    /** unshielded, cybersecurity, insecure, unsecured, safety, unsafe, protection, unprotected, guardian, unguarded, unarmored, unarmoured, defenseless, defenceless, undefended, defender, blocked, stopped, intercepted, interception, saved, thwarted, threat, prevention, unprevented, antivirus, vigilance, vigilant, detection, detected, scanned, found, exploit, vulnerability, vulnerable, weakness, infection, infected, comprimised, data leak, audited, admin, verification, unverified, uncertified, cancel, error, crest, bravery, attacked, damaged, injured, hit, expired, eliminated, disabled, inactive, / */
     SHIELD_BAN("shield-ban"),
 
-    /** cybersecurity, secured, safety, protection, protected, guardian, guarded, armored, armoured, defense, defence, defended, blocked, threat, prevention, prevented, antivirus, vigilance, vigilant, active, activated, enabled, detection, scanned, found, strength, strong, tough, invincible, invincibility, invulnerable, undamaged, audited, admin, verification, verified, certification, certified, tested, passed, qualified, cleared, cleaned, disinfected, uninfected, task, completed, todo, done, ticked, checked, crest, bravery */
     SHIELD_CHECK("shield-check"),
 
-    /** cybersecurity, securing, protecting, guarding, armoring, armouring, defending, blocking, preventing, antivirus, detecting, scanning, finding, auditing, admin, verifying, crest, upgrading, loader, loading, throbber, progress, dots, more, etc, ..., … */
+    SHIELD_CLOSE("shield-close"),
+
+    SHIELD_COG("shield-cog"),
+
+    SHIELD_COG_CORNER("shield-cog-corner"),
+
     SHIELD_ELLIPSIS("shield-ellipsis"),
 
-    /** cybersecurity, secure, safety, protection, guardian, armored, armoured, defense, defence, defender, block, threat, prevention, antivirus, vigilance, vigilant, detection, scan, strength, strong, tough, invincible, invincibility, invulnerable, undamaged, audit, admin, verification, crest, logo, sigil, flag, team, faction, fraternity, university, college, academy, school, education, uniform, bravery, knight, foot soldier, infantry, trooper, pawn, battle, war, military, ranking, army, cadet, scout */
     SHIELD_HALF("shield-half"),
 
-    /** unshield, cybersecurity, unsecure, unguard, unblock, antivirus, clean, clear, disinfect, patch, fix, stop, cancel, remove, relax, admin, crest, bravery, weakened, damaged, hit, unarm, disable, deactivate, decommission, downgraded, minimum, - */
     SHIELD_MINUS("shield-minus"),
 
-    /** unshielded, cybersecurity, insecure, unsecured, safety, unsafe, protection, unprotected, guardian, unguarded, unarmored, unarmoured, defenseless, defenceless, undefended, defender, interception, threat, prevention, unprevented, antivirus, detection, undetected, exploit, vulnerability, vulnerable, weakness, infected, infection, comprimised, data leak, unaudited, admin, verification, unverified, inactive, cancelled, error, crest, bravery, damaged, injured, hit, expired, eliminated */
     SHIELD_OFF("shield-off"),
 
-    /** cybersecurity, secure, safety, protection, guardian, armored, armoured, defense, defence, defender, block, threat, prevention, antivirus, vigilance, vigilant, detection, scan, strength, strong, tough, invincible, invincibility, invulnerable, undamaged, extra, added, professional, enterprise, full, maximum, upgraded, ultra, activate, enable, audit, admin, verification, crest, medic, + */
     SHIELD_PLUS("shield-plus"),
 
-    /** unshielded, cybersecurity, insecure, unsecured, safety, unsafe, protection, unprotected, guardian, unguarded, unarmored, unarmoured, defenseless, defenceless, undefended, defender, threat, prevention, unprevented, antivirus, vigilance, vigilant, detection, undetected, scan, find, exploit, vulnerability, vulnerable, weakness, infection, comprimised, data leak, audit, admin, verification, unverified, uncertified, uncertain, unknown, inactive, crest, question mark, ? */
     SHIELD_QUESTION("shield-question"),
 
-    /** unshielded, cybersecurity, insecure, unsecured, safety, unsafe, protection, unprotected, guardian, unguarded, unarmored, unarmoured, defenseless, defenceless, undefended, defender, blocked, stopped, intercepted, interception, saved, thwarted, threat, prevention, prevented, antivirus, vigilance, vigilant, detection, detected, scanned, found, exploit, vulnerability, vulnerable, weakness, infection, infected, comprimised, data leak, audited, admin, verification, unverified, inactive, cancel, error, wrong, false, crest, bravery, attacked, damaged, injured, hit, dead, deceased, expired, eliminated, exterminated */
+    SHIELD_QUESTION_MARK("shield-question-mark"),
+
+    SHIELD_USER("shield-user"),
+
     SHIELD_X("shield-x"),
 
-    /** boat, knots, nautical mile, maritime, sailing, yacht, cruise, ocean liner, tanker, vessel, navy, trip */
     SHIP("ship"),
 
-    /** steering, rudder, boat, knots, nautical mile, maritime, sailing, yacht, cruise, ocean liner, tanker, vessel, navy, trip */
     SHIP_WHEEL("ship-wheel"),
 
-    /** t-shirt, shopping, store, clothing, clothes */
     SHIRT("shirt"),
 
-    /** ecommerce, cart, purchase, store */
     SHOPPING_BAG("shopping-bag"),
 
-    /** cart, e-commerce, store, purchase, products, items, ingredients */
     SHOPPING_BASKET("shopping-basket"),
 
-    /** trolley, cart, basket, e-commerce, store, purchase, products, items, ingredients */
     SHOPPING_CART("shopping-cart"),
 
-    /** dig, spade, treasure */
     SHOVEL("shovel"),
 
-    /** shower, bath, bathroom, amenities, services */
     SHOWER_HEAD("shower-head"),
 
-    /** scale, fullscreen */
+    SHREDDER("shredder"),
+
+    SHRIMP("shrimp"),
+
     SHRINK("shrink"),
 
-    /** forest, undergrowth, park, nature */
     SHRUB("shrub"),
 
-    /** music, random, reorder */
     SHUFFLE("shuffle"),
 
-    /** sum, calculate, formula, math, enumeration, enumerate */
+    SIDEBAR("sidebar"),
+
+    SIDEBAR_CLOSE("sidebar-close"),
+
+    SIDEBAR_OPEN("sidebar-open"),
+
     SIGMA("sigma"),
 
-    /** connection, wireless, gsm, phone, 2g, 3g, 4g, 5g */
+    SIGMA_SQUARE("sigma-square"),
+
     SIGNAL("signal"),
 
-    /** connection, wireless, gsm, phone, 2g, 3g, 4g, 5g */
     SIGNAL_HIGH("signal-high"),
 
-    /** connection, wireless, gsm, phone, 2g, 3g, 4g, 5g */
     SIGNAL_LOW("signal-low"),
 
-    /** connection, wireless, gsm, phone, 2g, 3g, 4g, 5g */
     SIGNAL_MEDIUM("signal-medium"),
 
-    /** connection, wireless, gsm, phone, 2g, 3g, 4g, 5g, lost */
     SIGNAL_ZERO("signal-zero"),
 
-    /** text, format, input, contract, autograph, handwriting, sign, cursive, ink, scribble, authorize, personal, agreement, legal, document, identity, authentic, approval, verification, unique */
     SIGNATURE("signature"),
 
-    /** bidirectional, left, right, east, west */
     SIGNPOST("signpost"),
 
-    /** bidirectional, left, right, east, west */
     SIGNPOST_BIG("signpost-big"),
 
-    /** police, ambulance, emergency, security, alert, alarm, light */
     SIREN("siren"),
 
-    /** arrow, previous, music */
     SKIP_BACK("skip-back"),
 
-    /** arrow, skip, next, music */
     SKIP_FORWARD("skip-forward"),
 
-    /** death, danger, bone */
     SKULL("skull"),
 
-    /** logo */
-    SLACK("slack"),
-
-    /** divide, division, or, / */
     SLASH("slash"),
 
-    /** cutter, scalpel, knife */
+    SLASH_SQUARE("slash-square"),
+
     SLICE("slice"),
 
-    /** settings, filters, controls */
+    SLIDERS("sliders"),
+
     SLIDERS_HORIZONTAL("sliders-horizontal"),
 
-    /** settings, controls */
     SLIDERS_VERTICAL("sliders-vertical"),
 
-    /** phone, cellphone, device, screen */
     SMARTPHONE("smartphone"),
 
-    /** phone, cellphone, device, power, screen */
     SMARTPHONE_CHARGING("smartphone-charging"),
 
-    /** contactless, payment, near-field communication, screen */
     SMARTPHONE_NFC("smartphone-nfc"),
 
-    /** emoji, face, happy, good, emotion */
     SMILE("smile"),
 
-    /** emoji, face, happy, good, emotion, react, reaction, add */
     SMILE_PLUS("smile-plus"),
 
-    /** animal, insect, slow, speed, delicacy, spiral */
     SNAIL("snail"),
 
-    /** cold, weather, freeze, snow, winter */
     SNOWFLAKE("snowflake"),
 
-    /** armchair, furniture, leisure, lounge, loveseat, couch */
+    SOAP_DISPENSER_DROPLET("soap-dispenser-droplet"),
+
     SOFA("sofa"),
 
-    /** food, dish, restaurant, course, meal, bowl, starter */
+    SOLAR_PANEL("solar-panel"),
+
+    SORT_ASC("sort-asc"),
+
+    SORT_DESC("sort-desc"),
+
     SOUP("soup"),
 
-    /** text, selection, letters, characters, font, typography */
     SPACE("space"),
 
-    /** shape, suit, playing, cards */
     SPADE("spade"),
 
-    /** star, effect, filter, night, magic, shiny, glitter, twinkle, celebration */
     SPARKLE("sparkle"),
 
-    /** stars, effect, filter, night, magic */
     SPARKLES("sparkles"),
 
-    /** sound, audio, music, tweeter, subwoofer, bass, production, producer, dj */
     SPEAKER("speaker"),
 
-    /** disability, disabled, dda, human, accessibility, people, sound */
     SPEECH("speech"),
 
-    /** spelling, error, mistake, oversight, typo, correction, code, linter, a */
     SPELL_CHECK("spell-check"),
 
-    /** spelling, error, mistake, oversight, typo, correction, code, linter, a */
     SPELL_CHECK_2("spell-check-2"),
 
-    /** path, pen, tool, shape, curve, draw */
     SPLINE("spline"),
 
-    /** break, disband, divide, separate, branch, disunite */
+    SPLINE_POINTER("spline-pointer"),
+
     SPLIT("split"),
 
-    /** paint, color, graffiti, decoration, aerosol, deodorant, shaving foam, air freshener */
+    SPLIT_SQUARE_HORIZONTAL("split-square-horizontal"),
+
+    SPLIT_SQUARE_VERTICAL("split-square-vertical"),
+
+    SPOOL("spool"),
+
+    SPORT_SHOE("sport-shoe"),
+
+    SPOTLIGHT("spotlight"),
+
     SPRAY_CAN("spray-can"),
 
-    /** leaf, nature, plant */
     SPROUT("sprout"),
 
-    /** rectangle, aspect ratio, 1:1, shape */
     SQUARE("square"),
 
-    /** pulse, action, motion, movement, exercise, fitness, healthcare, heart rate monitor, vital signs, vitals, emergency room, er, intensive care, hospital, defibrillator, earthquake, siesmic, magnitude, richter scale, aftershock, tremor, shockwave, audio, waveform, synthesizer, synthesiser, music */
     SQUARE_ACTIVITY("square-activity"),
 
-    /** backwards, reverse, direction, south, sign, keyboard, button */
     SQUARE_ARROW_DOWN("square-arrow-down"),
 
-    /** direction, south-west, diagonal, sign, turn, keyboard, button */
     SQUARE_ARROW_DOWN_LEFT("square-arrow-down-left"),
 
-    /** direction, south-east, diagonal, sign, turn, keyboard, button */
     SQUARE_ARROW_DOWN_RIGHT("square-arrow-down-right"),
 
-    /** previous, back, direction, west, sign, keyboard, button, <- */
     SQUARE_ARROW_LEFT("square-arrow-left"),
 
-    /** outwards, direction, south-west, diagonal */
     SQUARE_ARROW_OUT_DOWN_LEFT("square-arrow-out-down-left"),
 
-    /** outwards, direction, south-east, diagonal */
     SQUARE_ARROW_OUT_DOWN_RIGHT("square-arrow-out-down-right"),
 
-    /** outwards, direction, north-west, diagonal */
     SQUARE_ARROW_OUT_UP_LEFT("square-arrow-out-up-left"),
 
-    /** outwards, direction, north-east, diagonal, share, open, external, link */
     SQUARE_ARROW_OUT_UP_RIGHT("square-arrow-out-up-right"),
 
-    /** next, forward, direction, west, sign, keyboard, button, -> */
     SQUARE_ARROW_RIGHT("square-arrow-right"),
 
-    /** forward, direction, north, sign, keyboard, button */
+    SQUARE_ARROW_RIGHT_ENTER("square-arrow-right-enter"),
+
+    SQUARE_ARROW_RIGHT_EXIT("square-arrow-right-exit"),
+
     SQUARE_ARROW_UP("square-arrow-up"),
 
-    /** direction, north-west, diagonal, sign, keyboard, button */
     SQUARE_ARROW_UP_LEFT("square-arrow-up-left"),
 
-    /** direction, north-east, diagonal, sign, keyboard, button, share */
     SQUARE_ARROW_UP_RIGHT("square-arrow-up-right"),
 
-    /** password, secret, access, key, multiply, multiplication, glob pattern, wildcard, * */
     SQUARE_ASTERISK("square-asterisk"),
 
-    /** cut, snippet, chop, stationery, crafts */
     SQUARE_BOTTOM_DASHED_SCISSORS("square-bottom-dashed-scissors"),
 
-    /** projects, manage, overview, roadmap, plan, intentions, timeline, deadline, date, event, range, period, productivity, work, agile, code, coding, toolbar, button */
+    SQUARE_CENTERLINE_DASHED_HORIZONTAL("square-centerline-dashed-horizontal"),
+
+    SQUARE_CENTERLINE_DASHED_VERTICAL("square-centerline-dashed-vertical"),
+
     SQUARE_CHART_GANTT("square-chart-gantt"),
 
-    /** done, todo, tick, complete, task */
     SQUARE_CHECK("square-check"),
 
-    /** done, todo, tick, complete, task */
     SQUARE_CHECK_BIG("square-check-big"),
 
-    /** back, menu, panel */
     SQUARE_CHEVRON_DOWN("square-chevron-down"),
 
-    /** back, previous, less than, fewer, menu, panel, button, keyboard, < */
     SQUARE_CHEVRON_LEFT("square-chevron-left"),
 
-    /** forward, next, more than, greater, menu, panel, code, coding, command line, terminal, prompt, shell, console, > */
     SQUARE_CHEVRON_RIGHT("square-chevron-right"),
 
-    /** caret, keyboard, button, mac, control, ctrl, superscript, exponential, power, ahead, menu, panel, ^ */
     SQUARE_CHEVRON_UP("square-chevron-up"),
 
-    /** gist, source, programming, html, xml, coding */
     SQUARE_CODE("square-code"),
 
-    /** selection, square, rectangular, marquee, tool, dashed, box */
     SQUARE_DASHED("square-dashed"),
 
-    /** rectangle, aspect ratio, 1:1, shape, snippet, code, coding */
     SQUARE_DASHED_BOTTOM("square-dashed-bottom"),
 
-    /** rectangle, aspect ratio, 1:1, shape, snippet, code, coding */
     SQUARE_DASHED_BOTTOM_CODE("square-dashed-bottom-code"),
 
-    /** projects, manage, overview, board, tickets, issues, roadmap, plan, intentions, productivity, work, agile, draft, template, boilerplate, code, coding */
     SQUARE_DASHED_KANBAN("square-dashed-kanban"),
 
-    /** inspector, element, mouse, click, pointer, box, browser, selector, target, dom, node */
     SQUARE_DASHED_MOUSE_POINTER("square-dashed-mouse-pointer"),
 
-    /** calculate, math, ÷, / */
+    SQUARE_DASHED_TEXT("square-dashed-text"),
+
+    SQUARE_DASHED_TOP_SOLID("square-dashed-top-solid"),
+
     SQUARE_DIVIDE("square-divide"),
 
-    /** git, diff, modified, . */
     SQUARE_DOT("square-dot"),
 
-    /** calculate, = */
     SQUARE_EQUAL("square-equal"),
 
-    /** programming, code, automation, math */
     SQUARE_FUNCTION("square-function"),
 
-    /** projects, manage, overview, board, tickets, issues, roadmap, plan, intentions, productivity, work, agile, code, coding, toolbar, button */
+    SQUARE_GANTT_CHART("square-gantt-chart"),
+
     SQUARE_KANBAN("square-kanban"),
 
-    /** books, reading, written, authors, stories, fiction, novels, information, knowledge, education, high school, university, college, academy, learning, study, research, collection, vinyl, records, albums, music, package */
     SQUARE_LIBRARY("square-library"),
 
-    /** metro, subway, underground, track, line */
     SQUARE_M("square-m"),
 
-    /** bars, navigation, hamburger, options, menu bar, panel */
     SQUARE_MENU("square-menu"),
 
-    /** subtract, remove, decrease, reduce, calculator, button, keyboard, line, divider, separator, horizontal rule, hr, html, markup, markdown, ---, toolbar, operator, code, coding, minimum, downgrade */
     SQUARE_MINUS("square-minus"),
 
-    /** inspector, element, mouse, click, pointer, box, browser, selector, target, dom, node */
     SQUARE_MOUSE_POINTER("square-mouse-pointer"),
 
-    /** parking lot, car park */
     SQUARE_PARKING("square-parking"),
 
-    /** parking lot, car park, no parking */
     SQUARE_PARKING_OFF("square-parking-off"),
 
-    /** pencil, change, create, draw, sketch, draft, writer, writing, biro, ink, marker, felt tip, stationery, artist */
+    SQUARE_PAUSE("square-pause"),
+
     SQUARE_PEN("square-pen"),
 
-    /** verified, unverified, sale, discount, offer, marketing, sticker, price tag */
     SQUARE_PERCENT("square-percent"),
 
-    /** constant, code, coding, programming, symbol, trigonometry, geometry, formula */
     SQUARE_PI("square-pi"),
 
-    /** paragraph, mark, paraph, blind, typography, type, text, prose, symbol */
     SQUARE_PILCROW("square-pilcrow"),
 
-    /** music, audio, video, start, run */
     SQUARE_PLAY("square-play"),
 
-    /** add, new, increase, increment, positive, calculate, calculator, button, keyboard, toolbar, maximum, upgrade, extra, operator, join, concatenate, code, coding, + */
     SQUARE_PLUS("square-plus"),
 
-    /** on, off, device, switch, toggle, binary, boolean, reboot, restart, button, keyboard, troubleshoot */
     SQUARE_POWER("square-power"),
 
-    /** calculate, formula, math, operator, root, square, symbol */
     SQUARE_RADICAL("square-radical"),
 
-    /** cut, snippet, chop, stationery, crafts, toolbar, button */
+    SQUARE_ROUND_CORNER("square-round-corner"),
+
     SQUARE_SCISSORS("square-scissors"),
 
-    /** sum, calculate, formula, math, enumeration, enumerate */
     SQUARE_SIGMA("square-sigma"),
 
-    /** git, diff, ignored, divide, division, shortcut, or, / */
     SQUARE_SLASH("square-slash"),
 
-    /** split, divide */
     SQUARE_SPLIT_HORIZONTAL("square-split-horizontal"),
 
-    /** split, divide */
     SQUARE_SPLIT_VERTICAL("square-split-vertical"),
 
-    /** float, center, rectangle */
     SQUARE_SQUARE("square-square"),
 
-    /** versions, clone, copy, duplicate, multiple, revisions, version control, backup, history */
     SQUARE_STACK("square-stack"),
 
-    /** code, command line, prompt, shell */
+    SQUARE_STAR("square-star"),
+
+    SQUARE_STOP("square-stop"),
+
     SQUARE_TERMINAL("square-terminal"),
 
-    /** person, account, contact */
     SQUARE_USER("square-user"),
 
-    /** person, account, contact */
     SQUARE_USER_ROUND("square-user-round"),
 
-    /** cancel, close, delete, remove, times, clear, math, multiply, multiplication */
     SQUARE_X("square-x"),
 
-    /** shape */
+    SQUARES_EXCLUDE("squares-exclude"),
+
+    SQUARES_INTERSECT("squares-intersect"),
+
+    SQUARES_SUBTRACT("squares-subtract"),
+
+    SQUARES_UNITE("squares-unite"),
+
     SQUIRCLE("squircle"),
 
-    /** animal, rodent, pet, pest, nuts, retrieve, updates, storage, stash */
+    SQUIRCLE_DASHED("squircle-dashed"),
+
     SQUIRREL("squirrel"),
 
-    /** mark, print, clone, loyalty, library */
     STAMP("stamp"),
 
-    /** bookmark, favorite, like, review, rating */
     STAR("star"),
 
-    /** bookmark, favorite, like, review, rating */
+    STAR_CHECK("star-check"),
+
     STAR_HALF("star-half"),
 
-    /** dislike, unlike, remove, unrate */
+    STAR_MINUS("star-minus"),
+
     STAR_OFF("star-off"),
 
-    /** arrow, previous, music, left, reverse */
+    STAR_PLUS("star-plus"),
+
+    STAR_X("star-x"),
+
+    STARS("stars"),
+
     STEP_BACK("step-back"),
 
-    /** arrow, next, music, right, continue */
     STEP_FORWARD("step-forward"),
 
-    /** phonendoscope, medical, heart, lungs, sound */
     STETHOSCOPE("stethoscope"),
 
-    /** reaction, emotion, smile, happy, feedback */
     STICKER("sticker"),
 
-    /** post-it, comment, annotation, reaction, memo, reminder, todo, task, idea, brainstorm, document, page, paper, sheet, stationary, office */
     STICKY_NOTE("sticky-note"),
 
-    /** shop, supermarket, stand, boutique, building */
+    STICKY_NOTE_CHECK("sticky-note-check"),
+
+    STICKY_NOTE_MINUS("sticky-note-minus"),
+
+    STICKY_NOTE_OFF("sticky-note-off"),
+
+    STICKY_NOTE_PLUS("sticky-note-plus"),
+
+    STICKY_NOTE_X("sticky-note-x"),
+
+    STICKY_NOTES("sticky-notes"),
+
+    STONE("stone"),
+
+    STOP_CIRCLE("stop-circle"),
+
     STORE("store"),
 
-    /** items, flex, justify, distribute */
     STRETCH_HORIZONTAL("stretch-horizontal"),
 
-    /** items, flex, justify, distribute */
     STRETCH_VERTICAL("stretch-vertical"),
 
-    /** cross out, delete, remove, format */
     STRIKETHROUGH("strikethrough"),
 
-    /** text */
     SUBSCRIPT("subscript"),
 
-    /** brightness, weather, light, summer */
+    SUBTITLES("subtitles"),
+
+    SUMMARY("summary"),
+
     SUN("sun"),
 
-    /** brightness, dim, low, brightness low */
     SUN_DIM("sun-dim"),
 
-    /** brightness, medium */
     SUN_MEDIUM("sun-medium"),
 
-    /** night, dark, light, moon, sun, brightness, theme, auto theme, system theme, appearance */
     SUN_MOON("sun-moon"),
 
-    /** weather, air conditioning, temperature, hot, cold, seasons */
     SUN_SNOW("sun-snow"),
 
-    /** weather, time, morning, day */
     SUNRISE("sunrise"),
 
-    /** weather, time, evening, night */
     SUNSET("sunset"),
 
-    /** text, exponent */
     SUPERSCRIPT("superscript"),
 
-    /** colors, colours, swatches, pantone, shades, tint, hue, saturation, brightness, theme, scheme, palette, samples, textile, carpet */
     SWATCH_BOOK("swatch-book"),
 
-    /** currency, money, payment */
     SWISS_FRANC("swiss-franc"),
 
-    /** photo, selfie, front, back */
     SWITCH_CAMERA("switch-camera"),
 
-    /** battle, challenge, game, war, weapon */
     SWORD("sword"),
 
-    /** battle, challenge, game, war, weapon */
     SWORDS("swords"),
 
-    /** medicine, medical, needle, pump, plunger, nozzle, blood */
     SYRINGE("syringe"),
 
-    /** spreadsheet, grid */
     TABLE("table"),
 
-    /** spreadsheet, grid */
     TABLE_2("table-2"),
 
-    /** spreadsheet, grid, row */
     TABLE_CELLS_MERGE("table-cells-merge"),
 
-    /** spreadsheet, grid, row */
     TABLE_CELLS_SPLIT("table-cells-split"),
 
-    /** spreadsheet, grid, cut, break, divide, separate, segment */
     TABLE_COLUMNS_SPLIT("table-columns-split"),
 
-    /** toc, outline, navigation, document structure, index, overview, sections, chapters, content, documentation, manual, knowledge base, faq */
+    TABLE_CONFIG("table-config"),
+
     TABLE_OF_CONTENTS("table-of-contents"),
 
-    /** property list, plist, spreadsheet, grid, dictionary, object, hash */
     TABLE_PROPERTIES("table-properties"),
 
-    /** spreadsheet, grid, cut, break, divide, separate, segment */
     TABLE_ROWS_SPLIT("table-rows-split"),
 
-    /** device */
     TABLET("tablet"),
 
-    /** responsive, screens, browser, testing, mobile */
     TABLET_SMARTPHONE("tablet-smartphone"),
 
-    /** medicine, medication, drug, prescription, pills, pharmacy */
     TABLETS("tablets"),
 
-    /** label, badge, ticket, mark */
     TAG("tag"),
 
-    /** labels, badges, tickets, marks, copy, multiple */
+    TAG_PLUS("tag-plus"),
+
+    TAG_X("tag-x"),
+
     TAGS("tags"),
 
-    /** count, score, enumerate, days, one, 1, first, bar, prison, cell, sentence */
     TALLY_1("tally-1"),
 
-    /** count, score, enumerate, days, two, 2, second, double, bars, prison, cell, sentence */
     TALLY_2("tally-2"),
 
-    /** count, score, enumerate, days, three, 3, third, triple, bars, prison, cell, sentence */
     TALLY_3("tally-3"),
 
-    /** count, score, enumerate, days, 4, fourth, quadruple, bars, prison, cell, sentence */
     TALLY_4("tally-4"),
 
-    /** count, score, enumerate, days, five, 5, fifth, bars, prison, cell, sentence, slash, / */
     TALLY_5("tally-5"),
 
-    /** tangential, shape, circle, geometry, trigonometry, bezier curve */
     TANGENT("tangent"),
 
-    /** logo, bullseye, deadline, projects, overview, work, productivity */
     TARGET("target"),
 
-    /** astronomy, space, discovery, exploration, explore, vision, perspective, focus, stargazing, observe, view */
     TELESCOPE("telescope"),
 
-    /** tipi, teepee, wigwam, lodge, camping, campsite, holiday, retreat, nomadic, native american, indian, wilderness, outdoors */
     TENT("tent"),
 
-    /** camping, campsite, holiday, retreat, nomadic, wilderness, outdoors */
     TENT_TREE("tent-tree"),
 
-    /** code, command line, prompt, shell */
     TERMINAL("terminal"),
 
-    /** tube, vial, phial, flask, ampoule, ampule, lab, chemistry, experiment, test */
+    TERMINAL_SQUARE("terminal-square"),
+
     TEST_TUBE("test-tube"),
 
-    /** tube, vial, phial, flask, ampoule, ampule, lab, chemistry, experiment, test */
+    TEST_TUBE_2("test-tube-2"),
+
     TEST_TUBE_DIAGONAL("test-tube-diagonal"),
 
-    /** tubes, vials, phials, flasks, ampoules, ampules, lab, chemistry, experiment, test */
     TEST_TUBES("test-tubes"),
 
-    /** find, search, data, txt, pdf, document */
     TEXT("text"),
 
-    /** select */
+    TEXT_ALIGN_CENTER("text-align-center"),
+
+    TEXT_ALIGN_END("text-align-end"),
+
+    TEXT_ALIGN_JUSTIFY("text-align-justify"),
+
+    TEXT_ALIGN_START("text-align-start"),
+
     TEXT_CURSOR("text-cursor"),
 
-    /** select */
     TEXT_CURSOR_INPUT("text-cursor-input"),
 
-    /** blockquote, quotation, indent, reply, response */
+    TEXT_INITIAL("text-initial"),
+
     TEXT_QUOTE("text-quote"),
 
-    /** find, data, copy, txt, pdf, document, scan, magnifier, magnifying glass */
     TEXT_SEARCH("text-search"),
 
-    /** find, search, selection, dashed */
     TEXT_SELECT("text-select"),
 
-    /** theater, theatre, entertainment, podium, stage, musical */
+    TEXT_SELECTION("text-selection"),
+
+    TEXT_WRAP("text-wrap"),
+
     THEATER("theater"),
 
-    /** temperature, celsius, fahrenheit, weather */
     THERMOMETER("thermometer"),
 
-    /** temperature, celsius, fahrenheit, weather, cold, freeze, freezing */
     THERMOMETER_SNOWFLAKE("thermometer-snowflake"),
 
-    /** temperature, celsius, fahrenheit, weather, warm, hot */
     THERMOMETER_SUN("thermometer-sun"),
 
-    /** dislike, bad, emotion */
     THUMBS_DOWN("thumbs-down"),
 
-    /** like, good, emotion */
     THUMBS_UP("thumbs-up"),
 
-    /** entry, pass, voucher, event, concert, show, perforated, dashed */
     TICKET("ticket"),
 
-    /** entry, pass, voucher, event, concert, show, booked, purchased, receipt, redeemed, validated, verified, certified, checked, used */
     TICKET_CHECK("ticket-check"),
 
-    /** entry, pass, voucher, event, concert, show, remove, cancel, unbook, subtract, decrease, - */
     TICKET_MINUS("ticket-minus"),
 
-    /** discount, reduced, offer, voucher, entry, pass, event, concert, show, book, purchase, % */
     TICKET_PERCENT("ticket-percent"),
 
-    /** entry, pass, voucher, event, concert, show, book, purchase, add, + */
     TICKET_PLUS("ticket-plus"),
 
-    /** entry, pass, voucher, event, concert, show, redeemed, used, marked, checked, verified, spoiled, invalidated, void, denied, refused, banned, barred, forbidden, prohibited, cancelled, cancellation, refunded, delete, remove, clear, error */
     TICKET_SLASH("ticket-slash"),
 
-    /** entry, pass, voucher, event, concert, show, cancelled, cancellation, refunded, used, void, invalidated, spoiled, denied, refused, banned, barred, forbidden, prohibited, delete, remove, clear, error, x */
     TICKET_X("ticket-x"),
 
-    /** trip, travel, pass, entry, voucher, event, concert, show, perforated, dashed */
     TICKETS("tickets"),
 
-    /** plane, trip, airplane, flight, travel, fly, takeoff, vacation, passenger, pass, check-in, airport */
     TICKETS_PLANE("tickets-plane"),
 
-    /** time, timer, stopwatch */
+    TIMELINE("timeline"),
+
     TIMER("timer"),
 
-    /** time, timer, stopwatch */
     TIMER_OFF("timer-off"),
 
-    /** time, timer, stopwatch */
     TIMER_RESET("timer-reset"),
 
-    /** on, off, switch, boolean */
     TOGGLE_LEFT("toggle-left"),
 
-    /** on, off, switch, boolean */
     TOGGLE_RIGHT("toggle-right"),
 
-    /** toilet, potty, bathroom, washroom */
     TOILET("toilet"),
 
-    /** weather, wind, storm, hurricane */
+    TOOL_CASE("tool-case"),
+
+    TOOLBOX("toolbox"),
+
     TORNADO("tornado"),
 
-    /** donut, doughnut, ring, hollow, 3d, fast food, junk food, snack, treat, sweet, sugar, dessert */
     TORUS("torus"),
 
-    /** trackpad, cursor */
     TOUCHPAD("touchpad"),
 
-    /** trackpad, cursor */
     TOUCHPAD_OFF("touchpad-off"),
 
-    /** airport, travel, tower, transportation, lighthouse */
+    TOWEL_RACK("towel-rack"),
+
     TOWER_CONTROL("tower-control"),
 
-    /** lego, block, addon, plugin, integration */
     TOY_BRICK("toy-brick"),
 
-    /** farming, farmer, ranch, harvest, equipment, vehicle */
     TRACTOR("tractor"),
 
-    /** roadworks, tarmac, safety, block */
     TRAFFIC_CONE("traffic-cone"),
 
-    /** railway, metro, subway, underground, high-speed, bullet, fast, track, line */
+    TRAIN("train"),
+
     TRAIN_FRONT("train-front"),
 
-    /** railway, metro, subway, underground, speed, bullet, fast, track, line */
     TRAIN_FRONT_TUNNEL("train-front-tunnel"),
 
-    /** railway, line */
     TRAIN_TRACK("train-track"),
 
-    /** railway, metro, subway, underground, track, line, tourism */
     TRAM_FRONT("tram-front"),
 
-    /** garbage, delete, remove, bin */
+    TRANSGENDER("transgender"),
+
     TRASH("trash"),
 
-    /** garbage, delete, remove, bin */
     TRASH_2("trash-2"),
 
-    /** tree, forest, park, nature */
     TREE_DECIDUOUS("tree-deciduous"),
 
-    /** vacation, leisure, island */
     TREE_PALM("tree-palm"),
 
-    /** tree, pine, forest, park, nature */
     TREE_PINE("tree-pine"),
 
-    /** tree, forest, park, nature */
     TREES("trees"),
 
-    /** logo, brand */
-    TRELLO("trello"),
-
-    /** statistics */
     TRENDING_DOWN("trending-down"),
 
-    /** statistics */
     TRENDING_UP("trending-up"),
 
-    /** arrows, estimated, indeterminate, data fluctuation, uncertain, forecast, variable, prediction, dynamic, volatile */
     TRENDING_UP_DOWN("trending-up-down"),
 
-    /** equilateral, delta, shape, pyramid, hierarchy */
     TRIANGLE("triangle"),
 
-    /** warning, alert, danger, exclamation mark, linter */
     TRIANGLE_ALERT("triangle-alert"),
 
-    /** volume, controls, controller, tv remote, geometry, delta, ramp, slope, incline, increase */
+    TRIANGLE_DASHED("triangle-dashed"),
+
     TRIANGLE_RIGHT("triangle-right"),
 
-    /** prize, sports, winner, achievement, award, champion, celebration, victory */
     TROPHY("trophy"),
 
-    /** delivery, van, shipping, haulage, lorry */
     TRUCK("truck"),
 
-    /** animal, pet, tortoise, slow, speed */
+    TRUCK_ELECTRIC("truck-electric"),
+
+    TURKISH_LIRA("turkish-lira"),
+
+    TURNTABLE("turntable"),
+
     TURTLE("turtle"),
 
-    /** television, stream, display, widescreen, high-definition, hd, 1080p, 4k, 8k, smart, digital, video, entertainment, showtime, channels, terrestrial, satellite, cable, broadcast, live, frequency, tune, scan, aerial, receiver, transmission, signal, connection, connectivity */
     TV("tv"),
 
-    /** flatscreen, television, stream, display, widescreen, high-definition, hd, 1080p, 4k, 8k, smart, digital, video, home cinema, entertainment, showtime, channels, catchup */
+    TV_2("tv-2"),
+
     TV_MINIMAL("tv-minimal"),
 
-    /** flatscreen, television, stream, display, widescreen, high-definition, hd, 1080p, 4k, 8k, smart, digital, video, movie, live, ott, running, start, film, home cinema, entertainment, showtime, channels, catchup */
     TV_MINIMAL_PLAY("tv-minimal-play"),
 
-    /** logo, social */
-    TWITCH("twitch"),
-
-    /** logo, social */
-    TWITTER("twitter"),
-
-    /** text, font, typography */
     TYPE("type"),
 
-    /** text, font, typography, silhouette, profile, contour, stroke, line */
     TYPE_OUTLINE("type-outline"),
 
-    /** rain, weather */
     UMBRELLA("umbrella"),
 
-    /** rain, weather, uncovered, uninsured, antivirus, unprotected, risky */
     UMBRELLA_OFF("umbrella-off"),
 
-    /** text, format */
     UNDERLINE("underline"),
 
-    /** redo, rerun, history */
     UNDO("undo"),
 
-    /** redo, rerun, history, back, return, reverse, revert, direction, u-turn */
     UNDO_2("undo-2"),
 
-    /** redo, history, step, back */
     UNDO_DOT("undo-dot"),
 
-    /** arrow, collapse, fold, vertical, dashed */
     UNFOLD_HORIZONTAL("unfold-horizontal"),
 
-    /** arrow, expand, vertical, dashed */
     UNFOLD_VERTICAL("unfold-vertical"),
 
-    /** cubes, packages, parts, units, collection, cluster, separate */
     UNGROUP("ungroup"),
 
-    /** building, education, childhood, school */
     UNIVERSITY("university"),
 
-    /** url, unchain */
     UNLINK("unlink"),
 
-    /** url, unchain */
     UNLINK_2("unlink-2"),
 
-    /** electricity, energy, electronics, socket, outlet, disconnect */
+    UNLOCK("unlock"),
+
+    UNLOCK_KEYHOLE("unlock-keyhole"),
+
     UNPLUG("unplug"),
 
-    /** file */
     UPLOAD("upload"),
 
-    /** universal, serial, bus, controller, connector, interface */
+    UPLOAD_CLOUD("upload-cloud"),
+
     USB("usb"),
 
-    /** person, account, contact */
     USER("user"),
 
-    /** followed, subscribed, done, todo, tick, complete, task */
+    USER_2("user-2"),
+
     USER_CHECK("user-check"),
 
-    /** settings, edit, cog, gear */
+    USER_CHECK_2("user-check-2"),
+
+    USER_CIRCLE("user-circle"),
+
+    USER_CIRCLE_2("user-circle-2"),
+
     USER_COG("user-cog"),
 
-    /** delete, remove, unfollow, unsubscribe */
+    USER_COG_2("user-cog-2"),
+
+    USER_KEY("user-key"),
+
+    USER_LOCK("user-lock"),
+
     USER_MINUS("user-minus"),
 
-    /** person, account, contact, profile, edit, change */
+    USER_MINUS_2("user-minus-2"),
+
     USER_PEN("user-pen"),
 
-    /** new, add, create, follow, subscribe */
     USER_PLUS("user-plus"),
 
-    /** person, account, contact */
+    USER_PLUS_2("user-plus-2"),
+
     USER_ROUND("user-round"),
 
-    /** followed, subscribed, done, todo, tick, complete, task */
+    USER_ROUND_ARROW_LEFT("user-round-arrow-left"),
+
     USER_ROUND_CHECK("user-round-check"),
 
-    /** settings, edit, cog, gear */
     USER_ROUND_COG("user-round-cog"),
 
-    /** delete, remove, unfollow, unsubscribe */
+    USER_ROUND_KEY("user-round-key"),
+
     USER_ROUND_MINUS("user-round-minus"),
 
-    /** person, account, contact, profile, edit, change */
     USER_ROUND_PEN("user-round-pen"),
 
-    /** new, add, create, follow, subscribe */
     USER_ROUND_PLUS("user-round-plus"),
 
-    /** person, account, contact, find, scan, magnifier, magnifying glass */
     USER_ROUND_SEARCH("user-round-search"),
 
-    /** delete, remove, unfollow, unsubscribe, unavailable */
     USER_ROUND_X("user-round-x"),
 
-    /** person, account, contact, find, scan, magnifier, magnifying glass */
     USER_SEARCH("user-search"),
 
-    /** delete, remove, unfollow, unsubscribe, unavailable */
+    USER_SQUARE("user-square"),
+
+    USER_SQUARE_2("user-square-2"),
+
+    USER_STAR("user-star"),
+
     USER_X("user-x"),
 
-    /** group, people */
+    USER_X_2("user-x-2"),
+
     USERS("users"),
 
-    /** group, people */
+    USERS_2("users-2"),
+
     USERS_ROUND("users-round"),
 
-    /** fork, knife, cutlery, flatware, tableware, silverware, food, restaurant, meal, breakfast, dinner, supper */
     UTENSILS("utensils"),
 
-    /** fork, knife, cutlery, flatware, tableware, silverware, food, restaurant, meal, breakfast, dinner, supper */
     UTENSILS_CROSSED("utensils-crossed"),
 
-    /** electricity, energy, transmission line, telegraph pole, power lines, phone */
     UTILITY_POLE("utility-pole"),
 
-    /** code, coding, programming, symbol, calculate, algebra, x, parentheses, parenthesis, brackets, parameter, (, ) */
+    VAN("van"),
+
     VARIABLE("variable"),
 
-    /** safe, lockbox, deposit, locker, coffer, strongbox, safety, secure, storage, valuables, bank */
     VAULT("vault"),
 
-    /** vegetarian, fruitarian, herbivorous, animal rights, diet */
+    VECTOR_SQUARE("vector-square"),
+
     VEGAN("vegan"),
 
-    /** mask, masquerade, impersonate, secret, incognito */
     VENETIAN_MASK("venetian-mask"),
 
-    /** smartphone, notification, rumble, haptic feedback, screen */
+    VENUS("venus"),
+
+    VENUS_AND_MARS("venus-and-mars"),
+
+    VERIFIED("verified"),
+
     VIBRATE("vibrate"),
 
-    /** smartphone, notification, rumble, haptic feedback, notifications, screen */
     VIBRATE_OFF("vibrate-off"),
 
-    /** camera, movie, film, recording, motion picture, camcorder, reel */
     VIDEO("video"),
 
-    /** camera, movie, film */
     VIDEO_OFF("video-off"),
 
-    /** vhs, movie, film, recording, motion picture, showreel, cassette */
     VIDEOTAPE("videotape"),
 
-    /** eye, look */
     VIEW("view"),
 
-    /** phone, cassette, tape, reel, recording, audio */
     VOICEMAIL("voicemail"),
 
-    /** beach, sand, net, holiday, vacation, summer, soccer, football, futbol, kick, pitch, goal, score, bounce, leather, wool, yarn, knitting, sewing, thread, embroidery, textile */
     VOLLEYBALL("volleyball"),
 
-    /** music, sound, mute, speaker */
     VOLUME("volume"),
 
-    /** music, sound, speaker */
     VOLUME_1("volume-1"),
 
-    /** music, sound, speaker */
     VOLUME_2("volume-2"),
 
-    /** music, sound, mute, speaker */
     VOLUME_OFF("volume-off"),
 
-    /** music, sound, mute, speaker */
     VOLUME_X("volume-x"),
 
-    /** vote, poll, ballot, political, social, check, tick */
     VOTE("vote"),
 
-    /** money, finance, pocket */
     WALLET("wallet"),
 
-    /** money, finance, pocket, credit, purchase, payment, shopping, retail, consumer, cc */
+    WALLET_2("wallet-2"),
+
     WALLET_CARDS("wallet-cards"),
 
-    /** finance, pocket */
     WALLET_MINIMAL("wallet-minimal"),
 
-    /** cover, lock screen */
     WALLPAPER("wallpaper"),
 
-    /** magic, selection */
     WAND("wand"),
 
-    /** magic, wizard, magician */
+    WAND_2("wand-2"),
+
     WAND_SPARKLES("wand-sparkles"),
 
-    /** storage, logistics, building */
     WAREHOUSE("warehouse"),
 
-    /** tumble dryer, amenities, electronics, cycle, clothes, rinse, spin, drum */
     WASHING_MACHINE("washing-machine"),
 
-    /** clock, time */
     WATCH("watch"),
 
-    /** water, sea, sound, hertz, wavelength, vibrate */
     WAVES("waves"),
 
-    /** swimming, water, pool, lifeguard, ocean, 🌊, 🏊‍♂️, 🏊‍♀️, 🏊, 🥽 */
+    WAVES_ARROW_DOWN("waves-arrow-down"),
+
+    WAVES_ARROW_UP("waves-arrow-up"),
+
+    WAVES_HORIZONTAL("waves-horizontal"),
+
     WAVES_LADDER("waves-ladder"),
 
-    /** indirection, vpn, virtual private network, proxy, connections, bounce, reroute, path, journey, planner, stops, stations, shared, spread, viral */
+    WAVES_VERTICAL("waves-vertical"),
+
     WAYPOINTS("waypoints"),
 
-    /** camera, security */
     WEBCAM("webcam"),
 
-    /** push api, interface, callback */
+    WEBCAM_OFF("webcam-off"),
+
     WEBHOOK("webhook"),
 
-    /** push api, interface, callback */
     WEBHOOK_OFF("webhook-off"),
 
-    /** mass, heavy, lead, metal, measure, geometry, scales, balance */
     WEIGHT("weight"),
 
-    /** corn, cereal, grain, gluten */
+    WEIGHT_TILDE("weight-tilde"),
+
     WHEAT("wheat"),
 
-    /** corn, cereal, grain, gluten free, allergy, intolerance, diet */
     WHEAT_OFF("wheat-off"),
 
-    /** text, selection, letters, characters, font, typography */
     WHOLE_WORD("whole-word"),
 
-    /** connection, signal, wireless */
     WIFI("wifi"),
 
-    /** connection, signal, wireless */
+    WIFI_COG("wifi-cog"),
+
     WIFI_HIGH("wifi-high"),
 
-    /** connection, signal, wireless */
     WIFI_LOW("wifi-low"),
 
-    /** disabled */
     WIFI_OFF("wifi-off"),
 
-    /** connection, signal, wireless */
+    WIFI_PEN("wifi-pen"),
+
+    WIFI_SYNC("wifi-sync"),
+
     WIFI_ZERO("wifi-zero"),
 
-    /** weather, air, blow */
     WIND("wind"),
 
-    /** weather, air, pressure, blow */
     WIND_ARROW_DOWN("wind-arrow-down"),
 
-    /** alcohol, beverage, bar, drink, glass, sommelier, vineyard, winery */
     WINE("wine"),
 
-    /** alcohol, beverage, drink, glass, alcohol free, abstinence, abstaining, teetotalism, allergy, intolerance */
     WINE_OFF("wine-off"),
 
-    /** action, continuous integration, ci, automation, devops, network, node, connection */
     WORKFLOW("workflow"),
 
-    /** invertebrate, grub, larva, snake, crawl, wiggle, slither, pest control, computer virus, malware */
     WORM("worm"),
 
-    /** words, lines, break, paragraph */
     WRAP_TEXT("wrap-text"),
 
-    /** account, settings, spanner, diy, toolbox, build, construction */
     WRENCH("wrench"),
 
-    /** cancel, close, delete, remove, times, clear, math, multiply, multiplication */
+    WRENCH_OFF("wrench-off"),
+
     X("x"),
 
-    /** logo, social, video, play */
-    YOUTUBE("youtube"),
+    X_CIRCLE("x-circle"),
 
-    /** flash, camera, lightning, electricity, energy */
+    X_LINE_TOP("x-line-top"),
+
+    X_OCTAGON("x-octagon"),
+
+    X_SQUARE("x-square"),
+
     ZAP("zap"),
 
-    /** flash, camera, lightning, electricity, energy */
     ZAP_OFF("zap-off"),
 
-    /** magnifying glass, plus */
+    ZODIAC_AQUARIUS("zodiac-aquarius"),
+
+    ZODIAC_ARIES("zodiac-aries"),
+
+    ZODIAC_CANCER("zodiac-cancer"),
+
+    ZODIAC_CAPRICORN("zodiac-capricorn"),
+
+    ZODIAC_GEMINI("zodiac-gemini"),
+
+    ZODIAC_LEO("zodiac-leo"),
+
+    ZODIAC_LIBRA("zodiac-libra"),
+
+    ZODIAC_OPHIUCHUS("zodiac-ophiuchus"),
+
+    ZODIAC_PISCES("zodiac-pisces"),
+
+    ZODIAC_SAGITTARIUS("zodiac-sagittarius"),
+
+    ZODIAC_SCORPIO("zodiac-scorpio"),
+
+    ZODIAC_TAURUS("zodiac-taurus"),
+
+    ZODIAC_VIRGO("zodiac-virgo"),
+
     ZOOM_IN("zoom-in"),
 
-    /** magnifying glass, plus */
     ZOOM_OUT("zoom-out");
 
     private final String iconName;
