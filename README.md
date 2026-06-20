@@ -1,33 +1,22 @@
-# Vaadin Lucide Icons
+# Vaadin Lucide Icons — Tools
 
-Server-side [Lucide](https://lucide.dev) icon integration for Vaadin 24+ (Java 25).
+This repository contains supporting tools for the [v-lucide-icons](https://github.com/dr0idbot/v-lucide-icons) library — a server-side [Lucide](https://lucide.dev) icon integration for Vaadin.
 
 ## Modules
 
 | Module | Purpose |
 |--------|---------|
-| `v-lucide-icons-demo` | Spring Boot demo app to browse all icons. |
-| `v-lucide-icons-generator` | Reads Lucide SVGs from `node_modules` and regenerates the enum + SVG resources. |
+| `v-lucide-icons-demo` | Spring Boot demo app to browse all icons from the released library. |
+| `v-lucide-icons-generator` | Reads Lucide SVGs from `node_modules` and regenerates the enum + SVG resources for the library. |
 
-The released library (`io.github.dr0idbot:v-lucide-icons:1.0.0`) lives in its own repository at [`/home/droidbot/project-source/v-lucide-icons`](../v-lucide-icons).
-
-## Run Demo
+## Quick Start
 
 ```bash
+# Run the demo app
 mvn -pl v-lucide-icons-demo spring-boot:run
 ```
 
 Then open `http://localhost:8080`.
-
-## Adding the Dependency
-
-```xml
-<dependency>
-    <groupId>io.github.dr0idbot</groupId>
-    <artifactId>v-lucide-icons</artifactId>
-    <version>1.0.0</version>
-</dependency>
-```
 
 ## Regenerating Icons
 
