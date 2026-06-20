@@ -1,109 +1,116 @@
 package io.droidbot.vlucide.demo;
 
-import com.vaadin.flow.component.button.Button;
+import java.util.ArrayList;
+import java.util.List;
+
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.component.select.Select;
+import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 
 import io.droidbot.vlucide.LucideIcon;
+import io.droidbot.vlucide.LucideSvgIcon;
 
 @Route("")
 public class DemoView extends VerticalLayout {
 
-    public DemoView() {
-        setSpacing(true);
-        setPadding(true);
-        setWidthFull();
+	private static final long serialVersionUID = 1L;
 
-        add(new H2("Lucide Icons for Vaadin"));
+	private final List<LucideSvgIcon> icons = new ArrayList<>();
 
-        addCommonIcons();
-        addColorCustomization();
-        addSizing();
-        addStrokeWidthDemo();
-    }
+	public DemoView() {
+		setSpacing(false);
+		setPadding(true);
+		setWidthFull();
 
-    private void addCommonIcons() {
-        add(new H2("Common Icons"));
-        HorizontalLayout row = new HorizontalLayout();
-        row.setSpacing(true);
-        row.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
+		add(new H2("Lucide Icons for Vaadin — All Icons"));
 
-        row.add(new Button("Save", LucideIcon.SAVE.create()));
-        row.add(new Button("Delete", LucideIcon.TRASH_2.create()));
-        row.add(new Button("Edit", LucideIcon.PENCIL.create()));
-        row.add(new Button("Search", LucideIcon.SEARCH.create()));
-        row.add(new Button("Settings", LucideIcon.SETTINGS.create()));
-        row.add(new Button("User", LucideIcon.USER.create()));
-        row.add(new Button("Home", LucideIcon.HOUSE.create()));
-        row.add(new Button("Send", LucideIcon.SEND.create()));
+		var controls = new HorizontalLayout();
+		controls.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.BASELINE);
+		controls.setSpacing(true);
+		controls.getStyle().set("margin-bottom", "16px");
 
-        add(row);
-    }
+		var colorField = new TextField("Color (hex)");
+		colorField.setPattern("^#[0-9a-fA-F]{6}$");
+		colorField.setValue("#000000");
+		colorField.setWidth("160px");
 
-    private void addColorCustomization() {
-        add(new H2("Color Customization"));
-        HorizontalLayout row = new HorizontalLayout();
-        row.setSpacing(true);
-        row.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
+		var strokeSelect = new Select<Double>();
+		strokeSelect.setLabel("Stroke Width");
+		strokeSelect.setItems(0.5, 1.0, 1.5, 2.0, 3.0, 4.0);
+		strokeSelect.setValue(2.0);
 
-        var primary = new Button("Primary", LucideIcon.SAVE.create());
-        primary.setThemeName("primary");
+		var sizeSelect = new Select<String>();
+		sizeSelect.setLabel("Size");
+		sizeSelect.setItems("16px", "24px", "32px", "48px", "64px");
+		sizeSelect.setValue("24px");
 
-        var error = new Button("Error", LucideIcon.TRASH_2.create());
-        error.setThemeName("primary error");
+		controls.add(colorField, strokeSelect, sizeSelect);
+		add(controls);
 
-        var success = new Button("Success", LucideIcon.CHECK.create());
-        success.setThemeName("primary success");
+		var grid = new HorizontalLayout();
+		grid.setWidthFull();
+		grid.getStyle().set("flex-wrap", "wrap");
+		grid.getStyle().set("gap", "4px");
+		grid.getStyle().set("display", "flex");
 
-        var star = LucideIcon.STAR.create();
-        star.setColor("#ff6b00");
-        var custom = new Button("Custom Color", star);
+		for (LucideIcon icon : LucideIcon.values()) {
+			var svgIcon = icon.create();
+			svgIcon.setSize(sizeSelect.getValue());
+			svgIcon.setColor(colorField.getValue());
+			svgIcon.setStrokeWidth(strokeSelect.getValue());
+			icons.add(svgIcon);
 
-        row.add(primary, error, success, custom);
-        add(row);
-    }
+			var card = new VerticalLayout();
+			card.setSpacing(false);
+			card.setPadding(false);
+			card.setWidth("120px");
+			card.setHeight("90px");
+			card.setDefaultHorizontalComponentAlignment(FlexComponent.Alignment.CENTER);
+			card.getStyle().set("border", "1px solid #e0e0e0");
+			card.getStyle().set("border-radius", "8px");
+			card.getStyle().set("padding", "8px");
+			card.getStyle().set("box-sizing", "border-box");
 
-    private void addSizing() {
-        add(new H2("Sizing"));
-        HorizontalLayout row = new HorizontalLayout();
-        row.setSpacing(true);
-        row.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
+			var name = new Span(formatName(icon.name()));
+			name.getStyle().set("font-size", "10px");
+			name.getStyle().set("text-align", "center");
+			name.getStyle().set("line-height", "1.2");
+			name.setWidthFull();
 
-        int[] sizes = {16, 24, 32, 48, 64};
-        for (int size : sizes) {
-            var icon = LucideIcon.CLOUD.create();
-            icon.setSize(size + "px");
-            Span span = new Span(icon);
-            span.getElement().getStyle().set("display", "inline-flex");
-            span.getElement().getStyle().set("align-items", "center");
-            row.add(span);
-        }
+			card.add(svgIcon, name);
+			grid.add(card);
+		}
 
-        add(row);
-    }
+		add(grid);
 
-    private void addStrokeWidthDemo() {
-        add(new H2("Stroke Width"));
-        HorizontalLayout row = new HorizontalLayout();
-        row.setSpacing(true);
-        row.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
+		colorField.addValueChangeListener(e -> {
+			var val = e.getValue();
+			if (val != null && val.matches("^#[0-9a-fA-F]{6}$")) {
+				for (var icon : icons) {
+					icon.setColor(val);
+				}
+			}
+		});
 
-        double[] widths = {0.5, 1.0, 1.5, 2.0, 3.0, 4.0};
-        for (double sw : widths) {
-            var icon = LucideIcon.CIRCLE.create();
-            icon.setStrokeWidth(sw);
-            icon.setSize("48px");
-            Span span = new Span(icon);
-            span.getElement().getStyle().set("display", "inline-flex");
-            span.getElement().getStyle().set("align-items", "center");
-            span.getElement().getStyle().set("margin-right", "8px");
-            row.add(span);
-        }
+		strokeSelect.addValueChangeListener(e -> {
+			for (var icon : icons) {
+				icon.setStrokeWidth(e.getValue());
+			}
+		});
 
-        add(row);
-    }
+		sizeSelect.addValueChangeListener(e -> {
+			for (var icon : icons) {
+				icon.setSize(e.getValue());
+			}
+		});
+	}
+
+	private static String formatName(String name) {
+		return name.toLowerCase().replace('_', ' ');
+	}
 }
