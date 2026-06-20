@@ -24,7 +24,7 @@ class LucideSvgIconTest {
     }
 
     @Test
-    @DisplayName("setColor sets CSS fill via SvgIcon")
+    @DisplayName("setColor sets CSS color for stroke-based icons")
     void setColor() {
         LucideSvgIcon icon = LucideIconFactory.create("save");
         icon.setColor("red");

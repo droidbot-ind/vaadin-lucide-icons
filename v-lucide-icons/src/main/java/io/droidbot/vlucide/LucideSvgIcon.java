@@ -57,6 +57,30 @@ public class LucideSvgIcon extends SvgIcon {
     }
 
     /**
+     * Sets the icon color via the CSS {@code color} property.
+     * <p>
+     * Lucide icons are stroke-based ({@code stroke="currentColor"}),
+     * so {@code color} is used instead of {@code fill} to control
+     * the stroke color.
+     *
+     * @param color the CSS color value (e.g. {@code "#ef4444"}, {@code "red"})
+     */
+    @Override
+    public void setColor(String color) {
+        getStyle().set("color", color);
+    }
+
+    /**
+     * Returns the current icon color.
+     *
+     * @return the CSS color value, or {@code null} if not set
+     */
+    @Override
+    public String getColor() {
+        return getStyle().get("color");
+    }
+
+    /**
      * Sets the icon size using a predefined size constant.
      *
      * @param size the icon size constant
