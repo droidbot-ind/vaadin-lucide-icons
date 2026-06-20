@@ -18,7 +18,6 @@
 	</properties>
 
 	<modules>
-		<module>v-lucide-icons</module>
 		<module>v-lucide-icons-demo</module>
 		<module>v-lucide-icons-generator</module>
 	</modules>

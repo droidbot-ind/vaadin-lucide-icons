@@ -22,7 +22,7 @@ Server-side [Lucide](https://lucide.dev) icon integration for Vaadin 24+ (Java 2
 
 ```bash
 # Build the library (no demo)
-mvn -pl v-lucide-icons install
+mvn -f v-lucide-icons/pom.xml install
 
 # Run the demo app
 mvn -pl v-lucide-icons-demo spring-boot:run
