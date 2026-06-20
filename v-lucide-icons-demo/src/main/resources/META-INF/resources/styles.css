@@ -37,7 +37,8 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--vaadin-padding-m);
+  width: 120px;
+  padding: var(--vaadin-padding-s) var(--vaadin-padding-m);
   border: 1px solid var(--vaadin-border-color-secondary);
   border-radius: var(--vaadin-radius-m);
   transition: background-color 0.2s;
