@@ -1,10 +1,11 @@
 package io.droidbot.vlucide.demo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.combobox.ComboBox;
+import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
@@ -22,28 +23,45 @@ public class DemoView extends VerticalLayout {
 
 	private static final long serialVersionUID = 1L;
 
-	private static final String[][] PRESET_COLORS = {
-		{ "Default", "" },
-		{ "Black", "#000000" },
-		{ "White", "#ffffff" },
-		{ "Red", "#ef4444" },
-		{ "Orange", "#f97316" },
-		{ "Amber", "#f59e0b" },
-		{ "Yellow", "#eab308" },
-		{ "Lime", "#84cc16" },
-		{ "Green", "#22c55e" },
-		{ "Emerald", "#10b981" },
-		{ "Teal", "#14b8a6" },
-		{ "Cyan", "#06b6d4" },
-		{ "Sky", "#0ea5e9" },
-		{ "Blue", "#3b82f6" },
-		{ "Indigo", "#6366f1" },
-		{ "Violet", "#8b5cf6" },
-		{ "Purple", "#a855f7" },
-		{ "Fuchsia", "#d946ef" },
-		{ "Pink", "#ec4899" },
-		{ "Rose", "#f43f5e" }
-	};
+	private enum PresetColor {
+		DEFAULT("Default", ""),
+		BLACK("Black", "#000000"),
+		WHITE("White", "#ffffff"),
+		RED("Red", "#ef4444"),
+		ORANGE("Orange", "#f97316"),
+		AMBER("Amber", "#f59e0b"),
+		YELLOW("Yellow", "#eab308"),
+		LIME("Lime", "#84cc16"),
+		GREEN("Green", "#22c55e"),
+		EMERALD("Emerald", "#10b981"),
+		TEAL("Teal", "#14b8a6"),
+		CYAN("Cyan", "#06b6d4"),
+		SKY("Sky", "#0ea5e9"),
+		BLUE("Blue", "#3b82f6"),
+		INDIGO("Indigo", "#6366f1"),
+		VIOLET("Violet", "#8b5cf6"),
+		PURPLE("Purple", "#a855f7"),
+		FUCHSIA("Fuchsia", "#d946ef"),
+		PINK("Pink", "#ec4899"),
+		ROSE("Rose", "#f43f5e");
+
+		private final String label;
+		private final String hex;
+
+		PresetColor(String label, String hex) {
+			this.label = label;
+			this.hex = hex;
+		}
+
+		public String getHex() {
+			return hex;
+		}
+
+		@Override
+		public String toString() {
+			return label;
+		}
+	}
 
 	private final List<LucideSvgIcon> icons = new ArrayList<>();
 	private boolean darkTheme = false;
@@ -60,16 +78,13 @@ public class DemoView extends VerticalLayout {
 		controls.setWidthFull();
 		controls.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.BASELINE);
 
-		var colorSelect = new Select<String>();
-		colorSelect.setLabel("Color");
-		var colorLabels = Arrays.stream(PRESET_COLORS)
-			.map(pair -> pair[0])
-			.toArray(String[]::new);
-		colorSelect.setItems(colorLabels);
-		colorSelect.setValue("Black");
+		var colorCombo = new ComboBox<PresetColor>("Color");
+		colorCombo.setItems(PresetColor.values());
+		colorCombo.setValue(PresetColor.BLACK);
+		colorCombo.setWidth("140px");
 
 		var sizeField = new TextField("Size");
-		sizeField.setValue("24px");
+		sizeField.setValue("32px");
 		sizeField.setWidth("100px");
 
 		var strokeSelect = new Select<Double>();
@@ -81,23 +96,21 @@ public class DemoView extends VerticalLayout {
 		themeToggle.addClassName("theme-toggle");
 		themeToggle.addClickListener(e -> toggleTheme(themeToggle));
 
-		controls.add(colorSelect, sizeField, strokeSelect, themeToggle);
+		controls.add(colorCombo, sizeField, strokeSelect, themeToggle);
 		add(controls);
 
-		var grid = new HorizontalLayout();
+		var grid = new Div();
 		grid.addClassName("icon-grid");
 
 		for (LucideIcon icon : LucideIcon.values()) {
 			var svgIcon = icon.create();
 			svgIcon.setSize(sizeField.getValue());
-			svgIcon.setColor(resolveColor(colorSelect.getValue()));
+			svgIcon.setColor(colorCombo.getValue().getHex());
 			svgIcon.setStrokeWidth(strokeSelect.getValue());
 			icons.add(svgIcon);
 
-			var card = new VerticalLayout();
+			var card = new Div();
 			card.addClassName("icon-card");
-			card.setSpacing(false);
-			card.setPadding(false);
 
 			var name = new Span(formatName(icon.name()));
 			name.addClassName("icon-name");
@@ -108,8 +121,8 @@ public class DemoView extends VerticalLayout {
 
 		add(grid);
 
-		colorSelect.addValueChangeListener(e -> {
-			var color = resolveColor(e.getValue());
+		colorCombo.addValueChangeListener(e -> {
+			var color = e.getValue().getHex();
 			for (var icon : icons) {
 				icon.setColor(color);
 			}
@@ -143,15 +156,6 @@ public class DemoView extends VerticalLayout {
 				toggle.setText("Dark Mode");
 			}
 		});
-	}
-
-	private static String resolveColor(String label) {
-		for (var pair : PRESET_COLORS) {
-			if (pair[0].equals(label)) {
-				return pair[1];
-			}
-		}
-		return "";
 	}
 
 	private static String formatName(String name) {
