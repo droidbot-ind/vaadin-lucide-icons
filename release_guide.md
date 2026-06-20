@@ -8,13 +8,17 @@ This guide describes how to release the `v-lucide-icons` module to Maven Central
 - `~/.m2/settings.xml` with credentials for:
   - `ossrh` (Sonatype OSSRH) — username/password
   - `central` (Central Portal) — token-based auth
-- Project checked out on the `release-prep` branch
+- Project checked out on `master` branch
+
+## Current State
+
+Release-prep changes (groupId `io.github.dr0idbot`, package rename, explicit version) are already on `master`. The pre-merge master is tagged `v-master-1.0.0-SNAPSHOT`.
 
 ## Steps
 
 ### 1. Verify the Branch State
 
-Ensure the following are set on `release-prep`:
+Ensure the following are set on `master`:
 
 | File | Expected |
 |------|----------|
@@ -25,11 +29,7 @@ Ensure the following are set on `release-prep`:
 | All POMs | `<groupId>io.github.dr0idbot</groupId>` |
 | All Java files | `package io.github.dr0idbot.vlucide.*` |
 
-### 2. Update the Parent Version (if needed)
-
-If the root POM version is `1.0.0-SNAPSHOT` and you need a different release tag, update it now. The `v-lucide-icons` module has its own explicit version.
-
-### 3. Run a Full Build
+### 2. Run a Full Build
 
 ```bash
 mvn clean install -pl v-lucide-icons
@@ -37,7 +37,7 @@ mvn clean install -pl v-lucide-icons
 
 Make sure tests pass and the JAR is produced.
 
-### 4. Deploy to Maven Central
+### 3. Deploy to Maven Central
 
 ```bash
 mvn deploy -pl v-lucide-icons -P release
@@ -48,26 +48,26 @@ This will:
 - Upload to Sonatype OSSRH
 - Auto-publish to Maven Central
 
-### 5. Tag the Release
+### 4. Tag the Release
 
 ```bash
 git tag -a v-lucide-icons-1.0.0 -m "Release v-lucide-icons 1.0.0"
 git push origin v-lucide-icons-1.0.0
 ```
 
-### 6. Update SNAPSHOT for Next Iteration
+### 5. Bump Version for Next Iteration
 
-In `v-lucide-icons/pom.xml`:
+In `v-lucide-icons/pom.xml`, bump the explicit version:
 
 ```xml
 <version>1.0.1-SNAPSHOT</version>
 ```
 
-Commit and push:
+Then commit and push to `master`:
 
 ```bash
 git commit -am "Bump v-lucide-icons to 1.0.1-SNAPSHOT"
-git push origin release-prep
+git push origin master
 ```
 
 ## Rollback
