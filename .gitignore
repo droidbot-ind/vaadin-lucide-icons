@@ -38,3 +38,4 @@ node_modules/
 # Logs
 *.log
 resume
+release_guide.md
