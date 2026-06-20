@@ -20,15 +20,15 @@ html {
 .controls-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: var(--lumo-space-m);
   align-items: baseline;
-  margin-bottom: 16px;
+  margin-bottom: var(--lumo-space-l);
 }
 
 .icon-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: var(--lumo-space-xs);
   width: 100%;
 }
 
@@ -39,9 +39,9 @@ html {
   justify-content: center;
   width: 120px;
   height: 90px;
-  padding: 8px;
+  padding: var(--lumo-space-s);
   border: 1px solid var(--lumo-contrast-10pct);
-  border-radius: 8px;
+  border-radius: var(--lumo-border-radius-m);
   box-sizing: border-box;
   transition: background-color 0.2s;
 }
@@ -51,7 +51,7 @@ html {
 }
 
 .icon-name {
-  font-size: 10px;
+  font-size: var(--lumo-font-size-xxs);
   line-height: 1.2;
   text-align: center;
   width: 100%;

@@ -25,7 +25,7 @@ public class DemoView extends VerticalLayout {
 
 	private static final long serialVersionUID = 1L;
 
-	private static final int PAGE_SIZE = 150;
+	private static final int PAGE_SIZE = 120;
 
 	private final List<LucideSvgIcon> allIcons = new ArrayList<>();
 	private final List<Div> allCards = new ArrayList<>();
@@ -64,9 +64,6 @@ public class DemoView extends VerticalLayout {
 		themeToggle.addClassName("theme-toggle");
 		themeToggle.addClickListener(e -> toggleTheme(themeToggle));
 
-		controls.add(colorCombo, sizeField, strokeSelect, themeToggle);
-		add(controls);
-
 		var pagination = new HorizontalLayout();
 		pagination.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
 		pagination.getStyle().set("margin-bottom", "8px");
@@ -87,7 +84,9 @@ public class DemoView extends VerticalLayout {
 		});
 
 		pagination.add(prevBtn, pageInfo, nextBtn);
-		add(pagination);
+
+		controls.add(colorCombo, sizeField, strokeSelect, pagination, themeToggle);
+		add(controls);
 
 		grid.addClassName("icon-grid");
 
