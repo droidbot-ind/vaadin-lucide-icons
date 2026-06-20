@@ -1,6 +1,6 @@
 # Vaadin Lucide Icons
 
-[![CI Build](https://github.com/droidbot-ind/vaadin-lucide-icons/actions/workflows/ci-build.yml/badge.svg)](https://github.com/droidbot-ind/vaadin-lucide-icons/actions/workflows/ci-build.yml)
+[![CI Build](https://github.com/dr0idbot/vaadin-lucide-icons/actions/workflows/ci-build.yml/badge.svg)](https://github.com/dr0idbot/vaadin-lucide-icons/actions/workflows/ci-build.yml)
 
 Server-side [Lucide](https://lucide.dev) icon integration for Vaadin 24+ (Java 25).
 
@@ -34,7 +34,7 @@ Then open `http://localhost:8080`.
 
 ```xml
 <dependency>
-    <groupId>io.droidbot</groupId>
+    <groupId>io.github.dr0idbot</groupId>
     <artifactId>v-lucide-icons</artifactId>
     <version>1.0.0</version>
 </dependency>

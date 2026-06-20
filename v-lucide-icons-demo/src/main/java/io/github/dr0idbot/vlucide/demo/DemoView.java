@@ -1,4 +1,4 @@
-package io.droidbot.vlucide.demo;
+package io.github.dr0idbot.vlucide.demo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +18,8 @@ import com.vaadin.flow.component.textfield.NumberField;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
 import com.vaadin.flow.router.Route;
 
-import io.droidbot.vlucide.LucideIcon;
-import io.droidbot.vlucide.LucideSvgIcon;
+import io.github.dr0idbot.vlucide.LucideIcon;
+import io.github.dr0idbot.vlucide.LucideSvgIcon;
 
 @Route("")
 public class DemoView extends VerticalLayout {
@@ -82,7 +82,9 @@ public class DemoView extends VerticalLayout {
 		strokeSelect.setItems(0.5, 1.0, 1.5, 2.0, 3.0, 4.0);
 		strokeSelect.setValue(1.0);
 
-		var themeToggle = new Button("Dark Mode");
+		var themeChanger = new ThemeChanger();
+
+		var themeToggle = new Button(LucideIcon.SUN.create());
 		themeToggle.addClassName("theme-toggle");
 		themeToggle.addClickListener(e -> toggleTheme(themeToggle));
 
@@ -107,7 +109,7 @@ public class DemoView extends VerticalLayout {
 
 		pagination.add(prevBtn, pageInfo, nextBtn);
 
-		controls.add(colorCombo, sizeField, strokeSelect, pagination, themeToggle);
+		controls.add(colorCombo, sizeField, strokeSelect, pagination, themeChanger, themeToggle);
 		add(controls);
 
 		grid.addClassName("icon-grid");

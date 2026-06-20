@@ -1,4 +1,4 @@
-package io.droidbot.vlucide;
+package io.github.dr0idbot.vlucide;
 
 import java.io.IOException;
 import java.io.InputStream;

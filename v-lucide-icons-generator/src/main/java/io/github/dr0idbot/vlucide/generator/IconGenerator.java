@@ -1,4 +1,4 @@
-package io.droidbot.vlucide.generator;
+package io.github.dr0idbot.vlucide.generator;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -166,12 +166,12 @@ public class IconGenerator {
 	 * Generates the {@code LucideIcon.java} enum file.
 	 */
 	void generateEnum(List<String> iconNames) throws Exception {
-		Path packageDir = runtimeJavaDir.resolve("io/droidbot/vlucide");
+		Path packageDir = runtimeJavaDir.resolve("io/github/dr0idbot/vlucide");
 		Files.createDirectories(packageDir);
 		Path enumFile = packageDir.resolve("LucideIcon.java");
 
 		StringBuilder sb = new StringBuilder();
-		sb.append("package io.droidbot.vlucide;\n\n");
+		sb.append("package io.github.dr0idbot.vlucide;\n\n");
 		sb.append(GENERATED_HEADER);
 		sb.append("\n");
 		sb.append("/**\n");

@@ -1,4 +1,4 @@
-package io.droidbot.vlucide;
+package io.github.dr0idbot.vlucide;
 
 import com.vaadin.flow.component.icon.SvgIcon;
 

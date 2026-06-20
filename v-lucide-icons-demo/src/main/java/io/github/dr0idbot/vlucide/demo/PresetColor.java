@@ -1,4 +1,4 @@
-package io.droidbot.vlucide.demo;
+package io.github.dr0idbot.vlucide.demo;
 
 public enum PresetColor {
 

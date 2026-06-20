@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.droidbot</groupId>
+        <groupId>io.github.dr0idbot</groupId>
         <artifactId>vaadin-lucide-icons</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -40,9 +40,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.droidbot</groupId>
+            <groupId>io.github.dr0idbot</groupId>
             <artifactId>v-lucide-icons</artifactId>
-            <version>${project.version}</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
