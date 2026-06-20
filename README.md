@@ -8,12 +8,20 @@ Server-side [Lucide](https://lucide.dev) icon integration for Vaadin 24+ (Java 2
 
 - **Vaadin 25** — `<vaadin-icon>` web component via `SvgIcon`
 - **Java 25** — Multi-module Maven project
-- **Lucide** — 1986 open-source icons (ISC license)
+- **Lucide** — Open-source icons (ISC license)
+
+## Modules
+
+| Module | Purpose |
+|--------|---------|
+| `v-lucide-icons` | The icon library — enum, SVG icon component, factory. What consumers depend on. |
+| `v-lucide-icons-demo` | Spring Boot demo app to browse all icons. |
+| `v-lucide-icons-generator` | Reads Lucide SVGs from `node_modules` and regenerates the enum + SVG resources. |
 
 ## Run After Cloning
 
 ```bash
-# Build the icon library (no demo)
+# Build the library (no demo)
 mvn -pl v-lucide-icons install
 
 # Run the demo app
@@ -59,6 +67,19 @@ icon.getElement().setAttribute("aria-label", "Star"); // labelled
 
 ### Public Types
 
-- **`LucideIcon`** — enum of all 1986 icons
+- **`LucideIcon`** — enum of all icons
 - **`LucideSvgIcon`** — extends Vaadin's `SvgIcon`
 - **`LucideIconFactory`** — creates and validates icon instances
+
+## Updating Lucide Icons
+
+When a new version of [lucide-static](https://www.npmjs.com/package/lucide-static) is published with more icons:
+
+1. Bump the version in `v-lucide-icons-generator/package.json`
+2. Run `npm install` in that directory
+3. Run the generator:
+   ```
+   mvn -pl v-lucide-icons-generator compile exec:java
+   ```
+4. Verify the SVG and enum counts match
+5. Commit the regenerated files
