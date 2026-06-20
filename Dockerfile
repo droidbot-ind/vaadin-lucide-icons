@@ -10,12 +10,12 @@ COPY v-lucide-icons-generator/pom.xml ./v-lucide-icons-generator/pom.xml
 COPY v-lucide-icons-demo/pom.xml ./v-lucide-icons-demo/pom.xml
 COPY v-lucide-icons-demo/src ./v-lucide-icons-demo/src
 
-RUN mvn -pl v-lucide-icons-demo -am -Pproduction package -DskipTests -q
+RUN mvn -pl v-lucide-icons-demo -am -Pproduction package -DskipTests
 
 FROM eclipse-temurin:21-jre
 WORKDIR /app
 
-COPY --from=build /app/v-lucide-icons-demo/target/*.jar app.jar
+COPY --from=build /app/v-lucide-icons-demo/target/v-lucide-icons-demo-*.jar app.jar
 
 EXPOSE 8080
 
